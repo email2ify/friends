@@ -4,9 +4,14 @@
     min-height: 100vh;
   }
   
+
+
   .Main {
-    padding-top: 81px;
+    padding-top: 150px;
+
   }
+
+  
   * {
     box-sizing: border-box;
   }
@@ -37,3 +42,5 @@
     transition: color ease-in-out 0.3s;
     color: #2142b2;
   }
+
+
