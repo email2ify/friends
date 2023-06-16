@@ -23,7 +23,8 @@ const Post = (props) => {
     postPage,
     setPosts,
   } = props;
-
+  
+  //current users and owner's acc variable
   const currentUser = useCurrentUser();
   const is_owner = currentUser?.username === owner;
   const history = useHistory();
