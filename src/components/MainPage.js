@@ -1,21 +1,27 @@
+import React from "react";
+import {Row, Col} from "react-bootstrap";
 
-
-const MainPage = () => {
-    return(
-        <div className="main">
-            <div className="col col1">
-                <h2>AFRICA WILD LIFE</h2>
+const HeroSection = () => {
+    return(<>
+        {/* Hero Section */}
+      <section className="hero main">
+          <Row>
+            <Col>
+              <h1>WILDLIFE IN AFRICA</h1>
+              {/* <h2></h2> */}
                 <p>Africa is home to a diverse range of wildlife,including some of the 
                     most iconic and charismatic animals 
                     in the world. <br /> Some of the most well-known African animals includes   
                     Gorillas,Lions,Hippos,Zebras and so on found in the forests of central Africa.<br /> 
-                    <br /> Here you can contribute your amazing journey and experience in the WILDLIFE
+                    <br /> Here you can contribute your amazing journey and experience in the wildlife and view feed of wildlife
                     <br /> 
-                    </p>
-                    <br /> 
-            </div>
-
-        </div>
-    );
+                </p>
+                <a href="/signin">
+                    <button className="btn btn-primary">Get Started</button>
+                </a>
+            </Col>
+          </Row>
+      </section>
+    </>);
 }
-export default MainPage;
+export default HeroSection;

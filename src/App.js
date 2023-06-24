@@ -11,7 +11,11 @@ import PostsPage from "./pages/posts/PostsPage";
 import { useCurrentUser } from "./contexts/CurrentUserContext";
 import PostEditForm from "./pages/posts/PostEditForm";
 
-import MainPage from "./components/MainPage";
+//import MainPage from "./components/MainPage";
+import { LandingPage } from "./pages/home/LandingPage";
+import Footer from "./components/Footer";
+import SpecieDetails from "./pages/specie/SpecieDetails";
+
 
 // current users to search for a post and likes
 
@@ -23,8 +27,14 @@ function App() {
     <div className={styles.App}>
       <NavBar />
       <Container className={styles.Main}>
-      <MainPage />
         <Switch>
+        <Route
+            exact
+            path="/"
+            render={() => (
+              <LandingPage />
+            )}
+          />
           <Route
             exact
             path="/"
@@ -52,7 +62,7 @@ function App() {
               />
             )}
           />
-          
+          <Route exact path="/specie/:id" render={() => <SpecieDetails />} /> 
           <Route exact path="/signin" render={() => <SignInForm />} />
           <Route exact path="/signup" render={() => <SignUpForm />} />
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
@@ -62,6 +72,7 @@ function App() {
         </Switch>
         
       </Container>
+      <Footer />
     </div>
   );
 }

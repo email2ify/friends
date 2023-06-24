@@ -12,7 +12,8 @@ import {
 import Display from "./Display";
 import axios from "axios";
 import useClickOutsideToggle from "../hooks/useClickOutsideToggle";
-import { removeTokenTimestamp, shouldRefreshToken } from "../utils/utils";
+import { removeTokenTimestamp } from "../utils/utils";
+
 
 const NavBar = () => {
   const currentUser = useCurrentUser();
@@ -50,13 +51,7 @@ const loggedInIcons = (
       >
         <i className="fas fa-stream"></i>Feed
       </NavLink>
-      <NavLink
-        className={styles.NavLink}
-        activeClassName={styles.Active}
-        to="/liked"
-      >
-        <i className="fas fa-heart"></i>Liked
-      </NavLink>
+      
       <NavLink className={styles.NavLink} to="/" onClick={handleSignOut}>
         <i className="fas fa-sign-out-alt"></i>Sign out
       </NavLink>

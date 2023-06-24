@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
+
 import styles from "../../styles/SignInUpForm.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import appStyles from "../../App.module.css";
-import {Form, Button, Col, Row, Container, Alert,} from "react-bootstrap";
+
+import { Form, Button,Image, Col, Row, Container,Alert,} from "react-bootstrap";
 import axios from "axios";
+import { useRedirect } from "../../hooks/useRedirect";
 
 const SignUpForm = () => {
+
   const [signUpData, setSignUpData] = useState({
     username: "",
     password1: "",
@@ -15,6 +19,7 @@ const SignUpForm = () => {
   const { username, password1, password2 } = signUpData;
 
   const [errors, setErrors] = useState({});
+  useRedirect("/");
 
   const history = useHistory();
 
@@ -29,7 +34,7 @@ const SignUpForm = () => {
     event.preventDefault();
     try {
       await axios.post("/dj-rest-auth/registration/", signUpData);
-      history.push("/signin");
+      history.push("/");
     } catch (err) {
       setErrors(err.response?.data);
     }
@@ -117,7 +122,10 @@ const SignUpForm = () => {
         md={6}
         className={`my-auto d-none d-md-block p-2 ${styles.SignUpCol}`}
       >
-        
+        <Image
+          className={`${appStyles.FillerImage}`}
+          src={""}
+        />
       </Col>
     </Row>
   );
