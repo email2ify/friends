@@ -20,7 +20,7 @@ import { setTokenTimestamp } from "../../utils/utils";
 
 function SignInForm() {
   const setCurrentUser = useSetCurrentUser();
-  useRedirect("/");
+  useRedirect("loggedIn");
 
   const [signInData, setSignInData] = useState({
     username: "",
