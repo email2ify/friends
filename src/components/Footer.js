@@ -16,7 +16,7 @@ const Footer = () => {
           <Col sm={4} md={4}>
             <h5>Call Us</h5>
             <p>
-              <i className="fas fa-phone"></i> +46734810486
+              <i className="fas fa-phone"></i> +46730000000
             </p>
           </Col>
           <Col sm={4} md={4}>

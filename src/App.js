@@ -27,23 +27,18 @@ function App() {
     <div className={styles.App}>
       <NavBar />
       <Container className={styles.Main}>
+      
         <Switch>
         <Route
             exact
             path="/"
             render={() => (
               <LandingPage />
-            )}
+            )}  
           />
           <Route
             exact
-            path="/"
-            render={() => (
-              <PostsPage message="No results found. Adjust the search keyword." />
-            )}
-          />
-          <Route
-            exact
+
             path="/feed"
             render={() => (
               <PostsPage
@@ -68,7 +63,7 @@ function App() {
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
           <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
-          <Route render={() => <p>Sorry, the Image you're looking for doesn't exist</p>} />
+          <Route render={() => <p>Sorry, no Profile Image on users </p>} />
         </Switch>
         
       </Container>

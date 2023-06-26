@@ -19,7 +19,7 @@ const NavBar = () => {
   const currentUser = useCurrentUser();
   const setCurrentUser = useSetCurrentUser();
 
-   // applying toggle on NavBar dropdown menu
+  // applying toggle on NavBar dropdown menu
   const { expanded, setExpanded, ref } = useClickOutsideToggle();
 
   const handleSignOut = async () => {
@@ -32,7 +32,7 @@ const NavBar = () => {
     }
   };
 
-
+  
   const addPostIcon = (
     <NavLink
       className={styles.NavLink}
@@ -42,7 +42,7 @@ const NavBar = () => {
       <i className="far fa-plus-square"></i>Add post
     </NavLink>
   );
-const loggedInIcons = (
+  const loggedInIcons = (
     <>
       <NavLink
         className={styles.NavLink}
@@ -51,7 +51,7 @@ const loggedInIcons = (
       >
         <i className="fas fa-stream"></i>Feed
       </NavLink>
-      
+
       <NavLink className={styles.NavLink} to="/" onClick={handleSignOut}>
         <i className="fas fa-sign-out-alt"></i>Sign out
       </NavLink>

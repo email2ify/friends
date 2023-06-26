@@ -4,6 +4,8 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import urga from "./../../assets/urga.png";
 import soso from "./../../assets/soso.png";
+import lion from "./../../assets/lion.png";
+import zebbra from "./../../assets/zebbra.png";
 
 const handleDragStart = (e) => e.preventDefault();
 
@@ -34,14 +36,14 @@ const items =[
   </div>,
   <div className="item">
     <div href="/" className="force-fit">
-      <img src={urga} alt="Wildlife" className="w-100" style={{objectFit: 'cover'}} 
+      <img src={lion} alt="Wildlife" className="w-100" style={{objectFit: 'cover'}} 
         onDragStart={handleDragStart} role="presentation" 
       />
     </div>
   </div>,
   <div className="item">
     <div href="/" className="force-fit">
-      <img src={soso} alt="Wildlife" className="w-100" style={{objectFit: 'cover'}} 
+      <img src={zebbra} alt="Wildlife" className="w-100" style={{objectFit: 'cover'}} 
         onDragStart={handleDragStart} role="presentation" 
       />
     </div>

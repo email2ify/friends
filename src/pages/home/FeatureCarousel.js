@@ -5,6 +5,8 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import urga from "./../../assets/urga.png";
 import soso from "./../../assets/soso.png";
+import lion from "./../../assets/lion.png";
+import zebbra from "./../../assets/zebbra.png";
 
 const handleDragStart = (e) => e.preventDefault();
 
@@ -27,8 +29,8 @@ const items =[
         onDragStart={handleDragStart} role="presentation" 
       />
       <div className="carousel-text text-white">
-        <h3>Lion</h3>
-        <p>The king of the jungle, known for its strength and majestic presence.</p>
+        <h3>Gorilla</h3>
+        <p>The largest of the great apes in the jungle, and they are known as stocky animals.</p>
       </div>
     </a>
   </div>,
@@ -38,30 +40,30 @@ const items =[
         onDragStart={handleDragStart} role="presentation" 
       />
       <div className="carousel-text text-white">
-      <h3>Elephant</h3>
-      <p>Gentle giants that play a vital role in maintaining ecological balance.</p>             
+      <h3>Antelop</h3>
+      <p>Antelopes are large and diverse group of animals of the cow family.</p>             
       </div>
     </a>
   </div>,
   <div className="item">
-    <a href="/specie/urga" className="wildlife-item">
-      <img src={urga} alt="Wildlife" className="carousel-image" 
+    <a href="/specie/lion" className="wildlife-item">
+      <img src={lion} alt="Wildlife" className="carousel-image" 
         onDragStart={handleDragStart} role="presentation" 
       />
       <div className="carousel-text text-white">        
-        <h3>Tiger</h3>
+        <h3>Lion</h3>
         <p>An apex predator known for its power, beauty, and agility.</p>
       </div>
     </a>
   </div>,
   <div className="item">
-    <a href="/specie/urga" className="wildlife-item">
-      <img src={soso} alt="Wildlife" className="carousel-image" 
+    <a href="/specie/zebbra" className="wildlife-item">
+      <img src={zebbra} alt="Wildlife" className="carousel-image" 
         onDragStart={handleDragStart} role="presentation" 
       />
       <div className="carousel-text text-white">
-        <h3>Lion</h3>
-        <p>The king of the jungle, known for its strength and majestic presence.</p>
+        <h3>Zebbra</h3>
+        <p>They are know as African equines with distinctive black-and-white striped coats..</p>
       </div>
     </a>
   </div>

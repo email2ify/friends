@@ -1,8 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import urga from "./../../assets/urga.png";
-import soso from "./../../assets/soso.png";
-
+import lios from "./../../assets/lios.png";
+import two from "./../../assets/two.png";
+import wo from "./../../assets/wo.png";
+import ele from "./../../assets/ele.png";
 
 const ConservationSection = () => {
   return (
@@ -19,7 +20,7 @@ const ConservationSection = () => {
           </Col>
           <Col md={6} >
             <div style={{maxHeight:'360px'}} className="d-flex">
-              <img  className="w-100" src={soso} alt="About" />
+              <img  className="w-100" src={ele} alt="About" />
 
             </div>
           </Col>
@@ -52,7 +53,7 @@ const ConservationSection = () => {
         <Row>
           <Col md={4}>
             <div className="conservation-item">
-              <img src={soso} alt="Conservation" />
+              <img src={lios} alt="Conservation" />
               <h3>Protecting Endangered Species</h3>
               <p>
                 Learn about our ongoing projects aimed at conserving endangered species and their habitats.
@@ -61,7 +62,7 @@ const ConservationSection = () => {
           </Col>
           <Col md={4}>
             <div className="conservation-item">
-              <img src={urga} alt="Conservation" />
+              <img src={two} alt="Conservation" />
               <h3>Community Engagement</h3>
               <p>
                 We collaborate with local communities to raise awareness and promote sustainable wildlife conservation.
@@ -70,7 +71,7 @@ const ConservationSection = () => {
           </Col>
           <Col md={4}>
             <div className="conservation-item">
-              <img src={soso} alt="Conservation" />
+              <img src={wo} alt="Conservation" />
               <h3>Support Our Cause</h3>
               <p>Contribute to our conservation efforts through donations and volunteering.</p>
             </div>

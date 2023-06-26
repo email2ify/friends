@@ -7,7 +7,7 @@ const HeroSection = () => {
       <section className="hero main">
           <Row>
             <Col>
-              <h1>WILDLIFE IN AFRICA</h1>
+              <h1>FRDS-AFRICA WILD LIFE</h1>
               {/* <h2></h2> */}
                 <p>Africa is home to a diverse range of wildlife,including some of the 
                     most iconic and charismatic animals 
