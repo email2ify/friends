@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import lios from "./../../assets/lios.png";
-import two from "./../../assets/two.png";
+import com from "./../../assets/com.png";
 import wo from "./../../assets/wo.png";
 import ele from "./../../assets/ele.png";
 
@@ -62,7 +62,7 @@ const ConservationSection = () => {
           </Col>
           <Col md={4}>
             <div className="conservation-item">
-              <img src={two} alt="Conservation" />
+              <img src={com} alt="Conservation" />
               <h3>Community Engagement</h3>
               <p>
                 We collaborate with local communities to raise awareness and promote sustainable wildlife conservation.

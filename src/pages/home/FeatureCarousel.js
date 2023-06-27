@@ -3,8 +3,8 @@ import React from "react";
 import {Row, Col} from "react-bootstrap";
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import urga from "./../../assets/urga.png";
-import soso from "./../../assets/soso.png";
+import elep from "./../../assets/elep.png";
+import gor from "./../../assets/gor.png";
 import lion from "./../../assets/lion.png";
 import zebbra from "./../../assets/zebbra.png";
 
@@ -24,24 +24,24 @@ const responsive = {
  */
 const items =[
   <div className="item">
-    <a href="/specie/urga" className="wildlife-item">
-      <img src={urga} alt="Wildlife" className="carousel-image" 
+    <a href="/specie/elep" className="wildlife-item">
+      <img src={elep} alt="Wildlife" className="carousel-image" 
         onDragStart={handleDragStart} role="presentation" 
       />
       <div className="carousel-text text-white">
-        <h3>Gorilla</h3>
-        <p>The largest of the great apes in the jungle, and they are known as stocky animals.</p>
+        <h3>Elephants</h3>
+        <p>The largest land mammals on earth and have  massive bodies, large ears, and long trunks.</p>
       </div>
     </a>
   </div>,
   <div className="item">
-    <a href="/specie/urga" className="wildlife-item">
-      <img src={soso} alt="Wildlife" className="carousel-image" 
+    <a href="/specie/elep" className="wildlife-item">
+      <img src={gor} alt="Wildlife" className="carousel-image" 
         onDragStart={handleDragStart} role="presentation" 
       />
       <div className="carousel-text text-white">
-      <h3>Antelop</h3>
-      <p>Antelopes are large and diverse group of animals of the cow family.</p>             
+      <h3>Gorilla</h3>
+      <p>The largest of the great apes in the jungle, and they are known as stocky animals.</p>             
       </div>
     </a>
   </div>,
@@ -90,9 +90,9 @@ const FeatureCarousel=()=>{
           controlsStrategy="alternate"
           buttonsDisabled={true} // Disable default buttons
           renderPrevButton={() => (
-            <buttton className="btn-none mid-left-float">
+            <button className="btn-none mid-left-float">
               <i className="fa-solid fa-circle-chevron-left fa-prm-color"></i>
-            </buttton>
+            </button>
           )}
           renderNextButton={() => (
           <button className="btn-none mid-right-float ">

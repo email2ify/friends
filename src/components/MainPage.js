@@ -13,10 +13,10 @@ const HeroSection = () => {
                     most iconic and charismatic animals 
                     in the world. <br /> Some of the most well-known African animals includes   
                     Gorillas,Lions,Hippos,Zebras and so on found in the forests of central Africa.<br /> 
-                    <br /> Here you can contribute your amazing journey and experience in the wildlife and view feed of wildlife
+                    <br />Contribute your amazing journey and experience in the wildlife and view feeds
                     <br /> 
                 </p>
-                <a href="/signin">
+                <a href="/feed">
                     <button className="btn btn-primary">Get Started</button>
                 </a>
             </Col>
