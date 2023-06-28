@@ -1,6 +1,6 @@
 # Friends WildLife
 
-This is a platform for local nature reserves, where lovers of wildlife meet to air their views and opinoin about the wildlife conservation, by sharing photos and to comment about their experince in the wild.
+* This is a platform for local nature reserves, where lovers of wildlife meet to air their views and opinoin about the wildlife conservation, by sharing photos and to comment about their experince in the wild.
 
 
 ![Capture2](https://github.com/email2ify/Projecttest-React/assets/110549305/1998ccc1-71e1-4bd9-af3e-8bb4066ea3d7)
@@ -8,16 +8,16 @@ This is a platform for local nature reserves, where lovers of wildlife meet to a
 
 ### Site Goals
 
-Friends WildLife is aimed to lovers of the wildlife. The site encourages user to share their thought, to allow them to showcase their best photo shot of the animals in the wildlife. 
+* Friends WildLife is aimed to lovers of the wildlife. The site encourages user to share their thought, to allow them to showcase their best photo shot of the animals in the wildlife. 
 <hr>
 
 ### Agile Planning
 
-This project was developed using agile methodologies by delivering small features in incrementally with a three phase loop.
+* This project was developed using agile methodologies by delivering small features in incrementally with a three phase loop.
 
-Stories were assigned to epics, prioritized under the Todo, In progress, and Done. They were assigned to track and monitor the progress of the project and stories allocated accordingly to the complexity. "Todo" stories is where I have listed the 'to do' stories lines, and "In progress" is where I have on-going work work in the tast mangement listed, likewise 'Done list', where I have the task completed.
+* Stories were assigned to epics, prioritized under the Todo, In progress, and Done. They were assigned to track and monitor the progress of the project and stories allocated accordingly to the complexity. "Todo" stories is where I have listed the 'to do' stories lines, and "In progress" is where I have on-going work work in the tast mangement listed, likewise 'Done list', where I have the task completed.
 
-The Kanban board was created using github projects and can be located [here](https://github.com/users/email2ify/projects/12) and can be viewed to see more information on the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as complete.
+* The Kanban board was created using github projects and can be located [here](https://github.com/users/email2ify/projects/12) and can be viewed to see more information on the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as complete.
 
 ![Capture3](https://github.com/email2ify/Projecttest-React/assets/110549305/a40561b7-5f5e-458e-bf34-62976188177b)
 
@@ -27,27 +27,29 @@ The Kanban board was created using github projects and can be located [here](htt
 
 **Set Up**
 
-This Epic covers all the initial setup of the React application and dependencies.
+* This Epic covers all the initial setup of the React application and dependencies.
 
 **Posts**
 
-It covers the frontend creation of the application in regards to posts. This is to allow users to interact with the backend API via the user interface in order to create, read, update and delete their own posts.
+* It covers the frontend creation of the application in regards to posts. This is to allow users to interact with the backend API via the user interface in order to create, read, update and delete their own posts.
 
 **Comments**
 
-It gives the user the ability to comment on the frontend of the application in regards to comments on posts. This is to allow users to interact with the backend API in order add comments on posts.
+* It gives the user the ability to comment on the frontend of the application in regards to comments on posts. This is to allow users to interact with the backend API in order add comments on posts.
 
 **Profiles**
 
-It covers the frontend creation of the application in regards to user profiles. This is to allow users to interact with the backend API via the user interface to manage their own profiles.
+* It covers the frontend creation of the application in regards to user profiles. This is to allow users to interact with the backend API via the user interface to manage their own profiles.
 
 **Add Post**
 
-There is where users can add images on the frontend application in regards to add post. This is to allow users to interact with the backend API, to display and delete images
+* There is where users can add images on the frontend application in regards to add post. This is to allow users to interact with the backend API, to display and delete images
+
+<br>
 
 **Feeds**
 
-This aspect is the front end application in regards to feed. This is to allow users to read comment, view images and like a post,interacting with the backend API.
+* This aspect is the front end application in regards to feed. This is to allow users to read comment, view images and like a post,interacting with the backend API.
 <hr>
 <br>
 
@@ -92,7 +94,8 @@ This aspect is the front end application in regards to feed. This is to allow us
 * As a Site User, I can navigate to the search blank space so that I can easily search for a content or images among hundreds of post images.
 * As a user I can view the details of a single post so that I can learn more about it
 
-
+<hr>
+<br>
 
 **Logged in users:**
 When a user is logged in the following navigation items are shown:
@@ -118,7 +121,8 @@ When a user is logged out the following navigation items are shown:
 
 The site logo is displayed on the left side of the navigation at all times.
 
-
+<hr>
+<br>
 
 **Home Page**
 
@@ -130,6 +134,18 @@ As a user I can view and read what the website is all about and the organization
 
 **None Users**
 * Restricted access has been implemented on the Feed posts for users who are not signed in, they will not be able to create a post, like or comment on post
+ 
+
+**Get Started**
+
+User Story:
+
+* As a user I can easily get started just by clicking on the Get Started button and it will redirect the user to a Feed
+
+
+![Capture10](https://github.com/email2ify/Testin-Yoga/assets/110549305/d6c8f92e-9efe-4951-84a4-b836763d73e2)
+
+
 
 **Feed for Users**
 * As a logged in user I can like a post so that I can show my likes and commemt that interest me
@@ -153,24 +169,46 @@ Implementation:
 ![Capture7](https://github.com/email2ify/Projecttest-React/assets/110549305/58d3b9ab-9887-4cf4-be77-688b80fd6988)
 
 
-
+<hr>
+<br>
 
 
 
 **Comments**
 
-Below each post, there will be a comment box available to logged in users. This will allow users to add comments under posts.
+* Below each post, there will be a comment box available to logged in users. This will allow users to add comments under posts.
 
 
 
-A comment count will also be shown under the post, to allow users to see how many people have commented on each post.
+* A comment count will also be shown under the post, to allow users to see how many people have commented on each post.
 
-A comment or updated time will be displayed in either minutes ago or days ago 
+* A comment or updated time will be displayed in either minutes ago or days ago 
 
-The username and Avatar of the user that created the comment will displayed on each comment
+* The username and Avatar of the user that created the comment will displayed on each comment
 
 
 ![Capture17](https://github.com/email2ify/Projecttest-React/assets/110549305/0c822f33-5c94-49a7-b13f-c0b6b884595b)
+
+
+<br>
+
+**Search WildLife**
+
+User Story:
+
+* As a user I can search for wild life specie to read about the species
+
+
+![Capture13](https://github.com/email2ify/Testin-Yoga/assets/110549305/eaca9583-734d-4ef8-ad73-eff14d65bbd5)
+
+<hr>
+<br>
+
+**Footer**
+
+* Footer image from the landing page
+
+![Capture14](https://github.com/email2ify/Testin-Yoga/assets/110549305/611c81ce-d672-49c5-9284-e8b1ab151e4b)
 
 
 
@@ -178,7 +216,7 @@ The username and Avatar of the user that created the comment will displayed on e
 
 User Story:
 
-As a user I can view other users profiles so that I can see their posts and learn more about them
+* As a user I can view other users profiles so that I can see their posts and learn more about them
 
 
 * Profile pages have been implemented and can be viewed by clicking on a users Avatar that is displayed on a post.
@@ -194,8 +232,11 @@ User Stories:
 
 
 
-
+<hr>
 <br>
+
+
+
 
 
 
@@ -250,25 +291,25 @@ Sign Up
 ## Colour-Scheme
 
 The logo red (#dc3545)
-The background colour for individual componenets is black (#000000).
+* The background colour for individual componenets is black (#000000).
 
-Icon, NarBar, background, colours are blue (#007bff), tea(#20c997), light (#f8f9fa).
+* Icon, NarBar, background, colours are blue (#007bff), tea(#20c997), light (#f8f9fa).
 
-Main text is black (#343a40).
+* Main text is black (#343a40).
 
-The main page background colour is an off shade of white (#f8f8f8).
+* The main page background colour is an off shade of white (#f8f8f8).
 <hr>
 <br>
 
 #### Typography
 
-The main font used on the website is "DM Sans".
+* The main font used on the website is "DM Sans".
 <hr>
 <br>
 
 #### Imagery
 
-The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) 
+* The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) 
 while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo was modify and compress using Favicon [click](https://favicon.io/favicon-converter)
 <hr>
 <br>
@@ -289,14 +330,11 @@ while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo 
     * Used for application hosting
 
 
-<hr>
-<br>
 
 ## Testing
 
-Testing can be found in the [TESTING.md file])
-<hr>
-<br>
+* Testing can be found in the [TESTING.md file])
+
 
 
 ## Heroku Deployment
@@ -330,7 +368,7 @@ The following git commands were used throughout development to push code to the 
 ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
-<hr>
+
 <br>
 
 
@@ -341,11 +379,8 @@ Install Dependencies:
 Run Application:
 
 ```npm start```
-<hr>
-<br>
 
 
-<hr>
 <br>
 
 ## Credits
