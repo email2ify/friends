@@ -15,7 +15,7 @@ Friends WildLife is aimed to lovers of the wildlife. The site encourages user to
 
 This project was developed using agile methodologies by delivering small features in incrementally with a three phase loop.
 
-All stories were assigned to epics, Must have, should have, could have and assigned to sprints. They were assigned to carry along as the project is progressing and stories allocated accordingly to the complexity. "Todo" stories is where I have listed the 'to do' stories lines, and "In progress" is where I have on-going work work in the tast mangement listed, likewise 'Done list', where I have the task completed.
+Stories were assigned to epics, prioritized under the Todo, In progress, and Done. They were assigned to track and monitor the progress of the project and stories allocated accordingly to the complexity. "Todo" stories is where I have listed the 'to do' stories lines, and "In progress" is where I have on-going work work in the tast mangement listed, likewise 'Done list', where I have the task completed.
 
 The Kanban board was created using github projects and can be located [here](https://github.com/users/email2ify/projects/12) and can be viewed to see more information on the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as complete.
 
