@@ -15,6 +15,7 @@ import PostEditForm from "./pages/posts/PostEditForm";
 import { LandingPage } from "./pages/home/LandingPage";
 import Footer from "./components/Footer";
 import SpecieDetails from "./pages/specie/SpecieDetails";
+import ContactForm from './pages/contacts/ContactForm';
 
 
 // current users to search for a post and likes
@@ -27,6 +28,7 @@ function App() {
     <div className={styles.App}>
       <NavBar />
       <Container className={styles.Main}>
+      
       
         <Switch>
         <Route
@@ -54,15 +56,24 @@ function App() {
               <PostsPage
                 message="No results found. Adjust the search keyword or like a post."
                 filter={`likes__owner__profile=${profile_id}&ordering=-likes__created_at&`}
-              />
-            )}
           />
+            )}
+            />
+            <Route
+              exact
+              path="/ContactForm/ContactForm/"
+              render={() => (
+                <ContactForm />
+                
+              )}
+            />
           <Route exact path="/specie/:id" render={() => <SpecieDetails />} /> 
           <Route exact path="/signin" render={() => <SignInForm />} />
           <Route exact path="/signup" render={() => <SignUpForm />} />
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
           <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
+          <Route exact path="/contact" render={() => <ContactForm />} />
           <Route render={() => <p>Sorry, no profile image on users </p>} />
         </Switch>
         

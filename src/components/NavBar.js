@@ -1,10 +1,12 @@
-import React from "react";
+import React,{ useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import logo from "../assets/logo.png";
 import styles from "../styles/NavBar.module.css";
-import { NavLink } from "react-router-dom";
+import { NavLink , useHistory} from "react-router-dom";
 import {
   useCurrentUser,
   useSetCurrentUser,
@@ -18,9 +20,17 @@ import { removeTokenTimestamp } from "../utils/utils";
 const NavBar = () => {
   const currentUser = useCurrentUser();
   const setCurrentUser = useSetCurrentUser();
+  const [showModal, setShowModal] = useState(false);
+  const history = useHistory();
+ 
 
   // applying toggle on NavBar dropdown menu
   const { expanded, setExpanded, ref } = useClickOutsideToggle();
+ 
+  /*
+    Handles user logout and
+    redirects to the landing page
+  */
 
   const handleSignOut = async () => {
     try {
@@ -32,7 +42,11 @@ const NavBar = () => {
     }
   };
 
-  
+  const handleCloseModal = () => {
+    setShowModal(false);
+    history.push("/");
+  };
+
   const addPostIcon = (
     <NavLink
       className={styles.NavLink}
@@ -44,6 +58,15 @@ const NavBar = () => {
   );
   const loggedInIcons = (
     <>
+        <NavLink
+            className={styles.NavLink}
+            activeClassName={styles.Active}
+            to="/contact"
+        >
+            <i className="fas fa-envelope"></i>Contact
+        </NavLink>
+
+
       <NavLink
         className={styles.NavLink}
         activeClassName={styles.Active}
@@ -66,6 +89,15 @@ const NavBar = () => {
   //const loggedInIcons = <>{currentUser?.username}</>;
   const loggedOutIcons = (
     <>
+        <NavLink
+        className={styles.NavLink}
+        activeClassName={styles.Active}
+        to="/contact"
+      >
+        <i className="fas fa-envelope"></i>Contact
+      </NavLink>
+
+
       <NavLink
         className={styles.NavLink}
         activeClassName={styles.Active}
@@ -117,6 +149,17 @@ const NavBar = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <Modal show={showModal} onHide={handleCloseModal} centered={true}>
+                <Modal.Header closeButton>
+                  <Modal.Title>Good bye!</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Thank you for visiting, see you soon!</Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleCloseModal}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
     </Navbar>
   );
 };

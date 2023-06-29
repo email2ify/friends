@@ -9,8 +9,17 @@
   .Main {
     padding-top: 80px;
     min-height: 98vh;
+
+    
+   
   }
 
+  .Row {
+    margin-right: -250px;
+    
+
+
+  }
   
   * {
     box-sizing: border-box;
@@ -41,5 +50,13 @@
     cursor: pointer;
     transition: color ease-in-out 0.3s;
     color: #2142b2;
+  }
+
+  .Button {
+    border-color: #F6F6F7;
+    background-color: #613FE5 !important;
+    color: #F6F6F7;
+    margin: 0 20px;
+    width: 150px;
   }
 
