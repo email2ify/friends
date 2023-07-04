@@ -62,7 +62,7 @@ const ContactForm = () => {
         >
           <option value="GENERAL">General Enquiry</option>
           <option value="LOGIN">Login issue</option>
-          <option value="REPORT_POST">Report a task</option>
+          <option value="REPORT_POST">Report a Post</option>
           <option value="DELETE_ACCOUNT">Delete Account</option>
         </Form.Control>
       </Form.Group>
