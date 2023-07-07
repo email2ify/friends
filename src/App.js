@@ -16,6 +16,9 @@ import { LandingPage } from "./pages/home/LandingPage";
 import Footer from "./components/Footer";
 import SpecieDetails from "./pages/specie/SpecieDetails";
 import ContactForm from './pages/contacts/ContactForm';
+import ProfilePage from "./pages/profiles/ProfilePage";
+import { ProfileDataProvider } from "./contexts/ProfileDataContext";
+
 
 
 // current users to search for a post and likes
@@ -73,8 +76,13 @@ function App() {
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
           <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
-          <Route exact path="/contact" render={() => <ContactForm />} />
-          <Route render={() => <p>Sorry, no profile image on users </p>} />
+          <Route exact path="/contact" render={() => <ContactForm />} />          
+          <Route exact path="/profiles/:id" render={() => 
+              <ProfileDataProvider>
+                <ProfilePage />
+              </ProfileDataProvider>
+           } />
+          <Route render={() => <p>Page not found! </p>} />
         </Switch>
         
       </Container>

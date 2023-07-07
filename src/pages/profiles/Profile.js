@@ -1,17 +1,20 @@
 import React from "react";
 import styles from "../../styles/Profile.module.css";
 
-import { useCurrentUser } from "../../contexts/CurrentUserContext";
+
 import { Link } from "react-router-dom";
 import Display from "../../components/Display";
+
 
 
 const Profile = (props) => {
   const { profile, mobile, imageSize = 55 } = props;
   const { id, image, owner } = profile;
 
-  const currentUser = useCurrentUser();
-  const is_owner = currentUser?.username === owner;
+
+
+
+
 
   return (
     <div
