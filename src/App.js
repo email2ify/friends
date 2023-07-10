@@ -19,6 +19,8 @@ import ContactForm from './pages/contacts/ContactForm';
 import ProfilePage from "./pages/profiles/ProfilePage";
 import { ProfileDataProvider } from "./contexts/ProfileDataContext";
 
+import PageNotFound from "./components/PageNotFound";
+
 
 
 // current users to search for a post and likes
@@ -76,13 +78,13 @@ function App() {
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
           <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
-          <Route exact path="/contact" render={() => <ContactForm />} />          
+          <Route exact path="/contact" render={() => <ContactForm />} />        
           <Route exact path="/profiles/:id" render={() => 
               <ProfileDataProvider>
                 <ProfilePage />
               </ProfileDataProvider>
            } />
-          <Route render={() => <p>Page not found! </p>} />
+          <Route render={() => <PageNotFound />} />
         </Switch>
         
       </Container>
