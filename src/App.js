@@ -14,7 +14,10 @@ import PostEditForm from "./pages/posts/PostEditForm";
 //import MainPage from "./components/MainPage";
 import { LandingPage } from "./pages/home/LandingPage";
 import Footer from "./components/Footer";
+import CountriesList from "./pages/country/CountriesList"; 
+import AnimalListByCountry from "./pages/country/AnimalListByCountry";
 import SpecieDetails from "./pages/specie/SpecieDetails";
+import SpecieList from "./pages/specie/SpecieList";
 import ContactForm from './pages/contacts/ContactForm';
 import ProfilePage from "./pages/profiles/ProfilePage";
 import { ProfileDataProvider } from "./contexts/ProfileDataContext";
@@ -72,7 +75,10 @@ function App() {
                 
               )}
             />
-          <Route exact path="/specie/:id" render={() => <SpecieDetails />} /> 
+          <Route exact path="/specie" render={() => <SpecieList />} /> 
+          <Route exact path="/specie/:slug" render={() => <SpecieDetails />} /> 
+          <Route exact path="/countries" render={() => <CountriesList />} />
+          <Route exact path="/countries/:country" render={() => <AnimalListByCountry />} />
           <Route exact path="/signin" render={() => <SignInForm />} />
           <Route exact path="/signup" render={() => <SignUpForm />} />
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
