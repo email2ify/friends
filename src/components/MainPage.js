@@ -16,7 +16,7 @@ const HeroSection = () => {
                     <br />Contribute your amazing journey and experience in the wildlife and view feeds
                     <br /> 
                 </p>
-                <a href="/feed">
+                <a href="/signin">
                     <button className="btn btn-primary">Get Started</button>
                 </a>
             </Col>
