@@ -12,7 +12,6 @@ const SpecieDetails = () => {
       try {
         const response = await axiosReq.get(`animals/specie/${slug}/`);
         setSpecieData(response.data);
-        console.log(response.data);
       } catch (error) {
         console.error(error);
       }
