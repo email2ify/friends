@@ -49,8 +49,7 @@ function PostsPage({ message, filter = "" }) {
 
   return (
     <Row className="h-50">
-      <Col className="py-2 p-0 p-lg-2" lg={8}>
-        <p>  </p> 
+      <Col className="my-auto p-0 p-md-2" md={{offset:2, span:8}} lg={{offset:2, span:8}}>
         <i className={`fas fa-search ${styles.SearchIcon}`} />
         <Form
           className={styles.SearchBar}
