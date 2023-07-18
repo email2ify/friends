@@ -1,9 +1,9 @@
 # Friends WildLife
 
-* This is a platform for local nature reserves, where lovers of wildlife meet to air their views and opinoin about the wildlife conservation, by sharing photos and to comment about their experince in the wild.
+* This is a platform for local nature reserves, where lovers of Africa Wildlife meet to air their views and opinoin about the wildlife conservation, and also to know more about the African wild animals and the country where it can be found. User can also contribute in their own way by sharing photos and to comment about their experince in the wild life of Africa.
 
 
-![Capture2](https://github.com/email2ify/Projecttest-React/assets/110549305/1998ccc1-71e1-4bd9-af3e-8bb4066ea3d7)
+![frontview1](https://github.com/email2ify/Projecttest-API/assets/110549305/df44359a-fcba-4bf8-b272-fb3955eef5aa)
 ## The Strategy Plane
 
 ### Site Goals
@@ -99,6 +99,9 @@
 
 **Logged in users:**
 When a user is logged in the following navigation items are shown:
+<br>
+![Nav11](https://github.com/email2ify/Projecttest-API/assets/110549305/dc37feee-01d5-4c49-ba0a-74322c765100)
+
 
 * logo
 * Add Post
@@ -107,47 +110,84 @@ When a user is logged in the following navigation items are shown:
 * Sign Out
 * Users Icon 
 
-![Capture4](https://github.com/email2ify/Projecttest-React/assets/110549305/3fb0c33e-8623-4190-a46a-1099152f39a0)
+
 
 
 **Logged out users:**
+The site logo is displayed on the left side of the navigation at all times.
+<br>
+![nav1](https://github.com/email2ify/Projecttest-API/assets/110549305/0f5107a4-c4be-45a2-9b08-681a73958bc9)
+ 
 When a user is logged out the following navigation items are shown:
 * logo
 * Home
 * Sign In
 * Sign Up
 
-![Capture5](https://github.com/email2ify/Projecttest-React/assets/110549305/6a634050-fb46-4d94-9745-bbd7616a0443)
-
-The site logo is displayed on the left side of the navigation at all times.
 
 <hr>
 <br>
 
-**Home Page**
+## Home Page
 
-As a user I can view and read what the website is all about and the organization behind it
+As a user I can view and read what the website is all about and a carousel of images of the wildlife species<br>
+![front1](https://github.com/email2ify/Projecttest-API/assets/110549305/26d3a22a-859e-4232-9861-ebeb73311f0b)
 
-**Feed Page**
 
-* As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content
+## Species Page
+* As a user I can view and scroll down to any species image of your choice and click on the animal to know more about the animal and countries most often located<br>
+![species3](https://github.com/email2ify/Projecttest-API/assets/110549305/efbfc82a-4181-4e79-a4b2-a07259f13b9b)
+
+
+## Countries Page
+* As a user I can directly choose from listed countries on the page to know what animals are found there<br>
+![listcountries](https://github.com/email2ify/Projecttest-API/assets/110549305/1990fa0a-70ed-409a-b847-fba6df690eeb)
+
+## Country
+* As a user I can see from the choosen country from the countries list on the page to know what animal or species that are likely to be found in that specific African country<br>
+![found](https://github.com/email2ify/Projecttest-API/assets/110549305/8671a2a0-b5e7-475e-a5ca-4593d7723d81)
+
+
+## Contact Page
+* As a user I can contact the organization and submit my reason of complaint as regards 'general enquiery','login issues','report a post' or 'delete account'.
+  
+![contactus](https://github.com/email2ify/Projecttest-API/assets/110549305/defb8a4c-1e08-4602-83fc-2b0b831cef4a)
+
+## Feed Page
+* As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content<br>
+![feed3](https://github.com/email2ify/Projecttest-API/assets/110549305/05c4a386-a043-4dff-8e1d-aad319be3bc5)
+
+## Sign In
+* As a user I can sign in to follow up with recent posts on the feed and activities on the platform<br>
+![signi](https://github.com/email2ify/Projecttest-API/assets/110549305/e3443ae7-dd13-4eca-9b36-9e60f97d83ed)
+
+
+## Sign Up
+* As a user I can register an account with the organization in order to comment, post and follow up with recent posts on the feed and activities on the platform<br>
+![signup](https://github.com/email2ify/Projecttest-API/assets/110549305/bf785a4d-5d36-4db6-a477-7beea7214fa4)
+
+
+## Sign Out
+* As a user I can sign out from my account when done with all recent posts on the feed and activities on the platform<br>
+![signout](https://github.com/email2ify/Projecttest-API/assets/110549305/c2ec0ee9-ccad-4c39-98de-33c3cc1e4ccb)
 
 **None Users**
 * Restricted access has been implemented on the Feed posts for users who are not signed in, they will not be able to create a post, like or comment on post
  
 
-**Get Started**
+## Get Started
 
 User Story:
 
-* As a user I can easily get started just by clicking on the Get Started button and it will redirect the user to a Feed
-
+* As a user I can easily get started just by clicking on the Get Started button and it will redirect the user to a SignIn
 
 ![Capture10](https://github.com/email2ify/Testin-Yoga/assets/110549305/d6c8f92e-9efe-4951-84a4-b836763d73e2)
 
 
 
-**Feed for Users**
+
+
+## Feed for Users
 * As a logged in user I can like a post so that I can show my likes and commemt that interest me
 * Logged in users have full access to post, comment, like or unlike. This will help ensure that unregistered users are not allow on the website
 
@@ -156,11 +196,16 @@ User Story:
 User Story:
 
 * As a post owner I can edit a post title and description so that I can make corrections or update the post, moreover, Only the user who created the post will be able to edit or delete post. This will ensure that users have full control of their own posts and unauthorized users are unaccepted.
+<br>
+
+![edit1](https://github.com/email2ify/Projecttest-API/assets/110549305/fd5f5aed-7610-400f-9fdd-ef6f95d5362d)
 
 
 User Story:
 
 * As a logged in user I can create posts so that I can share my images
+  
+![Capture12](https://github.com/email2ify/Projecttest-API/assets/110549305/d36f5218-5951-41c6-9cb0-e4e24a9b6f46)
 
 Implementation:
 
@@ -204,6 +249,14 @@ User Story:
 <hr>
 <br>
 
+
+**Profile**
+
+User Story:
+
+* As a user I can view own profiles post , so as to have records of posts, comment and likes
+  ![profipost](https://github.com/email2ify/Projecttest-API/assets/110549305/d6cb92ff-7b0b-4150-8bce-b819d92057f7)
+
 **Footer**
 
 * Footer image from the landing page
@@ -212,79 +265,8 @@ User Story:
 
 
 
-**Profiles**
-
-User Story:
-
-* As a user I can view other users profiles so that I can see their posts and learn more about them
 
 
-* Profile pages have been implemented and can be viewed by clicking on a users Avatar that is displayed on a post.
-
-* To view a users own profile, they can click their icon from the navigation menu.
-
-User Stories:
-
-
-
-
-![profile_edit](https://raw.githubusercontent.com.png)
-
-
-
-<hr>
-<br>
-
-
-
-
-
-
-<details>
-
-<summary>All Wireframe Images</summary>
-
-
-
-Home / Posts
-
-![Home / Posts](https://raw.githubusercontent.com/email2ify/friends/main/readme/wireframes/post.png)
-
-Contact
-
-![Contact](https://raw.githubusercontent.com/email2ify/friends/main/readme/wireframes/Contact.png)
-
-Feed
-
-![Feed](https://raw.githubusercontent.com/email2ify/friends/main/readme/wireframes/Feed.png)
-
-Liked
-
-![Liked](https://raw.githubusercontent.com/email2ify/friends/main/readme/wireframes/Liked.png)
-
-Profiles
-
-![Profiles](https://raw.githubusercontent.com/email2ify/friends/main/readme/wireframes/Profiles.png)
-
-
-User Profile
-
-![Artist Profile](https://raw.githubusercontent.com/email2ify/friends/main/readme/wireframes/artist-profile.png)
-
-
-Create Post & Edit Post
-
-![Create Post](https://raw.githubusercontent.com/email2ify/friends/main/readme/wireframes/create-post.png)
-
-Sign In
-
-![Sign In](https://github.com/email2ify/friends/blob/main/readme/wireframes/sign-in.png)
-
-Sign Up
-
-![Sign Up](https://github.com/email2ify/friendss/blob/main/readme/wireframes/sign-up.png)
-
-</details>
 
 
 
