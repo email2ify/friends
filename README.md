@@ -1,6 +1,6 @@
 # Friends WildLife
 
-* This is a platform for local nature reserves, where lovers of Africa Wildlife meet to air their views and opinoin about the wildlife conservation, and also to know more about the African wild animals and the country where it can be found. User can also contribute in their own way by sharing photos and to comment about their experince in the wild life of Africa.
+* This is a platform for local nature reserves, where lovers of Africa Wildlife meet to air their views and opinoins about the wildlife conservation, and also to know more about African wild animals and countries where it can be found. User can also contribute in their own way by sharing photos and comment about their experince in the wild life of Africa.
 
 
 ![frontview1](https://github.com/email2ify/Projecttest-API/assets/110549305/df44359a-fcba-4bf8-b272-fb3955eef5aa)
@@ -8,7 +8,7 @@
 
 ### Site Goals
 
-* Friends WildLife is aimed to lovers of the wildlife. The site encourages user to share their thought, to allow them to showcase their best photo shot of the animals in the wildlife. 
+* Friends WildLife is aimed to lovers of the wildlife. The site encourages user to share their thought, know more about animals and the countries where they are found. 
 <hr>
 
 ### Agile Planning
@@ -19,7 +19,7 @@
 
 * The Kanban board was created using github projects and can be located [here](https://github.com/users/email2ify/projects/12) and can be viewed to see more information on the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as complete.
 
-![Capture3](https://github.com/email2ify/Projecttest-React/assets/110549305/a40561b7-5f5e-458e-bf34-62976188177b)
+![sn](https://github.com/email2ify/Projecttest-API/assets/110549305/d44838ef-b7bb-44d4-ace1-4a956cba833d)
 
 <hr>
 
@@ -47,10 +47,28 @@
 
 <br>
 
+**Species**
+
+* This aspect of front end application for animal species, it allows users to see variety of animal, names and their story. This is to educate users and to know more about the animal, using the backend API.
+
+<br>
+
+**Countries**
+
+* In this aspect, the front end application for countries, enable users to be able to choose a desired country to know the types of animal or species that are found in that particular country. This is to allow users to know more about the species in that country, using the backend API.
+
+<br>
+
+**Contact form**
+
+* This is also an application in the frontend, where users can send in their queries or enquiries, with the help of the backend API.
+
+<br>
+
 **Feeds**
 
 * This aspect is the front end application in regards to feed. This is to allow users to read comment, view images and like a post,interacting with the backend API.
-<hr>
+
 <br>
 
 ## User Stories
@@ -73,8 +91,19 @@
 * As a logged in user I can add comments to a post so that I can share my thoughts about the post
 * As an owner of a comment I can manage my comment, edit or delete it all
 
+**Species**
 
-**Follow us**
+* As a user, I would like to be able to see all animal species in order to choose what animal to be curious to know more about.
+  
+**Country**
+
+* As a user, I would like to check a particular african country to know what types of animal that can be found there.
+
+**ContactForm**
+
+* As a user, I would like to be able to send in enquiries, complaint or any post issues.
+  
+**Footer**
 
 * As a user, I would like to be able to follow  the site organization on every social media platform in order to show my solidarity.
 
@@ -143,7 +172,8 @@ As a user I can view and read what the website is all about and a carousel of im
 * As a user I can directly choose from listed countries on the page to know what animals are found there<br>
 ![listcountries](https://github.com/email2ify/Projecttest-API/assets/110549305/1990fa0a-70ed-409a-b847-fba6df690eeb)
 
-## Country
+
+**Country:**
 * As a user I can see from the choosen country from the countries list on the page to know what animal or species that are likely to be found in that specific African country<br>
 ![found](https://github.com/email2ify/Projecttest-API/assets/110549305/8671a2a0-b5e7-475e-a5ca-4593d7723d81)
 
@@ -291,7 +321,7 @@ The logo red (#dc3545)
 
 #### Imagery
 
-* The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) 
+* The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) and Pixel [click](https://www.pexels.com) 
 while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo was modify and compress using Favicon [click](https://favicon.io/favicon-converter)
 <hr>
 <br>
@@ -315,7 +345,10 @@ while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo 
 
 ## Testing
 
-* Testing can be found in the [TESTING.md file])
+* Automat and Manuel testing folder on this link : [docs](https://github.com/email2ify/drf_friends/commit/81a9f6b74cf3f784a69dd2e1f65eccaddb76a743)
+
+
+
 
 
 
@@ -367,10 +400,9 @@ Run Application:
 
 ## Credits
 
- Implementation of project Carousel component:   
+ Implementation of project :   
 * Free Code Camp- [click](https://www.freecodecamp.org)
  
-Architect and resuable code by:
 * Code Institute- [click](https://learn.codeinstitute.net)
 
 
