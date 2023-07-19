@@ -372,7 +372,55 @@ while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo 
 * Automat and Manuel testing folder on this link : [docs](https://github.com/email2ify/drf_friends/commit/81a9f6b74cf3f784a69dd2e1f65eccaddb76a743)
 
 
+## Lighthouse
 
+The application has been tested with Chrome Dev Tools Lighthouse Testing which tests the application for:
+
+* Performance
+* Accessibility
+* Best Practices
+* SEO
+One or two of the pages performanced a slightly low score because of the amount of images. This could be improved by resizing and reducing the mbs of the picture to even a 
+smaller size and compressing before uploading.
+
+<br>
+
+## Home
+![Home](https://github.com/email2ify/Projecttest-API/assets/110549305/76f3070c-9ab9-4d7f-affc-652ecd48efb4)
+
+<br>
+
+## Species
+![Species](https://github.com/email2ify/Projecttest-API/assets/110549305/96a640e6-fb8c-4e8e-9fae-15c7e68be3e0)
+
+<br>
+
+## Countries
+This was tested with incognito mode because the page loaded too slowly to finish within the time limit on a normal chrome extensions.
+
+![Country](https://github.com/email2ify/Projecttest-API/assets/110549305/7ca1be96-fc84-4f71-ab3c-e0635658abbd)
+
+<br>
+
+## Contact
+![contact](https://github.com/email2ify/Projecttest-API/assets/110549305/8513a04c-b205-40ec-839d-5c39e1368d11)
+
+<br>
+
+## Signin
+![Signin](https://github.com/email2ify/Projecttest-API/assets/110549305/2639e2b4-33b1-4a88-bb18-130c95c21108)
+
+<br>
+
+## Signup
+![signup](https://github.com/email2ify/Projecttest-API/assets/110549305/b7d8c5fa-8341-4472-bd79-9e672f5a5b71)
+
+<br>
+
+## Login-user
+![Login-user](https://github.com/email2ify/Projecttest-API/assets/110549305/d69b82ac-0143-49f9-9b9b-ef44e3ce2525)
+
+<br>
 
 
 
@@ -393,8 +441,32 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * In the search box, find the repositoy you want to deploy and click connect
 * Scroll down to Manual deploy and choose the main branch
 * Click deploy
-<hr>
+
 <br>
+
+## Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+* Click on the code drop down button
+* Click on HTTPS
+* Copy the repository link to the clipboard
+* Open your IDE of choice (git must be installed for the next steps)
+* Type git clone copied-git-url into the IDE terminal
+  <br>
+
+The project will now have been cloned on your local machine for use.
+<br>
+<br>
+**Install Dependencies:**
+<br>
+* nvm install 16
+* nvm use 16
+  <br>
+  <br>
+Run Application:
+
+* npm start
 
 ## Version Control
 
@@ -420,13 +492,16 @@ Run Application:
 ```npm start```
 
 
+
 <br>
 
 ## Credits
 
- Implementation of project :   
-* Free Code Camp- [click](https://www.freecodecamp.org)
+ Implementation: 
+* Home page image carousel - [React responsice carousel](https://www.npmjs.com/package/react-responsive-carousel?fbclid=IwAR1lRdK_fVD_9qm55QXE0KN7H4yUqw_cLnSUv5_zk9QRIwriizKYC5KZWj8) 
  
 * Code Institute- [click](https://learn.codeinstitute.net)
 
+## Acknowledgements
 
+My Mentor Daisy, my family, and most especially my wife  
