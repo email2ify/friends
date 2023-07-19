@@ -297,15 +297,16 @@ User Story:
 
 
 
-
+## Wireframes
+Balsamiq was used to create wireframes of the sites pages - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
 
 
 ## Colour-Scheme
 
 The logo red (#dc3545)
-* The background colour for individual componenets is black (#000000).
+* The background colour for individual componets is black (#000000).
 
-* Icon, NarBar, background, colours are blue (#007bff), tea(#20c997), light (#f8f9fa).
+* Icon, NarBar, background, colours are blue (#007bff), black(#0a0a0a), light (#f8f9fa) and Pink(#e83e8c9)
 
 * Main text is black (#343a40).
 
