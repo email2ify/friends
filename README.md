@@ -316,61 +316,7 @@ User Story:
 
 ![Capture14](https://github.com/email2ify/Testin-Yoga/assets/110549305/611c81ce-d672-49c5-9284-e8b1ab151e4b)
 
-
-
-
-
-## Wireframes
-Balsamiq was used to create wireframes of the sites pages - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
-
-
-## Colour-Scheme
-
-The logo red (#dc3545)
-* The background colour for individual componets is black (#000000).
-
-* Icon, NarBar, background, colours are blue (#007bff), black(#0a0a0a), light (#f8f9fa) and Pink(#e83e8c9)
-
-* Main text is black (#343a40).
-
-* The main page background colour is an off shade of white (#f8f8f8).
-<hr>
 <br>
-
-#### Typography
-
-* The main font used on the website is "DM Sans".
-<hr>
-<br>
-
-#### Imagery
-
-* The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) and Pixel [click](https://www.pexels.com) 
-while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo was modify and compress using Favicon [click](https://favicon.io/favicon-converter)
-<hr>
-<br>
-
-## Technologies
-
-* Git
-    * Version control software
-* Github
-    * Repository used to store base code and docs
-* React
-    * Main framework used to create the user interface
-* Node
-    * Package manager used to install dependencies
-* Eslint
-    * Linting tool used in order to check best practice coding standards
-* Heroku
-    * Used for application hosting
-
-
-
-## Testing
-
-* Automat and Manuel testing folder on this link : [docs](https://github.com/email2ify/drf_friends/commit/81a9f6b74cf3f784a69dd2e1f65eccaddb76a743)
-
 
 ## Lighthouse
 
@@ -420,8 +366,105 @@ This was tested with incognito mode because the page loaded too slowly to finish
 ## Login-user
 ![Login-user](https://github.com/email2ify/Projecttest-API/assets/110549305/d69b82ac-0143-49f9-9b9b-ef44e3ce2525)
 
+
+
+## Wireframes
+Balsamiq was used to create wireframes of the sites pages - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
+
+
+## Colour-Scheme
+
+The logo red (#dc3545)
+* The background colour for individual componets is black (#000000).
+
+* Icon, NarBar, background, colours are blue (#007bff), black(#0a0a0a), light (#f8f9fa) and Pink(#e83e8c9)
+
+* Main text is black (#343a40).
+
+* The main page background colour is an off shade of white (#f8f8f8).
+
 <br>
 
+#### Typography
+
+* The main font used on the website is "DM Sans".
+
+<br>
+
+#### Imagery
+
+* The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) and Pixel [click](https://www.pexels.com) 
+while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo was modify and compress using Favicon [click](https://favicon.io/favicon-converter)
+
+<br>
+
+### CSS Validator
+When running the CSS code Validation service with no bugs - [CSS Validation ](https://jigsaw.w3.org/css-validator)
+![image](https://github.com/email2ify/friends/assets/110549305/f99ce556-fe61-44df-aab0-78dc3c4cfe7c)
+
+<br>
+
+### Eslint
+
+Eslint was installed and configured locally. No problems were detected in the Problems tab and the terminal when going through the JS files
+
+![image](https://github.com/email2ify/friends/assets/110549305/378e7f54-b149-4d22-9972-6106e177a53a)
+
+<br>
+
+### Bugs
+Solved
+Bugs were found and with the error codes given, I was able to search on google using the exact code error which helped alots on this project and also with help of student tutor
+
+<br>
+
+### Security Features
+
+* Unrelated input after the urls page will get a "404 Not Found page" with a "Return Home" button for the user to click to return to the main home page.
+
+* "Unable to log in with provided credentials" for incorrect inputs on sign in form
+* "The two password fields didn't match" for incorrect password on sign up form
+* "Unable to log in with provided credentials" for incorrect user name or password sign in form
+
+<br>
+
+## Technologies
+
+* Git
+    * Version control software
+* Github
+    * Repository used to store base code and docs
+* React
+    * Main framework used to create the user interface
+* Node
+    * Package manager used to install dependencies
+* Eslint
+    * Linting tool used in order to check best practice coding standards
+* Heroku
+    * Used for application hosting
+
+## Testing
+
+* Automat and Manuel testing folder on this link : [docs](https://github.com/email2ify/drf_friends/commit/81a9f6b74cf3f784a69dd2e1f65eccaddb76a743)
+
+<br>
+
+## Packages
+
+* "axios": "^0.21.4",
+* "bootstrap": "^4.6.0",
+* "jwt-decode": "^3.1.2",
+* "react": "^17.0.2",
+* "react-bootstrap": "^1.6.3",
+* "react-dom": "^17.0.2",
+* "react-infinite-scroll-component": "^6.1.0",
+* "react-responsive-carousel": "3.2.21",
+* "react-router-dom": "^5.3.0",
+* "react-scripts": "^4.0.3",
+* "web-vitals": "^1.1.2",
+* "eslint": "^7.32.0",
+
+<br>
 
 
 ## Heroku Deployment
