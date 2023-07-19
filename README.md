@@ -126,10 +126,19 @@
 <hr>
 <br>
 
+## Responsiveness
+
+* Responsiveness is a feature which can be seen through the Freinds wildlife. It gives users the ability to view the site on various display sizes while still having an enjoyable user experience.
+![resp](https://github.com/email2ify/Projecttest-API/assets/110549305/bf35467e-cafd-4204-a7b0-e22146ce020d)
+![rep2](https://github.com/email2ify/Projecttest-API/assets/110549305/3e47fee8-69e4-4e4b-bf6c-8f79724d455d)
+
+<br>
+
 **Logged in users:**
 When a user is logged in the following navigation items are shown:
 <br>
 ![Nav11](https://github.com/email2ify/Projecttest-API/assets/110549305/dc37feee-01d5-4c49-ba0a-74322c765100)
+
 
 
 * logo
@@ -264,8 +273,13 @@ Implementation:
 
 ![Capture17](https://github.com/email2ify/Projecttest-React/assets/110549305/0c822f33-5c94-49a7-b13f-c0b6b884595b)
 
-
 <br>
+
+
+**Search Bar**
+
+* Search Bar is a feature giving users the ability to search for a user profile on feed post or based on key word input.
+  ![seac](https://github.com/email2ify/Projecttest-API/assets/110549305/0fa6d027-8f0d-44be-851b-8d7f93e47bdb)
 
 **Search WildLife**
 
@@ -278,6 +292,15 @@ User Story:
 
 <hr>
 <br>
+
+
+**PageNotFound**
+
+* specific component, used to display a 404 page made up of an image file and return home button for when the page does not exist.
+
+
+![6342468](https://github.com/email2ify/Projecttest-API/assets/110549305/756f4514-2fc8-4180-a787-d373ed9d44ca)
+
 
 
 **Profile**
