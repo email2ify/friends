@@ -1,15 +1,75 @@
 # Friends WildLife
 
 * This is a platform for local nature reserves, where lovers of Africa Wildlife meet to air their views and opinoins about the wildlife conservation, and also to know more about African wild animals and countries where it can be found. User can also contribute in their own way by sharing photos and comment about their experince in the wild life of Africa.
+  
 
+[View Site](https://friendsa.herokuapp.com)
+
+This fictional site was created for Portfolio Project #5. 
+Diploma in Full Stack Software Development, at the [Code Institute](https://codeinstitute.net/)
 
 ![frontview1](https://github.com/email2ify/Projecttest-API/assets/110549305/df44359a-fcba-4bf8-b272-fb3955eef5aa)
+
+## Table of Contents
+
+* About
+* Project Goals
+* The Strategy Plan
+    * [Site Goal](<#users-goal>)
+    * Users Goal    
+    * Agile Planning
+* User Experience
+    * User Stories
+
+*  Epics Setup
+
+
+*  Responsiveness
+  
+* Features
+    * Homepage
+    * Species
+    * Countries
+    * Contact
+    * Feed
+    * Profile
+
+* Technical Design
+    * Agile Design
+    * CRUD Functionality
+    * Colours
+    * Fonts
+    * Wireframes
+
+* Technologies Used
+    * Coding Languages
+    * Frameworks 
+    * Libraries 
+    * Github Project Board
+* Testing
+
+* Deployment
+  * Heroku
+
+* Credits
+* Acknowledgements
+
+
+
+
+
+
 ## The Strategy Plane
 
-### Site Goals
+### Site Goal
 
 * Friends WildLife is aimed to lovers of the wildlife. The site encourages user to share their thought, know more about animals and the countries where they are found. 
-<hr>
+
+<br>
+
+### Users Goal
+* User can also contribute in their own way by sharing photos and comment about their experince in the wild life of Africa.
+<br>
 
 ### Agile Planning
 
