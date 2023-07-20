@@ -19,23 +19,28 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
      * [User Stories](<#user-stories>)   
   
 - [Responsiveness](<#responsiveness>)
- 
-  
-- [Features](<#features>)
-    * [Home](<#home>)
-    * Species
-    * Countries
-    * Contact
-    * Feed
-    * Profile
+
+- [Users](<#users>) 
+    * [Logged in users](<#logged-in-users>)
+    * [Logged out users](<#logged-out-users>)
+ - [Feactures](<#features>)
+    * [Home Page](<#home-page>)
+    * [Species Page](<#species-page>)
+    * [Countries Page](<#countries-page>)
+    * [Contact Page](<#contact-page>)
+    * [Feed Page](<#feed-page>)
+    * [Sign In](<#sign-in>)
+    * [Sign Up](<#sign-up>)
 
 * Technical Design
-    * Agile Design
+    * [Agile Planning](<#agile-planning>)
     * CRUD Functionality
     * Colours
     * Fonts
     * Wireframes
-
+ 
+- [Validation](<#validation>)
+     * 
 * Technologies Used
     * Coding Languages
     * Frameworks 
@@ -191,6 +196,9 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 <br>
 
+## Users
+
+<br>
 **Logged in users:**
 
  
@@ -425,7 +433,25 @@ User Story:
 
 <br>
 
-## Lighthouse
+## Validation
+
+ **CSS Validator**
+
+* When running the CSS code Validation service with no bugs - [CSS Validation ](https://jigsaw.w3.org/css-validator)
+
+![image](https://github.com/email2ify/friends/assets/110549305/f99ce556-fe61-44df-aab0-78dc3c4cfe7c)
+
+<br>
+
+### Eslint
+
+Eslint was installed and configured locally. No problems were detected in the Problems tab and the terminal when going through the JS files
+
+![image](https://github.com/email2ify/friends/assets/110549305/378e7f54-b149-4d22-9972-6106e177a53a)
+
+
+
+**Lighthouse**
 
 The application has been tested with Chrome Dev Tools Lighthouse Testing which tests the application for:
 
@@ -544,19 +570,6 @@ while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo 
 
 <br>
 
-### CSS Validator
-
-When running the CSS code Validation service with no bugs - [CSS Validation ](https://jigsaw.w3.org/css-validator)
-
-![image](https://github.com/email2ify/friends/assets/110549305/f99ce556-fe61-44df-aab0-78dc3c4cfe7c)
-
-<br>
-
-### Eslint
-
-Eslint was installed and configured locally. No problems were detected in the Problems tab and the terminal when going through the JS files
-
-![image](https://github.com/email2ify/friends/assets/110549305/378e7f54-b149-4d22-9972-6106e177a53a)
 
 <br>
 
