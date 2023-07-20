@@ -129,17 +129,21 @@
 ## Responsiveness
 
 * Responsiveness is a feature which can be seen through the Freinds wildlife. It gives users the ability to view the site on various display sizes while still having an enjoyable user experience.
+ 
 ![resp](https://github.com/email2ify/Projecttest-API/assets/110549305/bf35467e-cafd-4204-a7b0-e22146ce020d)
+
 ![rep2](https://github.com/email2ify/Projecttest-API/assets/110549305/3e47fee8-69e4-4e4b-bf6c-8f79724d455d)
 
 <br>
 
 **Logged in users:**
-When a user is logged in the following navigation items are shown:
+
+ 
 <br>
+
 ![Nav11](https://github.com/email2ify/Projecttest-API/assets/110549305/dc37feee-01d5-4c49-ba0a-74322c765100)
 
-
+When a user is logged in the following navigation items are shown:
 
 * logo
 * Add Post
@@ -149,11 +153,13 @@ When a user is logged in the following navigation items are shown:
 * Users Icon 
 
 
-
+<br>
 
 **Logged out users:**
-The site logo is displayed on the left side of the navigation at all times.
+
+* The site logo is displayed on the left side of the navigation at all times.
 <br>
+
 ![nav1](https://github.com/email2ify/Projecttest-API/assets/110549305/0f5107a4-c4be-45a2-9b08-681a73958bc9)
  
 When a user is logged out the following navigation items are shown:
@@ -171,48 +177,81 @@ When a user is logged out the following navigation items are shown:
 As a user I can view and read what the website is all about and a carousel of images of the wildlife species<br>
 ![front1](https://github.com/email2ify/Projecttest-API/assets/110549305/26d3a22a-859e-4232-9861-ebeb73311f0b)
 
+<br>
 
 ## Species Page
-* As a user I can view and scroll down to any species image of your choice and click on the animal to know more about the animal and countries most often located<br>
+
+* As a user I can view and scroll down to any species image of your choice and click on the animal to know more about the animal and countries most often located
+<br>
+
 ![species3](https://github.com/email2ify/Projecttest-API/assets/110549305/efbfc82a-4181-4e79-a4b2-a07259f13b9b)
 
+<br>
 
 ## Countries Page
-* As a user I can directly choose from listed countries on the page to know what animals are found there<br>
+
+* As a user I can directly choose from listed countries on the page to know what animals are found there
+  <br>
+  
 ![listcountries](https://github.com/email2ify/Projecttest-API/assets/110549305/1990fa0a-70ed-409a-b847-fba6df690eeb)
 
+<br>
 
 **Country:**
-* As a user I can see from the choosen country from the countries list on the page to know what animal or species that are likely to be found in that specific African country<br>
+
+* As a user I can see from the choosen country from the countries list on the page to know what animal or species that are likely to be found in that specific African country
+
+<br>
+
 ![found](https://github.com/email2ify/Projecttest-API/assets/110549305/8671a2a0-b5e7-475e-a5ca-4593d7723d81)
 
+<br>
 
 ## Contact Page
+
 * As a user I can contact the organization and submit my reason of complaint as regards 'general enquiery','login issues','report a post' or 'delete account'.
   
 ![contactus](https://github.com/email2ify/Projecttest-API/assets/110549305/defb8a4c-1e08-4602-83fc-2b0b831cef4a)
 
+<br>
+
 ## Feed Page
+
 * As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content<br>
+
 ![feed3](https://github.com/email2ify/Projecttest-API/assets/110549305/05c4a386-a043-4dff-8e1d-aad319be3bc5)
 
+<br>
+
 ## Sign In
+
 * As a user I can sign in to follow up with recent posts on the feed and activities on the platform<br>
+
 ![signi](https://github.com/email2ify/Projecttest-API/assets/110549305/e3443ae7-dd13-4eca-9b36-9e60f97d83ed)
 
+<br>
 
 ## Sign Up
+
 * As a user I can register an account with the organization in order to comment, post and follow up with recent posts on the feed and activities on the platform<br>
+
 ![signup](https://github.com/email2ify/Projecttest-API/assets/110549305/bf785a4d-5d36-4db6-a477-7beea7214fa4)
 
+<br>
 
 ## Sign Out
+
 * As a user I can sign out from my account when done with all recent posts on the feed and activities on the platform<br>
+
 ![signout](https://github.com/email2ify/Projecttest-API/assets/110549305/c2ec0ee9-ccad-4c39-98de-33c3cc1e4ccb)
 
+<br>
+
 **None Users**
+
 * Restricted access has been implemented on the Feed posts for users who are not signed in, they will not be able to create a post, like or comment on post
- 
+
+<br>
 
 ## Get Started
 
@@ -222,11 +261,10 @@ User Story:
 
 ![Capture10](https://github.com/email2ify/Testin-Yoga/assets/110549305/d6c8f92e-9efe-4951-84a4-b836763d73e2)
 
-
-
-
+<br>
 
 ## Feed for Users
+
 * As a logged in user I can like a post so that I can show my likes and commemt that interest me
 * Logged in users have full access to post, comment, like or unlike. This will help ensure that unregistered users are not allow on the website
 
@@ -235,6 +273,7 @@ User Story:
 User Story:
 
 * As a post owner I can edit a post title and description so that I can make corrections or update the post, moreover, Only the user who created the post will be able to edit or delete post. This will ensure that users have full control of their own posts and unauthorized users are unaccepted.
+
 <br>
 
 ![edit1](https://github.com/email2ify/Projecttest-API/assets/110549305/fd5f5aed-7610-400f-9fdd-ef6f95d5362d)
@@ -281,6 +320,8 @@ Implementation:
 * Search Bar is a feature giving users the ability to search for a user profile on feed post or based on key word input.
   ![seac](https://github.com/email2ify/Projecttest-API/assets/110549305/0fa6d027-8f0d-44be-851b-8d7f93e47bdb)
 
+<br>
+
 **Search WildLife**
 
 User Story:
@@ -290,7 +331,7 @@ User Story:
 
 ![Capture13](https://github.com/email2ify/Testin-Yoga/assets/110549305/eaca9583-734d-4ef8-ad73-eff14d65bbd5)
 
-<hr>
+
 <br>
 
 
@@ -301,14 +342,25 @@ User Story:
 
 ![6342468](https://github.com/email2ify/Projecttest-API/assets/110549305/756f4514-2fc8-4180-a787-d373ed9d44ca)
 
+<br>
 
+**DropDown Menu Burgar**
+
+* As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burgar menu option displayed on the device 
+
+![image](https://github.com/email2ify/friends/assets/110549305/6283b063-aef5-4ef3-a7a2-ebb4466297fc)
+
+<br>
 
 **Profile**
 
 User Story:
 
 * As a user I can view own profiles post , so as to have records of posts, comment and likes
-  ![profipost](https://github.com/email2ify/Projecttest-API/assets/110549305/d6cb92ff-7b0b-4150-8bce-b819d92057f7)
+
+![profipost](https://github.com/email2ify/Projecttest-API/assets/110549305/d6cb92ff-7b0b-4150-8bce-b819d92057f7)
+
+<br>
 
 **Footer**
 
@@ -332,16 +384,19 @@ smaller size and compressing before uploading.
 <br>
 
 ## Home
+
 ![Home](https://github.com/email2ify/Projecttest-API/assets/110549305/76f3070c-9ab9-4d7f-affc-652ecd48efb4)
 
 <br>
 
 ## Species
+
 ![Species](https://github.com/email2ify/Projecttest-API/assets/110549305/96a640e6-fb8c-4e8e-9fae-15c7e68be3e0)
 
 <br>
 
 ## Countries
+
 This was tested with incognito mode because the page loaded too slowly to finish within the time limit on a normal chrome extensions.
 
 ![Country](https://github.com/email2ify/Projecttest-API/assets/110549305/7ca1be96-fc84-4f71-ab3c-e0635658abbd)
@@ -349,11 +404,13 @@ This was tested with incognito mode because the page loaded too slowly to finish
 <br>
 
 ## Contact
+
 ![contact](https://github.com/email2ify/Projecttest-API/assets/110549305/8513a04c-b205-40ec-839d-5c39e1368d11)
 
 <br>
 
 ## Signin
+
 ![Signin](https://github.com/email2ify/Projecttest-API/assets/110549305/2639e2b4-33b1-4a88-bb18-130c95c21108)
 
 <br>
@@ -364,13 +421,16 @@ This was tested with incognito mode because the page loaded too slowly to finish
 <br>
 
 ## Login-user
+
 ![Login-user](https://github.com/email2ify/Projecttest-API/assets/110549305/d69b82ac-0143-49f9-9b9b-ef44e3ce2525)
 
-
+<br>
 
 ## Wireframes
+
 Balsamiq was used to create wireframes of the sites pages - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
 
+<br>
 
 ## Colour-Scheme
 
@@ -394,12 +454,15 @@ The logo red (#dc3545)
 #### Imagery
 
 * The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) and Pixel [click](https://www.pexels.com) 
+
 while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo was modify and compress using Favicon [click](https://favicon.io/favicon-converter)
 
 <br>
 
 ### CSS Validator
+
 When running the CSS code Validation service with no bugs - [CSS Validation ](https://jigsaw.w3.org/css-validator)
+
 ![image](https://github.com/email2ify/friends/assets/110549305/f99ce556-fe61-44df-aab0-78dc3c4cfe7c)
 
 <br>
@@ -413,6 +476,7 @@ Eslint was installed and configured locally. No problems were detected in the Pr
 <br>
 
 ### Bugs
+
 Solved
 Bugs were found and with the error codes given, I was able to search on google using the exact code error which helped alots on this project and also with help of student tutor
 
@@ -442,6 +506,7 @@ Bugs were found and with the error codes given, I was able to search on google u
     * Linting tool used in order to check best practice coding standards
 * Heroku
     * Used for application hosting
+<br>
 
 ## Testing
 
@@ -501,7 +566,9 @@ Navigate to the GitHub Repository you want to clone to use locally:
 The project will now have been cloned on your local machine for use.
 <br>
 <br>
+
 **Install Dependencies:**
+
 <br>
 * nvm install 16
 * nvm use 16
@@ -510,6 +577,7 @@ The project will now have been cloned on your local machine for use.
 Run Application:
 
 * npm start
+<br>
 
 ## Version Control
 
@@ -541,9 +609,11 @@ Run Application:
 ## Credits
 
  Implementation: 
-* Home page image carousel - [React responsice carousel](https://www.npmjs.com/package/react-responsive-carousel?fbclid=IwAR1lRdK_fVD_9qm55QXE0KN7H4yUqw_cLnSUv5_zk9QRIwriizKYC5KZWj8) 
+* Home page image carousel - [React responsive carousel](https://www.npmjs.com/package/react-responsive-carousel?fbclid=IwAR1lRdK_fVD_9qm55QXE0KN7H4yUqw_cLnSUv5_zk9QRIwriizKYC5KZWj8) 
  
 * Code Institute- [click](https://learn.codeinstitute.net)
+
+<br>
 
 ## Acknowledgements
 
