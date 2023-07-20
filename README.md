@@ -309,8 +309,8 @@ Implementation:
 
 * The username and Avatar of the user that created the comment will displayed on each comment
 
+![commm](https://github.com/email2ify/friends/assets/110549305/b97ce1f5-e6ca-46c4-b77b-76e8ef5ce894)
 
-![Capture17](https://github.com/email2ify/Projecttest-React/assets/110549305/0c822f33-5c94-49a7-b13f-c0b6b884595b)
 
 <br>
 
@@ -378,8 +378,7 @@ The application has been tested with Chrome Dev Tools Lighthouse Testing which t
 * Accessibility
 * Best Practices
 * SEO
-One or two of the pages performanced a slightly low score because of the amount of images. This could be improved by resizing and reducing the mbs of the picture to even a 
-smaller size and compressing before uploading.
+One or two of the pages performanced a slightly low score because of the amount of images. This could be improved by resizing and reducing the mbs of the picture to even a smaller size and compressing before uploading.
 
 <br>
 
@@ -429,6 +428,37 @@ This was tested with incognito mode because the page loaded too slowly to finish
 ## Wireframes
 
 Balsamiq was used to create wireframes of the sites pages - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
+
+<br>
+
+## Reusable React Components
+
+**The Navbar in Reusable React Components** 
+
+On the NavBar of my webpage, I have re-usable components on Home,Species,Contact form,Feed,Sign Out and SignIn model, inorder to improve the user experience.
+They are all Reusable React Components on the Navbar to provide a consistent user experience, efficient navigation, and code maintainability. It also contributes to a more cohesive and user-friendly application design.
+
+* Navigation for example: The Navbar often contains navigation links that allow users to move between different sections or pages within the application. By placing it on all components, users have easy access to navigate anywhere in the webpage without having to go back to the homepage or use other navigation methods.
+
+* Responsive Design for example: When designing a responsive web application, the Navbar is usually adapted to different screen sizes and devices. Reusing the same Navbar ensures that it scales appropriately and maintains a consistent user experience across various devices.
+
+* Reusable Code: In this aspect,using a reusable Navbar component helps in maintainability. Instead of duplicating the Navbar code on each page or component, you define it once and reuse it wherever needed. This reduces code duplication and makes it easier to manage and update the Navbar's functionality or appearance.
+
+**Delete Comment from a post on reusable React components**
+
+* It provides a user-friendly way to show feedback, success messages, error alerts, or any other relevant information after performing the operations and it
+ improves the user experience to validation checks and confirmation with a pop-up message when ever the delete button  or edit a post comment from the three Dots, Edit delete dropdown menu when triggerred, which double checks whether the user wants to continue with their option or not, after having clicked the delete button on the comment post or edit, but with a "customise  modal message", on clicking the 'Confirm Deletion' button the corresponding handleDelete function is called, and the data is removed completely. 
+
+**SignIn and signOut reusable React components**
+
+* Quick Access: In this case"customise  modal message", it provides Sign In message for users to enables users to sign in quickly without losing their context or navigating away from the current page. This is especially beneficial when users need to authenticate to access personalized content or perform specific actions.
+
+* Logout Feedback: In this case"customise  modal message", it is a Sign Out modal that can provide a personalized message, thanking users for their session or informing them of any account-related actions taken during the session, it can also avoid accidental logouts in critical applications or areas where users are performing important tasks, a Sign Out modal can avoid accidental logouts, which might be disruptive to the user's experience or work flow.
+
+**Form React components**
+
+* Feedback and Confirmation: After form submission, a modal message can display feedback or confirmation messages, letting users know that their form was successfully submitted or if any further action is required or a get back message to look into the inquiring as soon as possible. It helps the User to biuld a User-Friendly Interaction and it provide smooth and user-friendly interactions, form validations, making the process of filling out the enquiry form more enjoyable and engaging for users.
+
 
 <br>
 
