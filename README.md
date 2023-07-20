@@ -25,6 +25,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
     * [Logged out Users](<#logged-out-users>)
       
 - [Feactures](<#features>)
+    * [Home Page](<#home-page>) 
     * [Home Page](<#home-page>)
     * [Species Page](<#species-page>)
     * [Countries Page](<#countries-page>)
@@ -34,7 +35,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
     * [Sign Up](<#sign-up>)
 
 - [Validation](<#validation>)
-     *  [CSS Validator](<#CSS-Validator>)
+     *  [CSS Validator](<#css-validator>)
      *  [Eslint](<#eslint>)
      * [Chrome Dev Tools Lighthouse](<#chrome-dev-tools-lighthouse>)
 
@@ -205,7 +206,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 <br>
 
-**Logged in users**
+## Logged in users
 
  
 <br>
@@ -224,7 +225,7 @@ When a user is logged in the following navigation items are shown:
 
 <br>
 
-**Logged out users**
+## Logged out users
 
 
 <br>
@@ -242,14 +243,14 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ## Features
-**Home Page**
+## Home Page
 * As a user I can view and read what the website is all about and a carousel of images of the wildlife species
   <br>
 ![front1](https://github.com/email2ify/Projecttest-API/assets/110549305/26d3a22a-859e-4232-9861-ebeb73311f0b)
 
 <br>
 
-**Species Page**
+## Species Page
 
 * As a user I can view and scroll down to any species image of your choice and click on the animal to know more about the animal and countries most often located
 <br>
@@ -258,7 +259,7 @@ When a user is logged out the following navigation items are shown:
 
 <br>
 
-**Countries Page**
+## Countries Page
 
 * As a user I can directly choose from listed countries on the page to know what animals are found there
   <br>
@@ -267,7 +268,7 @@ When a user is logged out the following navigation items are shown:
 
 <br>
 
-**Country:**
+## Country
 
 * As a user I can see from the choosen country from the countries list on the page to know what animal or species that are likely to be found in that specific African country
 
@@ -277,7 +278,7 @@ When a user is logged out the following navigation items are shown:
 
 <br>
 
-**Contact Page**
+## Contact Page
 
 * As a user I can contact the organization and submit my reason of complaint as regards 'general enquiery','login issues','report a post' or 'delete account'.
   
@@ -285,7 +286,7 @@ When a user is logged out the following navigation items are shown:
 
 <br>
 
-**Feed Page**
+## Feed Page
 
 * As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content<br>
 
@@ -293,7 +294,7 @@ When a user is logged out the following navigation items are shown:
 
 <br>
 
-**Sign In**
+## Sign In
 
 * As a user I can sign in to follow up with recent posts on the feed and activities on the platform<br>
 
@@ -301,7 +302,7 @@ When a user is logged out the following navigation items are shown:
 
 <br>
 
-**Sign Up**
+## Sign Up
 
 * As a user I can register an account with the organization in order to comment, post and follow up with recent posts on the feed and activities on the platform<br>
 
@@ -309,7 +310,7 @@ When a user is logged out the following navigation items are shown:
 
 <br>
 
-**Sign Out**
+## Sign Out
 
 * As a user I can sign out from my account when done with all recent posts on the feed and activities on the platform<br>
 
@@ -442,7 +443,7 @@ User Story:
 
 ## Validation
 
- **CSS Validator**
+  ## CSS Validator
 
 * When running the CSS code Validation service with no bugs - [CSS Validation ](https://jigsaw.w3.org/css-validator)
 
@@ -552,7 +553,7 @@ They are all Reusable React Components on the Navbar to provide a consistent use
 
 ## Technical Design
 
-**Colour-Scheme**
+## Colour-Scheme
 
 The logo red (#dc3545)
 * The background colour for individual componets is black (#000000).
@@ -641,7 +642,7 @@ Bugs were found and with the error codes given, I was able to search on google u
 
 ## Deployment
 
-**Heroku**
+## Heroku
 
 The site was deployed to Heroku. The steps to deploy are as follows:
 
