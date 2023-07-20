@@ -11,23 +11,18 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 ![frontview1](https://github.com/email2ify/Projecttest-API/assets/110549305/df44359a-fcba-4bf8-b272-fb3955eef5aa)
 
 ## Table of Contents
-
-* About
-* Project Goals
-* The Strategy Plan
-    * [Site Goal](<#users-goal>)
-    * Users Goal    
-    * Agile Planning
-* User Experience
-    * User Stories
-
-*  Epics Setup
-
-
-*  Responsiveness
+- [Friends WildLife](<#friends-wildlife>)
+    * [The Strategy Plane](<#the-strategy-plane>)
+    * [Agile Planning](<#agile-planning>) 
+   
+- [Epics](<#epics>)
+     * [User Stories](<#user-stories>)   
   
-* Features
-    * Homepage
+- [Responsiveness](<#responsiveness>)
+ 
+  
+- [Features](<#features>)
+    * [Home](<#home>)
     * Species
     * Countries
     * Contact
