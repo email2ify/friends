@@ -549,9 +549,27 @@ They are all Reusable React Components on the Navbar to provide a consistent use
 
 <br>
 
-## Wireframes
+### Wireframes
 
-Balsamiq was used to create wireframes of the sites pages - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
+Balsamiq was used to create wireframes of the sites pages- - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
+
+<details>
+<summary>Wireframes</summary>
+<img src="docs/wireframes/NewWireframe1.png">
+<img src="docs/wireframes/NewWireframe2.png">
+<img src="docs/wireframes/NewWireframe3.png">
+<img src="docs/wireframes/NewWireframe4.png">
+<img src="docs/wireframes/NewWireframe5.png">
+<img src="docs/wireframes/NewWireframe6.png">
+<img src="docs/wireframes/NewWireframe7.png">
+<img src="docs/wireframes/NewWireframe8.png">
+
+
+</details>
+
+##### Back to [top](#table-of-contents)
+
+
 
 
 <br>
