@@ -40,6 +40,8 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
      *  [Eslint](<#eslint>)
      * [Chrome Dev Tools Lighthouse](<#chrome-dev-tools-lighthouse>)
 
+- [Reusable React Components](<#reusable-react-components>)
+
 - [Technical Design](<#technical-design>)      
     * [Agile Planning](<#agile-planning>)
     * [Colour-Scheme](<#colour-scheme>)
@@ -515,11 +517,7 @@ This was tested with incognito mode because the page loaded too slowly to finish
 
 <br>
 
-## Wireframes
 
-Balsamiq was used to create wireframes of the sites pages - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
-
-<br>
 
 ## Reusable React Components
 
@@ -548,6 +546,12 @@ They are all Reusable React Components on the Navbar to provide a consistent use
 **Form React components**
 
 * Feedback and Confirmation: After form submission, a modal message can display feedback or confirmation messages, letting users know that their form was successfully submitted or if any further action is required or a get back message to look into the inquiring as soon as possible. It helps the User to biuld a User-Friendly Interaction and it provide smooth and user-friendly interactions, form validations, making the process of filling out the enquiry form more enjoyable and engaging for users.
+
+<br>
+
+## Wireframes
+
+Balsamiq was used to create wireframes of the sites pages - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
 
 
 <br>
