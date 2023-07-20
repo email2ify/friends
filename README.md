@@ -21,9 +21,10 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 - [Responsiveness](<#responsiveness>)
 
 - [Users](<#users>) 
-    * [Logged in users](<#logged-in-users>)
-    * [Logged out users](<#logged-out-users>)
- - [Feactures](<#features>)
+    * [Logged in Users](<#logged-in-users>)
+    * [Logged out Users](<#logged-out-users>)
+      
+- [Feactures](<#features>)
     * [Home Page](<#home-page>)
     * [Species Page](<#species-page>)
     * [Countries Page](<#countries-page>)
@@ -32,27 +33,29 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
     * [Sign In](<#sign-in>)
     * [Sign Up](<#sign-up>)
 
-* Technical Design
-    * [Agile Planning](<#agile-planning>)
-    * CRUD Functionality
-    * Colours
-    * Fonts
-    * Wireframes
- 
 - [Validation](<#validation>)
-     * 
-* Technologies Used
-    * Coding Languages
-    * Frameworks 
-    * Libraries 
-    * Github Project Board
-* Testing
+     *  [CSS Validator](<#CSS-Validator>)
+     *  [Eslint](<#eslint>)
+     * [Chrome Dev Tools Lighthouse](<#chrome-dev-tools-lighthouse>)
 
-* Deployment
-  * Heroku
-
-* Credits
-* Acknowledgements
+- [Technical Design](<#technical-design>)      
+    * [Agile Planning](<#agile-planning>)
+    * [Colour-Scheme](<#colour-scheme>)
+    * [Typography](<#typography>)
+    * [Imagery](<#imagery>)
+    * [Wireframes](<#wireframes>)
+ 
+- [Bugs](<#bugs>)
+- [Security Features](<#security-features>)
+- [Technologies](<#technologies>)
+- [Testing](<#testing>)
+- [Packages](<#packages>) 
+ 
+- [Deployment](<#deployment>) 
+   * [Heroku](<#heroku>)
+   * [Locally](<#locally>)
+- [Credits](<#credits>) 
+- [Acknowledgements](<#acknowledgements>)
 
 
 
@@ -196,10 +199,13 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 <br>
 
+***The site logo is displayed on the left side of the navigation at all times**
+<br>
 ## Users
 
 <br>
-**Logged in users:**
+
+**Logged in users**
 
  
 <br>
@@ -218,9 +224,9 @@ When a user is logged in the following navigation items are shown:
 
 <br>
 
-**Logged out users:**
+**Logged out users**
 
-* The site logo is displayed on the left side of the navigation at all times.
+
 <br>
 
 ![nav1](https://github.com/email2ify/Projecttest-API/assets/110549305/0f5107a4-c4be-45a2-9b08-681a73958bc9)
@@ -235,14 +241,15 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
-## Home Page
-
-As a user I can view and read what the website is all about and a carousel of images of the wildlife species<br>
+## Features
+**Home Page**
+* As a user I can view and read what the website is all about and a carousel of images of the wildlife species
+  <br>
 ![front1](https://github.com/email2ify/Projecttest-API/assets/110549305/26d3a22a-859e-4232-9861-ebeb73311f0b)
 
 <br>
 
-## Species Page
+**Species Page**
 
 * As a user I can view and scroll down to any species image of your choice and click on the animal to know more about the animal and countries most often located
 <br>
@@ -251,7 +258,7 @@ As a user I can view and read what the website is all about and a carousel of im
 
 <br>
 
-## Countries Page
+**Countries Page**
 
 * As a user I can directly choose from listed countries on the page to know what animals are found there
   <br>
@@ -270,7 +277,7 @@ As a user I can view and read what the website is all about and a carousel of im
 
 <br>
 
-## Contact Page
+**Contact Page**
 
 * As a user I can contact the organization and submit my reason of complaint as regards 'general enquiery','login issues','report a post' or 'delete account'.
   
@@ -278,7 +285,7 @@ As a user I can view and read what the website is all about and a carousel of im
 
 <br>
 
-## Feed Page
+**Feed Page**
 
 * As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content<br>
 
@@ -286,7 +293,7 @@ As a user I can view and read what the website is all about and a carousel of im
 
 <br>
 
-## Sign In
+**Sign In**
 
 * As a user I can sign in to follow up with recent posts on the feed and activities on the platform<br>
 
@@ -294,7 +301,7 @@ As a user I can view and read what the website is all about and a carousel of im
 
 <br>
 
-## Sign Up
+**Sign Up**
 
 * As a user I can register an account with the organization in order to comment, post and follow up with recent posts on the feed and activities on the platform<br>
 
@@ -302,7 +309,7 @@ As a user I can view and read what the website is all about and a carousel of im
 
 <br>
 
-## Sign Out
+**Sign Out**
 
 * As a user I can sign out from my account when done with all recent posts on the feed and activities on the platform<br>
 
@@ -326,7 +333,7 @@ User Story:
 
 <br>
 
-## Feed for Users
+**Feed for Users**
 
 * As a logged in user I can like a post so that I can show my likes and commemt that interest me
 * Logged in users have full access to post, comment, like or unlike. This will help ensure that unregistered users are not allow on the website
@@ -450,8 +457,8 @@ Eslint was installed and configured locally. No problems were detected in the Pr
 ![image](https://github.com/email2ify/friends/assets/110549305/378e7f54-b149-4d22-9972-6106e177a53a)
 
 
+## Chrome Dev Tools Lighthouse
 
-**Lighthouse**
 
 The application has been tested with Chrome Dev Tools Lighthouse Testing which tests the application for:
 
@@ -543,7 +550,9 @@ They are all Reusable React Components on the Navbar to provide a consistent use
 
 <br>
 
-## Colour-Scheme
+## Technical Design
+
+**Colour-Scheme**
 
 The logo red (#dc3545)
 * The background colour for individual componets is black (#000000).
@@ -630,7 +639,9 @@ Bugs were found and with the error codes given, I was able to search on google u
 <br>
 
 
-## Heroku Deployment
+## Deployment
+
+**Heroku**
 
 The site was deployed to Heroku. The steps to deploy are as follows:
 
