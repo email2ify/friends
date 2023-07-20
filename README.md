@@ -5,7 +5,7 @@
 
 [View Site](https://friendsa.herokuapp.com)
 
-This fictional site was created for Portfolio Project #5. 
+This site was created for Portfolio Project #5. 
 Diploma in Full Stack Software Development, at the [Code Institute](https://codeinstitute.net/)
 
 ![frontview1](https://github.com/email2ify/Projecttest-API/assets/110549305/df44359a-fcba-4bf8-b272-fb3955eef5aa)
