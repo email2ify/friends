@@ -51,7 +51,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
  
 - [Bugs](<#bugs>)
 - [Security Features](<#security-features>)
-- [Technologies](<#technologies>)
+- [Basic](<#basic>)
 
 - [Technologies Used](<#technologies-used>)
 
@@ -631,9 +631,12 @@ Bugs were found and with the error codes given, I was able to search on google u
 * "The two password fields didn't match" for incorrect password on sign up form
 * "Unable to log in with provided credentials" for incorrect user name or password sign in form
 
+
 <br>
 
-## Technologies
+## Basic
+
+**Technologies**
 
 * Git
     * Version control software
@@ -647,9 +650,8 @@ Bugs were found and with the error codes given, I was able to search on google u
     * Linting tool used in order to check best practice coding standards
 * Heroku
     * Used for application hosting
+
 <br>
-
-
 
 ## Technologies Used
 
@@ -680,7 +682,8 @@ Bugs were found and with the error codes given, I was able to search on google u
 - [Git](https://git-scm.com/) - I used this for version control and to push the code to GitHub
 - [GitHub](https://github.com/) - I used this as a remote repository to store project code
 
-
+      
+<br>
 
 ## Validation:
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)  I Used this to validate performance, accessibility, best practice and SEO of the application
