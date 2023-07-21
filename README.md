@@ -563,14 +563,14 @@ Balsamiq was used to create wireframes of the sites pages- - [docs](https://gith
 
 <details>
 <summary>Wireframes</summary>
-<img src="docs/wireframes/NewWireframe1.png">
-<img src="docs/wireframes/NewWireframe2.png">
-<img src="docs/wireframes/NewWireframe3.png">
-<img src="docs/wireframes/NewWireframe4.png">
-<img src="docs/wireframes/NewWireframe5.png">
-<img src="docs/wireframes/NewWireframe6.png">
-<img src="docs/wireframes/NewWireframe7.png">
-<img src="docs/wireframes/NewWireframe8.png">
+<img src="docs/wireframes/Sign-Up.png">
+<img src="docs/wireframes/Feeds.png">
+<img src="docs/wireframes/Sign-In.png">
+<img src="docs/wireframes/About.png">
+<img src="docs/wireframes/Countries.png">
+<img src="docs/wireframes/Home-page.png">
+<img src="docs/wireframes/Contact-Us.png">
+<img src="docs/wireframes/Species.png">
 
 
 </details>
