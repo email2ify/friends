@@ -753,15 +753,17 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 
 Navigate to the GitHub Repository you want to clone to use locally:
 
-* Click on the code drop down button
-* Click on HTTPS
-* Copy the repository link to the clipboard
-* Open your IDE of choice (git must be installed for the next steps)
-* Type git clone copied-git-url into the IDE terminal
-  <br>
+1. Navigate to www.github.com and log in.
+2. Once logged in navigate to the desired [GitHub Repository](https://github.com/email2ify/moments.git) that you would like to clone.
+3. Locate the code button at the top, above the repository file structure.
+4. Select the preferred clone method from HTTPS. SSH or GitHub CLI then click the copy button to copy the URL to your clipboard.
+5. Open Git Bash
+6. Update the current working direction to the location in which you would like the clone directory to be created(Folder).
+7. Type `git clone` and paste the previously copied URL 
+8. `$ clone https://github.com/email2ify/moments.git`
+9. Press enter and the local clone will be created at the desired local location
 
-The project will now have been cloned on your local machine for use.
-<br>
+##### Back to [top](#table-of-contents)
 <br>
 
 **Install Dependencies:**
