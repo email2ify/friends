@@ -641,7 +641,11 @@ Bugs were found and with the error codes given, I was able to search on google u
 
 ## Testing
 
-* Automat and Manuel testing folder on this link : [docs](https://github.com/email2ify/drf_friends/commit/81a9f6b74cf3f784a69dd2e1f65eccaddb76a743)
+**Automated and Manuel testing folder on this link** : 
+
+  * [Manuel testing Folder](https://github.com/email2ify/drf_friends/tree/main/docs/testing/manual)
+
+  * [Automated Testing Folder](https://github.com/email2ify/drf_friends/tree/main/docs/testing/automated)
 
 <br>
 
