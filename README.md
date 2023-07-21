@@ -614,7 +614,7 @@ while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo 
 ### Bugs
 
 Solved
-Bugs were found and with the error codes given, I was able to search on google using the exact code error which helped alots on this project and also with help of student tutor
+Bugs were found and with the error codes given, I was able to search on google and already answers from slack using the exact code error which helped alots on this project and also with help of student tutor
 
 <br>
 
