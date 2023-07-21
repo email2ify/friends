@@ -57,7 +57,9 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 - [Packages](<#packages>) 
 - [Deployment](<#deployment>) 
    * [Heroku](<#heroku>)
-   * [Locally](<#locally>)
+   * [React Frontend to the API-Backend](<#api-backend>)
+   * [Forking the GitHub Repository](<#forking>)
+- [Locally](<#locally>)
 - [Credits](<#credits>) 
 - [Acknowledgements](<#acknowledgements>)
 
@@ -133,6 +135,8 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 * This aspect is the front end application in regards to feed. This is to allow users to read comment, view images and like a post,interacting with the backend API.
 
+##### Back to [top](#table-of-contents)
+
 <br>
 
 ## User Stories
@@ -198,16 +202,18 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 ![rep2](https://github.com/email2ify/Projecttest-API/assets/110549305/3e47fee8-69e4-4e4b-bf6c-8f79724d455d)
 
-
+<hr>
 <br>
 
-***The site logo is displayed on the left side of the navigation at all times**
-<br>
-## Users
+![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
 
+* The site logo is displayed on the left side of the navigation bar at all times
+  
 <br>
 
-## Logged in users
+## Users: 
+
+ **Logged in users**
 
  
 <br>
@@ -440,6 +446,8 @@ User Story:
 
 ![Capture14](https://github.com/email2ify/Testin-Yoga/assets/110549305/611c81ce-d672-49c5-9284-e8b1ab151e4b)
 
+##### Back to [top](#table-of-contents)
+
 <br>
 
 ## Validation
@@ -513,6 +521,7 @@ This was tested with incognito mode because the page loaded too slowly to finish
 
 ![Login-user](https://github.com/email2ify/Projecttest-API/assets/110549305/d69b82ac-0143-49f9-9b9b-ef44e3ce2525)
 
+##### Back to [top](<#table-of-contents>)
 <br>
 
 
@@ -546,6 +555,7 @@ They are all Reusable React Components on the Navbar to provide a consistent use
 * Feedback and Confirmation: After form submission, a modal message can display feedback or confirmation messages, letting users know that their form was successfully submitted or if any further action is required or a get back message to look into the inquiring as soon as possible. It helps the User to biuld a User-Friendly Interaction and it provide smooth and user-friendly interactions, form validations, making the process of filling out the enquiry form more enjoyable and engaging for users.
 
 <br>
+
 
 ### Wireframes
 
@@ -598,7 +608,7 @@ while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo 
 
 <br>
 
-
+##### Back to [top](<#table-of-contents>)
 <br>
 
 ### Bugs
@@ -749,21 +759,50 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 
 <br>
 
+## API-Backend
+
+**Connecting the react workspace to your API, in order to send data to the API**
+
+* In the Heroku dashboard, go into the API application settings
+* In 'Settings' add a new Config Var called 'CLIENT_ORIGIN' and set that to the URL for your deployed React application, like this https://moments.herokuapp.com.
+* Then add another Config Var called 'CLIENT_ORIGIN_DEV' and enter the URL of your Gitpod preview link, without the slash at the end. Gitpod occasionally changes this URL 
+ as when working is on progress with your project.
+* On the frontend Gitpod workspace, install the Axios library using the command 'npm install axios'.
+* Create a folder called 'API' and inside it create a file called 'axiosDefaults'.
+* Import axios at the top of the file
+* Define your baseURL to a unique URL of your deployed API project.
+* Set the content-type header to multi-part/form-data as the API will need to do with images as well as text in it's requests.
+* In order to avoid any CORS issues, set withCredentials to True.
+* Import this file into App.js to be used on all pages
+
+<br>
+
+## Forking
+
+Make a copy of the original repository on the GitHub account. The copy can then be viewed and it is also possible to make changes in the copy without affecting the original repository. To fork the repository, follow these steps:
+
+* Navigate to www.github.com and log in.
+* Once logged in navigate to the desired [GitHub Repository](https://github.com/email2ify/moments.git) that you would like to fork.
+* At the top right corner of the page click on the fork icon.
+* There should now be a copy of your original repository in the GitHub account.
+
+<br>
+
 ## Locally
 
 Navigate to the GitHub Repository you want to clone to use locally:
 
-1. Navigate to www.github.com and log in.
-2. Once logged in navigate to the desired [GitHub Repository](https://github.com/email2ify/moments.git) that you would like to clone.
-3. Locate the code button at the top, above the repository file structure.
-4. Select the preferred clone method from HTTPS. SSH or GitHub CLI then click the copy button to copy the URL to your clipboard.
-5. Open Git Bash
-6. Update the current working direction to the location in which you would like the clone directory to be created(Folder).
-7. Type `git clone` and paste the previously copied URL 
-8. `$ clone https://github.com/email2ify/moments.git`
-9. Press enter and the local clone will be created at the desired local location
+* Navigate to www.github.com and log in.
+* Once logged in navigate to the desired [GitHub Repository](https://github.com/email2ify/moments.git) that you would like to clone.
+* Locate the code button at the top, above the repository file structure.
+* Select the preferred clone method from HTTPS. SSH or GitHub CLI then click the copy button to copy the URL to your clipboard.
+* Open Git Bash
+* Update the current working direction to the location in which you would like the clone directory to be created(Folder).
+* Type `git clone` and paste the previously copied URL 
+* `$ clone https://github.com/email2ify/moments.git`
+* Press enter and the local clone will be created at the desired local location
 
-##### Back to [top](#table-of-contents)
+
 <br>
 
 **Install Dependencies:**
