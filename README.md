@@ -51,27 +51,15 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
  
 - [Bugs](<#bugs>)
 - [Security Features](<#security-features>)
-- [Basic](<#basic>)
-
-- [Technologies Used](<#technologies-used>)
-
+- [Basic Technologies](<#basic-technologies>)
 - [Frameworks and Tools](<#frameworks-and-tools>)
-
-
-
-
-
 - [Testing](<#testing>)
 - [Packages](<#packages>) 
- 
 - [Deployment](<#deployment>) 
    * [Heroku](<#heroku>)
    * [Locally](<#locally>)
 - [Credits](<#credits>) 
 - [Acknowledgements](<#acknowledgements>)
-
-
-
 
 
 
@@ -579,9 +567,6 @@ Balsamiq was used to create wireframes of the sites pages- - [docs](https://gith
 
 ##### Back to [top](#table-of-contents)
 
-
-
-
 <br>
 
 ## Technical Design
@@ -634,7 +619,7 @@ Bugs were found and with the error codes given, I was able to search on google u
 
 <br>
 
-## Basic
+## Basic Technologies
 
 **Technologies**
 
@@ -653,11 +638,7 @@ Bugs were found and with the error codes given, I was able to search on google u
 
 <br>
 
-## Technologies Used
-
 **Coding Languages**
-
-- React 
 - HTML
 - CSS
 - Javascript
