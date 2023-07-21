@@ -52,6 +52,15 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 - [Bugs](<#bugs>)
 - [Security Features](<#security-features>)
 - [Technologies](<#technologies>)
+
+- [Technologies Used](<#technologies-used>)
+
+- [Frameworks and Tools](<#frameworks-and-tools>)
+
+
+
+
+
 - [Testing](<#testing>)
 - [Packages](<#packages>) 
  
@@ -447,7 +456,7 @@ User Story:
 
 ## Validation
 
-  ## CSS Validator
+## CSS Validator
 
 * When running the CSS code Validation service with no bugs - [CSS Validation ](https://jigsaw.w3.org/css-validator)
 
@@ -638,6 +647,72 @@ Bugs were found and with the error codes given, I was able to search on google u
     * Linting tool used in order to check best practice coding standards
 * Heroku
     * Used for application hosting
+<br>
+
+
+
+## Technologies Used
+
+**Coding Languages**
+
+- React 
+- HTML
+- CSS
+- Javascript
+
+
+## Frameworks and Tools
+
+- [React-Bootstrap 1.6.3](https://react-bootstrap-v4.netlify.app/) - I used Bootstrap React library for User Interface for components, styling and responsiveness.
+- [Axios](https://axios-http.com/docs/intro) - Axios is a Promise API. Justification: I used axios to send API requests from the React project to the API and avoid any CORS errors when sending cookies.
+- [React Router](https://v5.reactrouter.com/web/guides/quick-start) - For routing. I used this library to enable navigation between views of components and on the URL they have accessed in the browser. 
+- [JWT](https://jwt.io/) - I used JWT to securely transmit data and to have the ability to verify that the content has not been tampered.
+- [React 17](https://17.reactjs.org/) - JavaScript library for building User Interfaces. 
+- [React Infinite Scroll](https://www.npmjs.com/package/react-infinite-scroll-component) - React library. Is used, as this component load content e.g feed page and users don't need to scrolls towards the bottom of the page without having to jump to the next page.
+
+- [Cloudinary](https://cloudinary.com/) - I used this to store static files
+- [Google Fonts](https://fonts.google.com/) - I used this to import fonts
+- [Responsive](https://www.responsivedesignchecker.com/) - I used this to create the multi-device mock-up 
+- [Gitpod](https://gitpod.io) - I used this to host a virtual workspace
+- [Balsamiq](https://balsamiq.com/)  Used to create the wireframes
+- [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/) - Developer tool. I used this for debugging of the code and checking site for responsiveness
+- [Font Awesome](https://fontawesome.com/) -I used this to style the site with icons.
+- [Git](https://git-scm.com/) - I used this for version control and to push the code to GitHub
+- [GitHub](https://github.com/) - I used this as a remote repository to store project code
+
+
+
+## Validation:
+  - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)  I Used this to validate performance, accessibility, best practice and SEO of the application
+  - [WC3 Validator](https://validator.w3.org/) -I used this to validate the applications HTML code
+  - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/) - I used this to validate the applications CSS code
+  - [ESLint](https://eslint.org/) - I used this to validate applications JSX code
+
+ 
+
+### Libraries
+
+#### Installed Libraries
+
+| Package       | Version        |
+| ------------- | ------------- |
+| axios |1.3.4 |
+| bootstrap | 4.6.0 |
+| jwt-decode | 3.1.2 |
+| react-bootstrap | 1.6.3 |
+| react-chartjs-2 | 3.0.4 |
+| react-dom | 17.0.2 |
+| react-infinite-scroll-component |6.1.0 |
+| react-multi-select-component | 4.3.4|
+| react-router-dom | 5.3.0 |
+| react-scripts | 5.0.1 |
+| react-scroll | 1.8.9|
+
+
+##### Back to [top](<#table-of-contents>)
+
+
+
 <br>
 
 ## Testing
