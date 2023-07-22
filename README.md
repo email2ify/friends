@@ -613,8 +613,12 @@ while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo 
 
 ### Bugs
 
-Solved
-Bugs were found and with the error codes given, I was able to search on google and already answers from slack using the exact code error which helped alots on this project and also with help of student tutor
+On mobile device it has come to my notice that, when ever a user tries to log in, the sign in page keep redirecting the user to sign in , and when sign in, it will redirect again to sign in again.
+I later discovered that, it is expected to behave so with iOS devices. It's a bug with the core code itself and to solve this problem, you would need to disable the Safari option called:
+"Prevent Cross-Site Tracking" to allow users to log in on an iPhone, for example.
+<br>
+
+Other bugs that were found, and with the error codes given, I was able to search on google which provides me with already made answers on same questions by other coders from slack using the exact error code and this method helps me alots on this project and also with help of student tutor
 
 <br>
 
