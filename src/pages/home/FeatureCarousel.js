@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import AnimalCard from '../../components/AnimalCard';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
@@ -53,21 +54,7 @@ const FeatureCarousel = () => {
             infinite
             mouseTracking
             items={animals.map((animal) => (
-              <div className="item">
-                <a href={`/specie/${animal.slug}`} className="wildlife-item">
-                  <img
-                    src={animal.image}
-                    alt="Wildlife"
-                    className="carousel-image"
-                    onDragStart={handleDragStart}
-                    role="presentation"
-                  />
-                  <div className="carousel-text text-white">
-                    <h3>{animal.name}</h3>
-                    <p>{animal.description}</p>
-                  </div>
-                </a>
-              </div>
+              <AnimalCard animal={animal} />
             ))}
             controlsStrategy="alternate"
             buttonsDisabled={true} // Disable default buttons

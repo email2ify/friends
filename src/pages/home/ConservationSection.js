@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios'
+import AnimalCard from '../../components/AnimalCard';
 import { Row, Col } from 'react-bootstrap';
 import lios from "./../../assets/lios.png";
 import com from "./../../assets/com.png";
@@ -6,6 +8,22 @@ import wo from "./../../assets/wo.png";
 import ele from "./../../assets/ele.png";
 
 const ConservationSection = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+
+  const handleSearch = () => {
+    axios.get('animals/search/', {
+      params: { q: searchTerm }
+    })
+      .then(response => {
+        const animals = response.data.results;
+        setSearchResults(animals);
+      })
+      .catch(error => {
+        // Handle the error
+      });
+  };
+
   return (
     <div>
       {/* About Us Section */}
@@ -36,11 +54,31 @@ const ConservationSection = () => {
           </Col>
           <Col md={{ span: 6, offset: 3 }}>
             <div className="input-group">
-              <input  className="form-control" type="text" placeholder="Search wildlife..." />
-              <button className="btn btn-primary">Search</button>
+              <input
+                className="form-control mx-2"
+                type="text"
+                placeholder="Search wildlife..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
+              <button className="btn btn-primary" onClick={handleSearch}>Search</button>
             </div>
           </Col>
         </Row>
+
+        {/* Display search results */}
+        {searchResults.length > 0 && (
+          <div>
+            <h4>Search Results for '{searchTerm}':</h4>
+            <Row>
+              {searchResults.map(animal => (
+                <Col key={animal.id} sm={6} md={4} lg={4} className="mb-4">
+                  <AnimalCard animal={animal} />
+                </Col>
+              ))}
+            </Row>
+          </div>
+        )}
       </section>
 
       {/* Conservation Efforts Section */}
