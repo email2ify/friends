@@ -36,7 +36,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
     * [Sign Up](<#sign-up>)
 
 - [Validation](<#validation>)
-     *  [CSS Validator](<#css-validator>)
+     *  [Code Validation](<#code-validation>)
      *  [Eslint](<#eslint>)
      * [Chrome Dev Tools Lighthouse](<#chrome-dev-tools-lighthouse>)
 
@@ -213,7 +213,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 ## Users: 
 
- **Logged in users**
+## Logged in users
 
  
 <br>
@@ -452,11 +452,19 @@ User Story:
 
 ## Validation
 
-## CSS Validator
+## Code Validation 
 
-* When running the CSS code Validation service with no bugs - [CSS Validation ](https://jigsaw.w3.org/css-validator)
 
-![image](https://github.com/email2ify/friends/assets/110549305/f99ce556-fe61-44df-aab0-78dc3c4cfe7c)
+The site url has was passed through the [W3C html Validator](https://validator.w3.org/), the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [ESLint Validator](https://eslint.org/docs/latest/use/getting-started#next-steps).
+
+**W3C Validation Results**
+
+* No errors found using the URL passed through the W3C HTML validation checker. 
+![html](https://github.com/email2ify/friends/assets/110549305/10338037-aaa7-4d3f-916a-6f97ee10fd51)
+
+<br>
+
+![css](https://github.com/email2ify/friends/assets/110549305/47de18e1-01f9-466a-8c2c-c1d9aeb93ac1)
 
 <br>
 
@@ -686,7 +694,6 @@ Other bugs that were found, and with the error codes given, I was able to search
   - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/) - I used this to validate the applications CSS code
   - [ESLint](https://eslint.org/) - I used this to validate applications JSX code
 
- 
 
 ### Libraries
 
