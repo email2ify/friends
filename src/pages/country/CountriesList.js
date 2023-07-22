@@ -11,7 +11,7 @@ const CountriesList = () => {
       try {
         const response = await axios.get(`animals/countries/`);
         setCountries(response.data);
-        console.log(countries)
+        
       } catch (error) {
         console.error(error);
       }

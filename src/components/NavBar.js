@@ -42,7 +42,7 @@ const NavBar = () => {
       removeTokenTimestamp();
       setShowThankYouModal(true); // Show the "Thank You" modal
     } catch (err) {
-      console.log(err);
+      
     }
   };
 
