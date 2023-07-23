@@ -3,9 +3,9 @@
 * This is a platform for local nature reserves, where lovers of Africa Wildlife meet to air their views and opinoins about the wildlife conservation, and also to know more about African wild animals and countries where it can be found. User can also contribute in their own way by sharing photos and comment about their experince in the wild life of Africa.
   
 
-[View Site](https://friendsa.herokuapp.com)
+💻 [Website](https://friendsa.herokuapp.com)
 
-This site was created for Portfolio Project #5. 
+This site was created for Portfolio Project nr 5. 
 Diploma in Full Stack Software Development, at the [Code Institute](https://codeinstitute.net/)
 
 ![frontview1](https://github.com/email2ify/Projecttest-API/assets/110549305/df44359a-fcba-4bf8-b272-fb3955eef5aa)
@@ -632,7 +632,7 @@ Other bugs that were found, and with the error codes given, I was able to search
 
 <br>
 
-### Security Features
+### Security 
 
 * Unrelated input after the urls page will get a "404 Not Found page" with a "Return Home" button for the user to click to return to the main home page.
 
@@ -726,7 +726,7 @@ Other bugs that were found, and with the error codes given, I was able to search
 
 **Automated and Manuel testing folder on this link** : 
 
-  * [Manuel testing Folder](https://github.com/email2ify/drf_friends/tree/main/docs/testing/manual)
+  * [Manuel Testing Folder](https://github.com/email2ify/drf_friends/tree/main/docs/testing/manual)
 
   * [Automated Testing Folder](https://github.com/email2ify/drf_friends/tree/main/docs/testing/automated)
 
