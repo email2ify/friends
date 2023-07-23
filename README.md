@@ -21,6 +21,8 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
   
 - [Responsiveness](<#responsiveness>)
 
+- [DropDown Menu Burgar](#dropdown-menu-burgar)
+
 - [Users](<#users>) 
     * [Logged in Users](<#logged-in-users>)
     * [Logged out Users](<#logged-out-users>)
@@ -36,8 +38,8 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
     * [Sign Up](<#sign-up>)
 
 - [Validation](<#validation>)
-     *  [Code Validation](<#code-validation>)
-     *  [Eslint](<#eslint>)
+     * [Code Validation](<#code-validation>)
+     * [Eslint](<#eslint>)
      * [Chrome Dev Tools Lighthouse](<#chrome-dev-tools-lighthouse>)
 
 - [Reusable React Components](<#reusable-react-components>)
@@ -175,7 +177,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 * As a user, I would like to be able to follow  the site organization on every social media platform in order to show my solidarity.
 
-<hr>
+
 <br
 
 **User Story:**
@@ -191,10 +193,11 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a Site User, I can navigate to the search blank space so that I can easily search for a content or images among hundreds of post images.
 * As a user I can view the details of a single post so that I can learn more about it
 
-<hr>
+
 <br>
 
 ## Responsiveness
+
 
 * Responsiveness is a feature which can be seen through the Freinds wildlife. It gives users the ability to view the site on various display sizes while still having an enjoyable user experience.
  
@@ -202,7 +205,13 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 ![rep2](https://github.com/email2ify/Projecttest-API/assets/110549305/3e47fee8-69e4-4e4b-bf6c-8f79724d455d)
 
-<hr>
+<br>
+
+## DropDown Menu Burgar
+
+* As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burgar menu option displayed on the device 
+
+![image](https://github.com/email2ify/friends/assets/110549305/6283b063-aef5-4ef3-a7a2-ebb4466297fc)
 <br>
 
 ![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
@@ -370,7 +379,7 @@ Implementation:
 ![Capture7](https://github.com/email2ify/Projecttest-React/assets/110549305/58d3b9ab-9887-4cf4-be77-688b80fd6988)
 
 
-<hr>
+
 <br>
 
 
@@ -420,13 +429,6 @@ User Story:
 
 ![6342468](https://github.com/email2ify/Projecttest-API/assets/110549305/756f4514-2fc8-4180-a787-d373ed9d44ca)
 
-<br>
-
-**DropDown Menu Burgar**
-
-* As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burgar menu option displayed on the device 
-
-![image](https://github.com/email2ify/friends/assets/110549305/6283b063-aef5-4ef3-a7a2-ebb4466297fc)
 
 <br>
 
