@@ -36,6 +36,9 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
     * [Feed Page](<#feed-page>)
     * [Sign In](<#sign-in>)
     * [Sign Up](<#sign-up>)
+    * [Sign Out](<#sign-out>)
+    * [Get Started](<#get-started>)
+
 
 - [Validation](<#validation>)
      * [Code Validation](<#code-validation>)
@@ -421,16 +424,17 @@ Implementation:
  
 ![seac](https://github.com/email2ify/Projecttest-API/assets/110549305/0fa6d027-8f0d-44be-851b-8d7f93e47bdb)
 
+
 <br>
 
 **Search WildLife**
 
 User Story:
 
-* As a user I can search for wild life specie from different regions or based on key word input
+* As a user I can search for wild life specie or animal
 
 
-![Capture13](https://github.com/email2ify/Testin-Yoga/assets/110549305/eaca9583-734d-4ef8-ad73-eff14d65bbd5)
+![image](https://github.com/email2ify/friends/assets/110549305/03c62b20-9681-4e04-ae62-1a5bd33a63dd)
 
 
 <br>
