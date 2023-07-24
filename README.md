@@ -590,7 +590,7 @@ They are all Reusable React Components on the Navbar to provide a consistent use
 
 ## Wireframes
 
-Balsamiq was used to create wireframes of the sites pages- - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
+Balsamiq was used to create wireframes of the sites pages
 
 <details>
 <summary>Wireframes</summary>
@@ -613,15 +613,15 @@ Balsamiq was used to create wireframes of the sites pages- - [docs](https://gith
 ## Technical Design
 
 ## Colour-Scheme
-
-The logo red (#dc3545)
-* The background colour for individual componets is black (#000000).
-
-* Icon, NarBar, background, colours are blue (#007bff), black(#0a0a0a), light (#f8f9fa) and Pink(#e83e8c9)
-
-* Main text is black (#343a40).
-
+* The background colour for individual componets is Hex White (#FFFFFF) and for the Logo is Green (#52c5a8)
 * The main page background colour is an off shade of white (#f8f8f8).
+     * Logo: red (#dc3545)
+     * Icons: Gray(#f8f8f8)
+     * NarBar: Blue (#007bff)
+     * Text: Black(#0a0a0a)
+     * Countries page:  Drak Blue (#6c757d), Text White (#FFFFFF)
+     * Get Started: Orange (ff6600)
+
 
 <br>
 
@@ -777,7 +777,7 @@ Other bugs that were found, and with the error codes given, I was able to search
 
 ## Heroku
 
-The site was deployed to Heroku. The steps to deploy are as follows:
+The site was deployed to Heroku with the following steps:
 
 * Navigate to heroku and create an account
 * Click the new button in the top right corner
@@ -786,14 +786,20 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * Select region and click create app
 * Click the resources tab and search for Heroku Postgres
 * Select hobby dev and continue
-
+* Go to the settings tab and then click reveal config vars
+* Add the following config vars:
+* SECRET_KEY: (Your secret key)
+* DATABASE_URL: (Available)
+* ALLOWED_HOST:
+* CLIENT_ORIGIN: url for the client front end react application that wil be making requests to these APIs
+* CLIENT_ORIGIN_DEV: address of the local server used to preview and test UI during development of the front end client application
 * Click the deploy tab
-* Scroll down to Connect to GitHub and sign in for authorize when prompted
+* Scroll down to Connect to GitHub and sign in , authorize when prompted
 * In the search box, find the repositoy you want to deploy and click connect
 * Scroll down to Manual deploy and choose the main branch
 * Click deploy
 
-<br>
+##### Back to [top](#table-of-contents)
 
 ## API-Backend
 
