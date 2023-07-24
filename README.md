@@ -76,7 +76,9 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 <br>
 
 ### Users Goal
+
 * User can also contribute in their own way by sharing photos and comment about their experince in the wild life of Africa.
+
 <br>
 
 ### Agile Planning
@@ -91,7 +93,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 <hr>
 
-## Epics
+### Epics
 
 **Set Up**
 
@@ -107,7 +109,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 **Profiles**
 
-* It covers the frontend creation of the application in regards to user profiles. This is to allow users to interact with the backend API via the user interface to manage their own profiles.
+* It covers the frontend application in showing the posts on profiles. This is to allow users owner to manage their own profiles posts.
 
 **Add Post**
 
@@ -153,6 +155,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a logged in user I can view the posts I liked inorder to have a memory of it
 * As a logged in user, I can like a post so that I can show my like
 * As a user, I can search for posts with keywords, so that I can find the posts I am most interested in.
+* Users can not view "/feed" route when not logged in
 
 
 **Comments**
@@ -178,7 +181,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a user, I would like to be able to follow  the site organization on every social media platform in order to show my solidarity.
 
 
-<br
+<br>
 
 **User Story:**
 
@@ -192,6 +195,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a Site User, I can navigate to the search blank space so that I can easily search for a content or images among hundreds of post images.
 * As a Site User, I can navigate to the search blank space so that I can easily search for a content or images among hundreds of post images.
 * As a user I can view the details of a single post so that I can learn more about it
+* As a user can view "/feed" route when logged in
 
 
 <br>
@@ -203,6 +207,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
  
 ![resp](https://github.com/email2ify/Projecttest-API/assets/110549305/bf35467e-cafd-4204-a7b0-e22146ce020d)
 
+
 ![rep2](https://github.com/email2ify/Projecttest-API/assets/110549305/3e47fee8-69e4-4e4b-bf6c-8f79724d455d)
 
 <br>
@@ -212,6 +217,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burgar menu option displayed on the device 
 
 ![image](https://github.com/email2ify/friends/assets/110549305/6283b063-aef5-4ef3-a7a2-ebb4466297fc)
+
 <br>
 
 ![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
@@ -259,9 +265,12 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ## Features
+
 ## Home Page
 * As a user I can view and read what the website is all about and a carousel of images of the wildlife species
-  <br>
+
+<br>
+
 ![front1](https://github.com/email2ify/Projecttest-API/assets/110549305/26d3a22a-859e-4232-9861-ebeb73311f0b)
 
 <br>
@@ -269,6 +278,7 @@ When a user is logged out the following navigation items are shown:
 ## Species Page
 
 * As a user I can view and scroll down to any species image of your choice and click on the animal to know more about the animal and countries most often located
+
 <br>
 
 ![species3](https://github.com/email2ify/Projecttest-API/assets/110549305/efbfc82a-4181-4e79-a4b2-a07259f13b9b)
@@ -278,7 +288,8 @@ When a user is logged out the following navigation items are shown:
 ## Countries Page
 
 * As a user I can directly choose from listed countries on the page to know what animals are found there
-  <br>
+  
+<br>
   
 ![listcountries](https://github.com/email2ify/Projecttest-API/assets/110549305/1990fa0a-70ed-409a-b847-fba6df690eeb)
 
@@ -346,7 +357,9 @@ User Story:
 
 * As a user I can easily get started just by clicking on the Get Started button and it will redirect the user to a SignIn
 
-![Capture10](https://github.com/email2ify/Testin-Yoga/assets/110549305/d6c8f92e-9efe-4951-84a4-b836763d73e2)
+
+![getstarted](https://github.com/email2ify/friends/assets/110549305/8864f737-db61-46dd-9140-816c915007ce)
+
 
 <br>
 
@@ -355,7 +368,10 @@ User Story:
 * As a logged in user I can like a post so that I can show my likes and commemt that interest me
 * Logged in users have full access to post, comment, like or unlike. This will help ensure that unregistered users are not allow on the website
 
-![Capture6](https://github.com/email2ify/Projecttest-React/assets/110549305/7f079821-6da9-401b-b86f-6753f31e209b)
+<br>
+
+![feedss](https://github.com/email2ify/friends/assets/110549305/b3c4a195-8214-4850-b6d2-2b19342c4b3f)
+
 
 User Story:
 
@@ -376,13 +392,10 @@ Implementation:
 
 * A add Post button has been implemented in the nav bar in order for logged in users to create a post when they want to share memory pictures.
 
-![Capture7](https://github.com/email2ify/Projecttest-React/assets/110549305/58d3b9ab-9887-4cf4-be77-688b80fd6988)
-
+![addpost](https://github.com/email2ify/friends/assets/110549305/39cb5c1d-df2d-4e48-ab2a-89490743a52a)
 
 
 <br>
-
-
 
 **Comments**
 
@@ -404,8 +417,9 @@ Implementation:
 
 **Search Bar**
 
-* Search Bar is a feature giving users the ability to search for a user profile on feed post or based on key word input.
-  ![seac](https://github.com/email2ify/Projecttest-API/assets/110549305/0fa6d027-8f0d-44be-851b-8d7f93e47bdb)
+* Search Bar is a feature giving users the ability to search for a users post by users name or based on key word input.
+ 
+![seac](https://github.com/email2ify/Projecttest-API/assets/110549305/0fa6d027-8f0d-44be-851b-8d7f93e47bdb)
 
 <br>
 
@@ -413,7 +427,7 @@ Implementation:
 
 User Story:
 
-* As a user I can search for wild life specie to read about the species
+* As a user I can search for wild life specie from different regions or based on key word input
 
 
 ![Capture13](https://github.com/email2ify/Testin-Yoga/assets/110549305/eaca9583-734d-4ef8-ad73-eff14d65bbd5)
@@ -445,8 +459,9 @@ User Story:
 **Footer**
 
 * Footer image from the landing page
+* 
+![footer](https://github.com/email2ify/friends/assets/110549305/57a50061-efdc-473f-990c-71f1eed6da08)
 
-![Capture14](https://github.com/email2ify/Testin-Yoga/assets/110549305/611c81ce-d672-49c5-9284-e8b1ab151e4b)
 
 ##### Back to [top](#table-of-contents)
 
@@ -470,7 +485,7 @@ The site url has was passed through the [W3C html Validator](https://validator.w
 
 <br>
 
-### Eslint
+## Eslint
 
 Eslint was installed and configured locally. No problems were detected in the Problems tab and the terminal when going through the JS files
 
@@ -523,6 +538,7 @@ This was tested with incognito mode because the page loaded too slowly to finish
 <br>
 
 ## Signup
+
 ![signup](https://github.com/email2ify/Projecttest-API/assets/110549305/b7d8c5fa-8341-4472-bd79-9e672f5a5b71)
 
 <br>
@@ -532,6 +548,7 @@ This was tested with incognito mode because the page loaded too slowly to finish
 ![Login-user](https://github.com/email2ify/Projecttest-API/assets/110549305/d69b82ac-0143-49f9-9b9b-ef44e3ce2525)
 
 ##### Back to [top](<#table-of-contents>)
+
 <br>
 
 
@@ -567,7 +584,7 @@ They are all Reusable React Components on the Navbar to provide a consistent use
 <br>
 
 
-### Wireframes
+## Wireframes
 
 Balsamiq was used to create wireframes of the sites pages- - [docs](https://github.com/email2ify/friends/tree/main/docs/wireframes)
 
@@ -604,13 +621,13 @@ The logo red (#dc3545)
 
 <br>
 
-#### Typography
+### Typography
 
 * The main font used on the website is "DM Sans".
 
 <br>
 
-#### Imagery
+### Imagery
 
 * The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) and Pixel [click](https://www.pexels.com) 
 
@@ -619,6 +636,7 @@ while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo 
 <br>
 
 ##### Back to [top](<#table-of-contents>)
+
 <br>
 
 ### Bugs
@@ -632,7 +650,7 @@ Other bugs that were found, and with the error codes given, I was able to search
 
 <br>
 
-### Security 
+## Security 
 
 * Unrelated input after the urls page will get a "404 Not Found page" with a "Return Home" button for the user to click to return to the main home page.
 
@@ -691,6 +709,7 @@ Other bugs that were found, and with the error codes given, I was able to search
 <br>
 
 ## Validation:
+
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)  I Used this to validate performance, accessibility, best practice and SEO of the application
   - [WC3 Validator](https://validator.w3.org/) -I used this to validate the applications HTML code
   - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/) - I used this to validate the applications CSS code
@@ -828,6 +847,7 @@ Navigate to the GitHub Repository you want to clone to use locally:
 Run Application:
 
 * npm start
+  
 <br>
 
 ## Version Control
