@@ -20,7 +20,8 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
      * [User Stories](<#user-stories>)   
   
 - [Responsiveness](<#responsiveness>)
-
+- [Logo](<#logo>)
+- [Manual Testing](<#manual-testing>)
 - [DropDown Menu Burgar](#dropdown-menu-burgar)
 
 - [Users](<#users>) 
@@ -58,7 +59,6 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 - [Security Features](<#security-features>)
 - [Basic Technologies](<#basic-technologies>)
 - [Frameworks and Tools](<#frameworks-and-tools>)
-- [Testing](<#testing>)
 - [Packages](<#packages>) 
 - [Deployment](<#deployment>) 
    * [Heroku](<#heroku>)
@@ -215,18 +215,34 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 <br>
 
+## Logo
+
+![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
+
+* The site logo is displayed on the left side of the navigation bar at all times
+  
+<br>
+
+### Manual testing
+
+## Testing User Stories - Users
+
+* As a user, I can use the navigation bar so that I can access other pages within the app.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Nav Bar  | Nav bar located at the top of each page and select the relevant icon link, and on a smaller devices click on the burger dropdown button to access the same icons links  | User can hover on the nav bar located at the top of each page to navigate all pages of the app  | Works as expected |
+
+![Nav11](https://github.com/email2ify/friends/assets/110549305/a84f1ae2-9256-4809-a415-754b8bbb8b38)
+
+<br>
+
 ## DropDown Menu Burgar
 
 * As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burgar menu option displayed on the device 
 
 ![image](https://github.com/email2ify/friends/assets/110549305/6283b063-aef5-4ef3-a7a2-ebb4466297fc)
 
-<br>
-
-![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
-
-* The site logo is displayed on the left side of the navigation bar at all times
-  
 <br>
 
 ## Users: 
@@ -270,6 +286,7 @@ When a user is logged out the following navigation items are shown:
 ## Features
 
 ## Home Page
+
 * As a user I can view and read what the website is all about and a carousel of images of the wildlife species
 
 <br>
@@ -324,10 +341,22 @@ When a user is logged out the following navigation items are shown:
 
 <br>
 
+* As a new user, I can register an account so that I can have access to feeds and like post 
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Authentication  | Navigate to the sign up page, fill in the required fields and submit the sign up form  |User authentication will be created successful when correct  | Works as expected |
+|  Sign Up  |  Navigate to the sign up page, fill in the required fields and submit the sign up form | Enter the required fields for sign up,and the user will be redirected to the log in page | Works as expected |
+|  Input Validation  | Enter values into the sign up form fields  | Input fields requires validation otherwise it will  for errors  | Works as expected |
+
+![input](https://github.com/email2ify/friends/assets/110549305/dd72b883-1393-47dd-bb02-8bb2c4278ead)
+
+<br>
+
 ## Sign In
 
-* As a user I can sign in to follow up with recent posts on the feed and activities on the platform<br>
-
+* As a user I can sign in to follow up with recent posts on the feed and activities on the platform
+ 
 ![signi](https://github.com/email2ify/Projecttest-API/assets/110549305/e3443ae7-dd13-4eca-9b36-9e60f97d83ed)
 
 <br>
@@ -375,25 +404,26 @@ User Story:
 
 ![feedss](https://github.com/email2ify/friends/assets/110549305/b3c4a195-8214-4850-b6d2-2b19342c4b3f)
 
+<br>
 
 User Story:
 
-* As a post owner I can edit a post title and description so that I can make corrections or update the post, moreover, Only the user who created the post will be able to edit or delete post. This will ensure that users have full control of their own posts and unauthorized users are unaccepted.
+* As a post owner, I can edit or delete my comment on a post, so that I can make corrections or update the post, moreover, Only the user who created the post will be able to edit comments or delete post. This will ensure that users have full control of their own posts and unauthorized users are unaccepted.
 
-<br>
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Edit post comment  | Navigate to a post. Click on a post to view the post. Scroll to bottom and the comment section. Find the comment you wish to edit and click on the three dots icon. Enter updated comment and click save  | User to be able to edit and update their owned comments  | Works as expected |
+|  Delete post comment  |  Navigate to a post . Scroll to bottom and the comment section of the post displayed . Find the comment you wish to delete and click on the three dots icon. Click on the delete button to delete the comment | User to be able to edit and update their owned comments  | Works as expected |
+
+![editt](https://github.com/email2ify/friends/assets/110549305/1ebe4568-338a-4bd2-8ba0-39726f556a70)
 
 ![edit1](https://github.com/email2ify/Projecttest-API/assets/110549305/fd5f5aed-7610-400f-9fdd-ef6f95d5362d)
 
+<br>
 
-User Story:
+**Add Post**
 
-* As a logged in user I can create posts so that I can share my images
-  
-![Capture12](https://github.com/email2ify/Projecttest-API/assets/110549305/d36f5218-5951-41c6-9cb0-e4e24a9b6f46)
-
-Implementation:
-
-* A add Post button has been implemented in the nav bar in order for logged in users to create a post when they want to share memory pictures.
+* Users can add Post just by clicking on the "add icon" to the left of the nav bar in order for logged in users to create a post when they want to share memory pictures.
 
 ![addpost](https://github.com/email2ify/friends/assets/110549305/39cb5c1d-df2d-4e48-ab2a-89490743a52a)
 
@@ -740,18 +770,6 @@ Other bugs that were found, and with the error codes given, I was able to search
 
 
 ##### Back to [top](<#table-of-contents>)
-
-
-
-<br>
-
-## Testing
-
-**Automated and Manuel testing folder on this link** : 
-
-  * [Manuel Testing Folder](https://github.com/email2ify/drf_friends/tree/main/docs/testing/manual)
-
-  * [Automated Testing Folder](https://github.com/email2ify/drf_friends/tree/main/docs/testing/automated)
 
 <br>
 
