@@ -21,7 +21,6 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
   
 - [Testing User Stories](<#manual-testing>)
 - [Logo](<#logo>)
-- [Manual Testing](<#manual-testing>)
 - [DropDown Menu Burgar](#dropdown-menu-burgar)
 
 - [Users](<#users>) 
