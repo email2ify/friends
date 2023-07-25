@@ -96,7 +96,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 <hr>
 
-### Epics
+### Epics:
 
 **Set Up**
 
@@ -208,7 +208,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 # Manual Testing
 
-## Responsiveness
+#### Responsiveness
 
 ### Testing User Stories - Responsiveness
 
@@ -274,11 +274,9 @@ When a user is logged in the following navigation items are shown:
 * Sign Out
 * Users Icon 
 
-
 <br>
 
 ## Logged out users
-
 
 <br>
 
@@ -294,10 +292,9 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
-## Features
+# Features:
 
-## Home Page
-### Testing User Stories - Home Page
+## Testing User Stories - Home Page
 
 * As a user I can view and read what the website is all about and a carousel of images of the wildlife species
 * As a user, I can view the Home Page so that I can understand what the website is about, create an account or log in. 
@@ -314,29 +311,42 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ## Species Page
+### Testing User Stories - Species Page
 
-* As a user I can view and scroll down to any species image of your choice and click on the animal to know more about the animal and countries most often located
+* As a user I can view and scroll down to any species image of your choice and click on the animal to get more details about the animal and countries most often located
+* As a user I can view detail of a chosen country from the countries list on the page, so I can know what what animal or species that are likely to be found in that specific African country
 
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Species  | Navigate to the countries page from countries list. show Animals that can be found from in a country. Click countries list and click on a country to view About the specie.  | Users to be able to get the species details in a particular country| Works as expected |
 <br>
 
 ![species3](https://github.com/email2ify/Projecttest-API/assets/110549305/efbfc82a-4181-4e79-a4b2-a07259f13b9b)
 
+<hr>
 <br>
 
 ## Countries Page
-
+### Testing User Stories - Countries Page
 * As a user I can directly choose from listed countries on the page to know what animals are found there
-  
-<br>
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Countries  | Navigate to the countries list page by clicking on Countries icon in the nav bar. Scroll the countries list.  | Users to be able to scroll through all african country's list | Works as expected |
   
 ![listcountries](https://github.com/email2ify/Projecttest-API/assets/110549305/1990fa0a-70ed-409a-b847-fba6df690eeb)
-
+<hr>
 <br>
 
 ## Country
+### Testing User Stories - Country
+* As a user I can view the content of a chosen country from the countries list on the page, so I can know what what animal or species that are likely to be found in that specific African country
 
-* As a user I can see from the choosen country from the countries list on the page to know what animal or species that are likely to be found in that specific African country
-
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Country  | Navigate to the countries page showing List of countries with animals by clicking on Countries icon in the nav bar. Scroll the countries list and click on a contry to view Animals that can be found there.  | Users to be able to scroll through all african country's list and Animals that can be found in that particular country | Works as expected |
+  
+<hr>
 <br>
 
 ![found](https://github.com/email2ify/Projecttest-API/assets/110549305/8671a2a0-b5e7-475e-a5ca-4593d7723d81)
@@ -382,7 +392,7 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ## Account
-### Testing User Stories - An Account
+### Testing User Stories - Account
 * As a new user, I can register an account so that I can have access to feeds and like post 
 
 | Feature       | Action        | Expected Result  | Actual Result |
@@ -397,7 +407,7 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ## Sign In
-
+### Testing User Stories - Sign In
 * As a user I can sign in to follow up with recent posts on the feed and activities on the platform
 * As a user, I can log in so that I can access my account, view my post, most like and own profile posts. 
 
@@ -456,8 +466,6 @@ When a user is logged out the following navigation items are shown:
 
 ## Get Started
 
-
-
 #### Testing User Stories - Users
 * As a user I can easily get started just by clicking on the Get Started button and it will redirect the user to a SignIn
 * As a new user, I can register an account so that I can have access to feeds and like post 
@@ -473,14 +481,18 @@ When a user is logged out the following navigation items are shown:
 
 ![signi](https://github.com/email2ify/friends/assets/110549305/0b9ff0cb-66a3-4518-9e4e-b8753e87b3c0)
 
+<hr>
 <br>
 
-**Feed for Users**
-
+### Testing User Stories - Feed
 * As a logged in user I can like a post so that I can show my likes and commemt that interest me
 * Logged in users have full access to post, comment, like or unlike. This will help ensure that unregistered users are not allow on the website
+* As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content
+* As a user, I can scroll through all animal post on the app so that I can find my post that interest me to comment or like.
 
-<br>
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Feed   | Log in and navigate to the Feed page by click on any feed post.| Users to be able to scroll through all feed posted by other users | Works as expected |
 
 ![feedss](https://github.com/email2ify/friends/assets/110549305/b3c4a195-8214-4850-b6d2-2b19342c4b3f)
 
@@ -576,8 +588,6 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
-
-**PageNotFound**
 ### Testing User Stories - PageNotFound
 
  Specific component, used to display a 404 page made up of an image file and return home button for when the page does not exist.
@@ -616,6 +626,7 @@ When a user is logged out the following navigation items are shown:
 
 ##### Back to [top](#table-of-contents)
 
+<hr>
 <br>
 
 ## Validation
