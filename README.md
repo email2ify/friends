@@ -30,11 +30,11 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
       
 - [Feactures](<#features>)
     * [Home Page](<#home-page>) 
-    * [Home Page](<#home-page>)
     * [Species Page](<#species-page>)
     * [Countries Page](<#countries-page>)
     * [Contact Page](<#contact-page>)
     * [Feed Page](<#feed-page>)
+    * [Account](<#Account>)
     * [Sign In](<#sign-in>)
     * [Sign Up](<#sign-up>)
     * [Sign Out](<#sign-out>)
@@ -209,9 +209,15 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 ## Responsiveness
 
+### Testing User Stories - Responsiveness
 
-* Responsiveness is a feature which can be seen through the Freinds wildlife. It gives users the ability to view the site on various display sizes while still having an enjoyable user experience.
- 
+Responsiveness is a feature which can be seen through the Freinds wildlife. It gives users the ability to view the site on various display sizes while still having an enjoyable user experience.
+* As the site owner, I would want the site to be fully responsive so that users can use it across multiple devices and create a good user experience.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Responsiveness  | Use the site on a range of devices and screen sizes  | Users will have a pleasant and enjoyable experience on the website regardless of their screen or device size  | Works as expected |
+
 ![resp](https://github.com/email2ify/Projecttest-API/assets/110549305/bf35467e-cafd-4204-a7b0-e22146ce020d)
 
 
@@ -290,6 +296,7 @@ When a user is logged out the following navigation items are shown:
 
 ## Features
 
+## Home Page
 ### Testing User Stories - Home Page
 
 * As a user I can view and read what the website is all about and a carousel of images of the wildlife species
@@ -298,6 +305,7 @@ When a user is logged out the following navigation items are shown:
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
 |  Home page  | Navigate to the Friends WildLife site in your internet browser. View the landing page.  | User to view the landing page and be able to understand what the website is about  | Works as expected |
+
 <br>
 
 ![front1](https://github.com/email2ify/Projecttest-API/assets/110549305/26d3a22a-859e-4232-9861-ebeb73311f0b)
@@ -335,7 +343,7 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
-
+## Contact Page
 ### Testing User Stories - Contact Page
 
 * As a user I can contact the organization and submit my reason of complaint as regards 'general enquiery','login issues','report a post' or 'delete account'.
@@ -357,6 +365,7 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
+## Feed Page
 ### Testing User Stories - Feed Page
 
 * As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content
@@ -372,6 +381,7 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
+## Account
 ### Testing User Stories - An Account
 * As a new user, I can register an account so that I can have access to feeds and like post 
 
@@ -383,17 +393,30 @@ When a user is logged out the following navigation items are shown:
 
 ![input](https://github.com/email2ify/friends/assets/110549305/dd72b883-1393-47dd-bb02-8bb2c4278ead)
 
+<hr>
 <br>
 
 ## Sign In
 
 * As a user I can sign in to follow up with recent posts on the feed and activities on the platform
- 
+* As a user, I can log in so that I can access my account, view my post, most like and own profile posts. 
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Authentication  | Navigate to the log in page, fill in the required fields and submit form to login  | User log in credentials to be authenticated with the database and granted access if valid  | Works as expected |
+|  Log in  | Navigate to the log in page, fill in the required fields and submit form to login  | User log in credentials to be authenticated with the database and granted access if valid  | Works as expected  |
+|  Input validation  | From the log in page enter information to the username and password fields  |  User to be informed if entered values to not meet validation criteria | Works as expected | 
+
 ![signi](https://github.com/email2ify/Projecttest-API/assets/110549305/e3443ae7-dd13-4eca-9b36-9e60f97d83ed)
+
+![signinn](https://github.com/email2ify/friends/assets/110549305/c4e648a4-a9f9-40b1-9aa3-b53e6f9347c0)
+
+![inputfie](https://github.com/email2ify/friends/assets/110549305/725cd53e-d71a-4292-85d3-a88ffd00326d)
 
 <hr>
 <br>
 
+## Sign Up
 ### Testing User Stories - Sign Up
 
 * As the site owner, I would want to validate users' data entries on sign up so that users can create a LogIn to meets the requirements.
@@ -412,8 +435,14 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ## Sign Out
+### Testing User Stories - Sign Out
 
-* As a user I can sign out from my account when done with all recent posts on the feed and activities on the platform<br>
+* As a user I can sign out from my account when done with all recent posts on the feed and activities on the platform
+* As a user, I can sign out so that other users using the same device cannot access my account. 
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Log out  | From the nav bar click on the log out icon  | User to be successfully logged out and return to the home page  | Works as expected |
 
 ![signout](https://github.com/email2ify/Projecttest-API/assets/110549305/c2ec0ee9-ccad-4c39-98de-33c3cc1e4ccb)
 
@@ -521,23 +550,33 @@ User Story:
 
 
 **PageNotFound**
+### Testing User Stories - PageNotFound
 
-* specific component, used to display a 404 page made up of an image file and return home button for when the page does not exist.
+ Specific component, used to display a 404 page made up of an image file and return home button for when the page does not exist.
+* As the site owner, I would want a 404 error page so that users do not have to use the back navigation button if an error occurs.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Error pages  | Navigate to any page that does not exist  | User to be presented with 404 error page and a button to return home  | Works as expected |
 
 
 ![6342468](https://github.com/email2ify/Projecttest-API/assets/110549305/756f4514-2fc8-4180-a787-d373ed9d44ca)
 
-
+<hr>
 <br>
 
-**Profile**
 
-User Story:
+
+### Testing User Stories - Profile
 
 * As a user I can view own profiles post , so as to have records of posts, comment and likes
 
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  profile   | Navigate to the users profile by clicking on the profile icon on the nav bar to the right. Click profile icon. | The User only have own profiles posts display | Works as expected |
 ![profipost](https://github.com/email2ify/Projecttest-API/assets/110549305/d6cb92ff-7b0b-4150-8bce-b819d92057f7)
 
+<hr>
 <br>
 
 **Footer**
