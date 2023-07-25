@@ -491,22 +491,32 @@ User Story:
 
 ![edit1](https://github.com/email2ify/Projecttest-API/assets/110549305/fd5f5aed-7610-400f-9fdd-ef6f95d5362d)
 
+<hr>
 <br>
 
-**Add Post**
+
+### Testing User Stories - Add Post
 
 * Users can add Post just by clicking on the "add icon" to the left of the nav bar in order for logged in users to create a post when they want to share memory pictures.
+* As a user, I can manage my post so that I can add, edit or delete post. 
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Create a post  | Click on the Create add button which is located at the top left page, click or tap to upload an image and fill in the form and then click on create save.  | User to be able to successfully create a post which will be added to the databaseand content  | Works as expected |
+|  Delete Post  | Navigate to the post detail page by clicking on the relevant post on the feed. Click on the 3 dots icon in the top right corner of the task. Click on the delete button  | User to click the delete button and the post to be deleted from the database  | Works as expected |
+|  Edit post  | Navigate to the feed, post content, click on the 3 dots icon located in top right corner and click on the edit button to be taken to the edit post.change the content and click on save or cancel to cancel the current edit  | User to click the edit button and the post edit content to be displayed in which the user can update the post content  | Works as expected |
 
 ![addpost](https://github.com/email2ify/friends/assets/110549305/39cb5c1d-df2d-4e48-ab2a-89490743a52a)
 
+![edit1](https://github.com/email2ify/friends/assets/110549305/3eac0e05-9c79-4b00-b88d-a7bb9a55f07a)
 
+<hr>
 <br>
 
-**Comments**
+
+### Testing User Stories - Comments
 
 * Below each post, there will be a comment box available to logged in users. This will allow users to add comments under posts.
-
-
 
 * A comment count will also be shown under the post, to allow users to see how many people have commented on each post.
 
@@ -514,7 +524,16 @@ User Story:
 
 * The username and Avatar of the user that created the comment will displayed on each comment
 
+* As a user, I can edit or delete my comment on a post. 
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Edit post comment  | Navigate to a users profile post list. Click on post to view the post detail page. Scroll to bottom and the comment section for that particular post that is displayed.Find the comment you wish to edit and click on the three dots icon. Enter updated comment and click save  | User to be able to edit and update their owned comments  | Works as expected |
+|  Delete post comment  |  Navigate to a users profile post list. Click on a post to view the post detail page. Scroll to bottom and the comment section for that particular post that is displayed . Find the comment you wish to delete and click on the three dots icon. Click on the delete button to delete the comment | User to be able to edit and update their owned comments  | Works as expected |
+
 ![commm](https://github.com/email2ify/friends/assets/110549305/b97ce1f5-e6ca-46c4-b77b-76e8ef5ce894)
+
+![dot](https://github.com/email2ify/friends/assets/110549305/a1264a8e-9ab8-402f-a418-395e3b929492)
 
 <hr>
 <br>
