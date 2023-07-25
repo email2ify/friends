@@ -19,7 +19,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 - [Epics](<#epics>)
      * [User Stories](<#user-stories>)   
   
-- [Responsiveness](<#responsiveness>)
+- [Testing User Stories](<#manual-testing>)
 - [Logo](<#logo>)
 - [Manual Testing](<#manual-testing>)
 - [DropDown Menu Burgar](#dropdown-menu-burgar)
@@ -29,12 +29,12 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
     * [Logged out Users](<#logged-out-users>)
       
 - [Feactures](<#features>)
-    * [Home Page](<#home-page>) 
-    * [Species Page](<#species-page>)
-    * [Countries Page](<#countries-page>)
-    * [Contact Page](<#contact-page>)
-    * [Feed Page](<#feed-page>)
-    * [Account](<#Account>)
+    * [Home Page](<#home>) 
+    * [Species Page](<#species>)
+    * [Countries Page](<#countries>)
+    * [Contact Page](<#contact>)
+    * [Feed Page](<#feed>)
+    * [Account](<#account>)
     * [Sign In](<#sign-in>)
     * [Sign Up](<#sign-up>)
     * [Sign Out](<#sign-out>)
@@ -56,7 +56,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
     * [Wireframes](<#wireframes>)
  
 - [Bugs](<#bugs>)
-- [Security Features](<#security-features>)
+- [Security Features](<#security>)
 - [Basic Technologies](<#basic-technologies>)
 - [Frameworks and Tools](<#frameworks-and-tools>)
 - [Packages](<#packages>) 
@@ -76,13 +76,9 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 * Friends WildLife is aimed to lovers of the wildlife. The site encourages user to share their thought, know more about animals and the countries where they are found. 
 
-<br>
-
 ### Users Goal
 
 * User can also contribute in their own way by sharing photos and comment about their experince in the wild life of Africa.
-
-<br>
 
 ### Agile Planning
 
@@ -118,38 +114,26 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 * There is where users can add images on the frontend application in regards to add post. This is to allow users to interact with the backend API, to display and delete images
 
-<br>
-
 **Species**
 
 * This aspect of front end application for animal species, it allows users to see variety of animal, names and their story. This is to educate users and to know more about the animal, using the backend API.
 
-<br>
-
 **Countries**
 
-* In this aspect, the front end application for countries, enable users to be able to choose a desired country to know the types of animal or species that are found in that particular country. This is to allow users to know more about the species in that country, using the backend API.
-
-<br>
+* In this aspect, the front end application for countries, enable users to be able to choose a desired country to know the types of animal or species that are found in that particular country. This is to allow users to know more about the species in that country, 
+  using the backend API.
 
 **Contact form**
 
 * This is also an application in the frontend, where users can send in their queries or enquiries, with the help of the backend API.
 
-<br>
-
 **Feeds**
 
 * This aspect is the front end application in regards to feed. This is to allow users to read comment, view images and like a post,interacting with the backend API.
 
-
 ##### Back to [top](#table-of-contents)
 
-<br>
-
-## User Stories
-
- Epic:
+## User Stories:
 
 **Posts**
 
@@ -160,8 +144,6 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a logged in user, I can like a post so that I can show my like
 * As a user, I can search for posts with keywords, so that I can find the posts I am most interested in.
 * Users can not view "/feed" route when not logged in
-
-
 
 **Comments**
 
@@ -181,15 +163,11 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 * As a user, I would like to be able to send in enquiries, complaint or any post issues.
 
-
 **Footer**
 
 * As a user, I would like to be able to follow  the site organization on every social media platform in order to show my solidarity.
 
-
-<br>
-
-**User Story:**
+**User Story in General:**
 
 * As a logged out user I can see sign in and sign up options so that I can ether sign in nor sign up
 * As a Site User I can view a list of posts and also add posts so that I can select which that interest me to read about and to add my own post
@@ -203,12 +181,50 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a user can view "/feed" route when logged in
 * As a user I can search for wild life specie or animal without the need to create an account
 
-<hr>
+## Logo
+
+* The site logo is displayed on the left side of the navigation bar at all times
+  
+![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
+
+## DropDown Menu Burgar
+
+* As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burgar menu option displayed on the device 
+
+![image](https://github.com/email2ify/friends/assets/110549305/6283b063-aef5-4ef3-a7a2-ebb4466297fc)
+
 <br>
 
-# Manual Testing
+## Users: 
 
-#### Responsiveness
+## Logged in users
+
+![Nav11](https://github.com/email2ify/Projecttest-API/assets/110549305/dc37feee-01d5-4c49-ba0a-74322c765100)
+
+When a user is logged in the following navigation items are shown:
+
+* logo
+* Add Post
+* Home
+* Feed
+* Sign Out
+* Users Icon
+
+## Logged out users
+
+![nav1](https://github.com/email2ify/Projecttest-API/assets/110549305/0f5107a4-c4be-45a2-9b08-681a73958bc9)
+ 
+When a user is logged out the following navigation items are shown:
+* logo
+* Home
+* Sign In
+* Sign Up
+
+<br>
+
+# Features:
+
+## Manual Testing
 
 ### Testing User Stories - Responsiveness
 
@@ -224,19 +240,11 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 ![rep2](https://github.com/email2ify/Projecttest-API/assets/110549305/3e47fee8-69e4-4e4b-bf6c-8f79724d455d)
 
-<br>
-
-## Logo
-
-![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
-
-* The site logo is displayed on the left side of the navigation bar at all times
-
 <hr>
 <br>
 
-
-### Testing User Stories - Navigation bar
+## Navigation
+### Testing User Stories - Navigation Bar
 
 * As a user, I can use the navigation bar so that I can access other pages within the app.
 
@@ -246,54 +254,10 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 ![Nav11](https://github.com/email2ify/friends/assets/110549305/a84f1ae2-9256-4809-a415-754b8bbb8b38)
 
-<br>
-
-## DropDown Menu Burgar
-
-* As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burgar menu option displayed on the device 
-
-![image](https://github.com/email2ify/friends/assets/110549305/6283b063-aef5-4ef3-a7a2-ebb4466297fc)
-
-<br>
-
-## Users: 
-
-## Logged in users
-
- 
-<br>
-
-![Nav11](https://github.com/email2ify/Projecttest-API/assets/110549305/dc37feee-01d5-4c49-ba0a-74322c765100)
-
-When a user is logged in the following navigation items are shown:
-
-* logo
-* Add Post
-* Home
-* Feed
-* Sign Out
-* Users Icon 
-
-<br>
-
-## Logged out users
-
-<br>
-
-![nav1](https://github.com/email2ify/Projecttest-API/assets/110549305/0f5107a4-c4be-45a2-9b08-681a73958bc9)
- 
-When a user is logged out the following navigation items are shown:
-* logo
-* Home
-* Sign In
-* Sign Up
-
-
 <hr>
 <br>
 
-# Features:
-
+## Home 
 ## Testing User Stories - Home Page
 
 * As a user I can view and read what the website is all about and a carousel of images of the wildlife species
@@ -303,14 +267,14 @@ When a user is logged out the following navigation items are shown:
 | ------------- | ------------- | -------------    | ------------- |
 |  Home page  | Navigate to the Friends WildLife site in your internet browser. View the landing page.  | User to view the landing page and be able to understand what the website is about  | Works as expected |
 
-<br>
+
 
 ![front1](https://github.com/email2ify/Projecttest-API/assets/110549305/26d3a22a-859e-4232-9861-ebeb73311f0b)
 
 <hr>
 <br>
 
-## Species Page
+## Species
 ### Testing User Stories - Species Page
 
 * As a user I can view and scroll down to any species image of your choice and click on the animal to get more details about the animal and countries most often located
@@ -326,8 +290,9 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
-## Countries Page
+## Countries
 ### Testing User Stories - Countries Page
+
 * As a user I can directly choose from listed countries on the page to know what animals are found there
 
 | Feature       | Action        | Expected Result  | Actual Result |
@@ -335,11 +300,13 @@ When a user is logged out the following navigation items are shown:
 |  Countries  | Navigate to the countries list page by clicking on Countries icon in the nav bar. Scroll the countries list.  | Users to be able to scroll through all african country's list | Works as expected |
   
 ![listcountries](https://github.com/email2ify/Projecttest-API/assets/110549305/1990fa0a-70ed-409a-b847-fba6df690eeb)
+
 <hr>
 <br>
 
 ## Country
 ### Testing User Stories - Country
+
 * As a user I can view the content of a chosen country from the countries list on the page, so I can know what what animal or species that are likely to be found in that specific African country
 
 | Feature       | Action        | Expected Result  | Actual Result |
@@ -350,10 +317,11 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ![found](https://github.com/email2ify/Projecttest-API/assets/110549305/8671a2a0-b5e7-475e-a5ca-4593d7723d81)
+
 <hr>
 <br>
 
-## Contact Page
+## Contact
 ### Testing User Stories - Contact Page
 
 * As a user I can contact the organization and submit my reason of complaint as regards 'general enquiery','login issues','report a post' or 'delete account'.
@@ -375,7 +343,7 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
-## Feed Page
+## Feed 
 ### Testing User Stories - Feed Page
 
 * As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content
@@ -383,7 +351,7 @@ When a user is logged out the following navigation items are shown:
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Feed list  | Log in and navigate to the Feed list page by clicking on the feed list icon in the nav bar. Scroll the animal list of images .  | Users to be able to scroll through all feed posted by other users | Works as expected |
+|  Feed Page  | Log in and navigate to the Feed page by clicking on the feed icon in the nav bar. Scroll the animal list of images .  | Users to be able to scroll through all feed posted by other users | Works as expected |
 
 ![feed3](https://github.com/email2ify/Projecttest-API/assets/110549305/05c4a386-a043-4dff-8e1d-aad319be3bc5)
 
@@ -392,7 +360,8 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ## Account
-### Testing User Stories - Account
+### Testing User Stories - User Account
+
 * As a new user, I can register an account so that I can have access to feeds and like post 
 
 | Feature       | Action        | Expected Result  | Actual Result |
@@ -408,6 +377,7 @@ When a user is logged out the following navigation items are shown:
 
 ## Sign In
 ### Testing User Stories - Sign In
+
 * As a user I can sign in to follow up with recent posts on the feed and activities on the platform
 * As a user, I can log in so that I can access my account, view my post, most like and own profile posts. 
 
@@ -429,12 +399,12 @@ When a user is logged out the following navigation items are shown:
 ## Sign Up
 ### Testing User Stories - Sign Up
 
-* As the site owner, I would want to validate users' data entries on sign up so that users can create a LogIn to meets the requirements.
 * As a user I can register an account with the organization in order to comment, post and follow up with recent posts on the feed and activities on the platform
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
 | Input validation   | Navigate the site. Click on the log in icon in the nav bar. Enter username and password to the relevant fields.   | User input to be validated again and signed in if invalid password it will be presented with error messages | Works as expected |
+|  Sign Up | Navigate to the Sign up page, fill in the required fields and submit the login form  | User sign up credentials to be authenticated with a unique username and password for it to be stored in the database  | Works as expected  |
 
 ![signup](https://github.com/email2ify/Projecttest-API/assets/110549305/bf785a4d-5d36-4db6-a477-7beea7214fa4)
 
@@ -459,14 +429,16 @@ When a user is logged out the following navigation items are shown:
 <hr>
 <br>
 
+## Get Started
+
 **None Users**
 
 * Restricted access has been implemented on the Feed posts for users who are not signed in, they will not be able to create a post, like or comment on post
+
 <br>
 
-## Get Started
+### Testing User Stories - Users
 
-#### Testing User Stories - Users
 * As a user I can easily get started just by clicking on the Get Started button and it will redirect the user to a SignIn
 * As a new user, I can register an account so that I can have access to feeds and like post 
 
@@ -812,7 +784,7 @@ Other bugs that were found, and with the error codes given, I was able to search
 
 <br>
 
-## Security 
+## Security
 
 * Unrelated input after the urls page will get a "404 Not Found page" with a "Return Home" button for the user to click to return to the main home page.
 
