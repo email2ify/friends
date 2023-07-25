@@ -494,7 +494,7 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Create a post  | Click on the Create add button which is located at the top left page, click or tap to upload an image and fill in the form and then click on create save.  | User to be able to successfully create a post which will be added to the databaseand content  | Works as expected |
+|  Create a post  | Click on the Create add button which is located at the top left page, click or tap to upload an image and fill in the form and then click on create save.  | User to be able to successfully create a post which will be added to the database and content  | Works as expected |
 |  Delete Post  | Navigate to the post detail page by clicking on the relevant post on the feed. Click on the 3 dots icon in the top right corner of the post. Click on the delete button  | User to click the delete button and the post to be deleted from the database  | Works as expected |
 |  Edit post  | Navigate to the feed, post content, click on the 3 dots icon located in top right corner and click on the edit button to be taken to the edit post.change the content and click on save or cancel to cancel the current edit  | User to click the edit button and the post edit content to be displayed in which the user can update the post content  | Works as expected |
 
@@ -504,7 +504,6 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 <hr>
 <br>
-
 
 ### Testing User Stories - Comments
 
@@ -682,9 +681,6 @@ This was tested with incognito mode because the page loaded too slowly to finish
 
 ##### Back to [top](<#table-of-contents>)
 
-<br>
-
-
 
 ## Reusable React Components
 
@@ -714,8 +710,6 @@ They are all Reusable React Components on the Navbar to provide a consistent use
 
 * Feedback and Confirmation: After form submission, a modal message can display feedback or confirmation messages, letting users know that their form was successfully submitted or if any further action is required or a get back message to look into the inquiring as soon as possible. It helps the User to biuld a User-Friendly Interaction and it provide smooth and user-friendly interactions, form validations, making the process of filling out the enquiry form more enjoyable and engaging for users.
 
-<br>
-
 
 ## Wireframes
 
@@ -737,8 +731,6 @@ Balsamiq was used to create wireframes of the sites pages
 
 ##### Back to [top](#table-of-contents)
 
-<br>
-
 ## Technical Design
 
 ## Colour-Scheme
@@ -751,14 +743,9 @@ Balsamiq was used to create wireframes of the sites pages
      * Countries page:  Drak Blue (#6c757d), Text White (#FFFFFF)
      * Get Started: Orange (ff6600)
 
-
-<br>
-
 ### Typography
 
 * The main font used on the website is "DM Sans".
-
-<br>
 
 ### Imagery
 
@@ -766,11 +753,7 @@ Balsamiq was used to create wireframes of the sites pages
 
 while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo was modify and compress using Favicon [click](https://favicon.io/favicon-converter)
 
-<br>
-
 ##### Back to [top](<#table-of-contents>)
-
-<br>
 
 ### Bugs
 
@@ -781,8 +764,6 @@ I later discovered that, it is expected to behave so with iOS devices. It's a bu
 
 Other bugs that were found, and with the error codes given, I was able to search on google which provides me with already made answers on same questions by other coders from slack using the exact error code and this method helps me alots on this project and also with help of student tutor
 
-<br>
-
 ## Security
 
 * Unrelated input after the urls page will get a "404 Not Found page" with a "Return Home" button for the user to click to return to the main home page.
@@ -791,8 +772,6 @@ Other bugs that were found, and with the error codes given, I was able to search
 * "The two password fields didn't match" for incorrect password on sign up form
 * "Unable to log in with provided credentials" for incorrect user name or password sign in form
 
-
-<br>
 
 ## Basic Technologies
 
@@ -810,8 +789,6 @@ Other bugs that were found, and with the error codes given, I was able to search
     * Linting tool used in order to check best practice coding standards
 * Heroku
     * Used for application hosting
-
-<br>
 
 **Coding Languages**
 - HTML
@@ -838,8 +815,6 @@ Other bugs that were found, and with the error codes given, I was able to search
 - [Git](https://git-scm.com/) - I used this for version control and to push the code to GitHub
 - [GitHub](https://github.com/) - I used this as a remote repository to store project code
 
-      
-<br>
 
 ## Validation:
 
@@ -870,8 +845,6 @@ Other bugs that were found, and with the error codes given, I was able to search
 
 ##### Back to [top](<#table-of-contents>)
 
-<br>
-
 ## Packages
 
 * "axios": "^0.21.4",
@@ -886,9 +859,6 @@ Other bugs that were found, and with the error codes given, I was able to search
 * "react-scripts": "^4.0.3",
 * "web-vitals": "^1.1.2",
 * "eslint": "^7.32.0",
-
-<br>
-
 
 ## Deployment
 
@@ -934,8 +904,6 @@ The site was deployed to Heroku with the following steps:
 * In order to avoid any CORS issues, set withCredentials to True.
 * Import this file into App.js to be used on all pages
 
-<br>
-
 ## Forking
 
 Make a copy of the original repository on the GitHub account. The copy can then be viewed and it is also possible to make changes in the copy without affecting the original repository. To fork the repository, follow these steps:
@@ -944,8 +912,6 @@ Make a copy of the original repository on the GitHub account. The copy can then 
 * Once logged in navigate to the desired [GitHub Repository](https://github.com/email2ify/moments.git) that you would like to fork.
 * At the top right corner of the page click on the fork icon.
 * There should now be a copy of your original repository in the GitHub account.
-
-<br>
 
 ## Locally
 
@@ -961,12 +927,8 @@ Navigate to the GitHub Repository you want to clone to use locally:
 * `$ clone https://github.com/email2ify/moments.git`
 * Press enter and the local clone will be created at the desired local location
 
-
-<br>
-
 **Install Dependencies:**
 
-<br>
 * nvm install 16
 * nvm use 16
   <br>
@@ -975,8 +937,6 @@ Run Application:
 
 * npm start
   
-<br>
-
 ## Version Control
 
 The site was created using the Visual Studio Code editor and pushed to github to the remote repository .
@@ -989,9 +949,6 @@ The following git commands were used throughout development to push code to the 
 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
 
-<br>
-
-
 Install Dependencies:
 
 ```npm install```
@@ -1000,19 +957,12 @@ Run Application:
 
 ```npm start```
 
-
-
-<br>
-
 ## Credits
 
  Implementation: 
 * Home page image carousel - [React responsive carousel](https://www.npmjs.com/package/react-responsive-carousel?fbclid=IwAR1lRdK_fVD_9qm55QXE0KN7H4yUqw_cLnSUv5_zk9QRIwriizKYC5KZWj8) 
  
 * Code Institute- [click](https://learn.codeinstitute.net)
-
-<br>
-
 ## Acknowledgements
 
 My Mentor Daisy, my family, and most especially my wife  
