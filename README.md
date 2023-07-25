@@ -206,6 +206,8 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 <hr>
 <br>
 
+# Manual Testing
+
 ## Responsiveness
 
 ### Testing User Stories - Responsiveness
@@ -233,7 +235,6 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 <hr>
 <br>
 
-## Manual testing
 
 ### Testing User Stories - Navigation bar
 
