@@ -199,7 +199,6 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a Site User I can register an account so that I can post, comment and like
 * As a Site User/Owner I can create, read, update and delete posts so that I can manage my post content
 * As a Site User, I can navigate to the search blank space so that I can easily search for a content.
-* As a Site User, I can navigate to the search blank space so that I can easily search for a content.
 * As a user I can view the details of a single post so that I can learn more about it
 * As a user can view "/feed" route when logged in
 * As a user I can search for wild life specie or animal without the need to create an account
@@ -446,23 +445,32 @@ When a user is logged out the following navigation items are shown:
 
 ![signout](https://github.com/email2ify/Projecttest-API/assets/110549305/c2ec0ee9-ccad-4c39-98de-33c3cc1e4ccb)
 
+<hr>
 <br>
 
 **None Users**
 
 * Restricted access has been implemented on the Feed posts for users who are not signed in, they will not be able to create a post, like or comment on post
-
 <br>
 
 ## Get Started
 
-User Story:
 
+
+#### Testing User Stories - Users
 * As a user I can easily get started just by clicking on the Get Started button and it will redirect the user to a SignIn
+* As a new user, I can register an account so that I can have access to feeds and like post 
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Authentication  | Navigate to the Get Started button, and click on it |User will be ask to sign In to commence   | Works as expected |
+|  Sign In  |  Navigate to the sign up page, fill in the required fields and submit the sign up form | Enter the required fields for sign up,and the user will be redirected to the log in page | Works as expected |
+|  Input Validation  | Enter values into the sign up form fields  | Input fields requires validation otherwise it will  for errors  | Works as expected |
 
 
 ![getstarted](https://github.com/email2ify/friends/assets/110549305/8864f737-db61-46dd-9140-816c915007ce)
 
+![signi](https://github.com/email2ify/friends/assets/110549305/0b9ff0cb-66a3-4518-9e4e-b8753e87b3c0)
 
 <br>
 
