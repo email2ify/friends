@@ -142,6 +142,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 * This aspect is the front end application in regards to feed. This is to allow users to read comment, view images and like a post,interacting with the backend API.
 
+
 ##### Back to [top](#table-of-contents)
 
 <br>
@@ -161,6 +162,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * Users can not view "/feed" route when not logged in
 
 
+
 **Comments**
 
 * As a user I can read comments on posts so that I can read what other users think about the posts
@@ -178,7 +180,8 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 **ContactForm**
 
 * As a user, I would like to be able to send in enquiries, complaint or any post issues.
-  
+
+
 **Footer**
 
 * As a user, I would like to be able to follow  the site organization on every social media platform in order to show my solidarity.
@@ -195,12 +198,13 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a Site User I can view the number of likes on each post so that I can see which is the most popular with likes
 * As a Site User I can register an account so that I can post, comment and like
 * As a Site User/Owner I can create, read, update and delete posts so that I can manage my post content
-* As a Site User, I can navigate to the search blank space so that I can easily search for a content or images among hundreds of post images.
-* As a Site User, I can navigate to the search blank space so that I can easily search for a content or images among hundreds of post images.
+* As a Site User, I can navigate to the search blank space so that I can easily search for a content.
+* As a Site User, I can navigate to the search blank space so that I can easily search for a content.
 * As a user I can view the details of a single post so that I can learn more about it
 * As a user can view "/feed" route when logged in
+* As a user I can search for wild life specie or animal without the need to create an account
 
-
+<hr>
 <br>
 
 ## Responsiveness
@@ -220,12 +224,13 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 ![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
 
 * The site logo is displayed on the left side of the navigation bar at all times
-  
+
+<hr>
 <br>
 
-### Manual testing
+## Manual testing
 
-## Testing User Stories - Users
+### Testing User Stories - Navigation bar
 
 * As a user, I can use the navigation bar so that I can access other pages within the app.
 
@@ -285,14 +290,19 @@ When a user is logged out the following navigation items are shown:
 
 ## Features
 
-## Home Page
+### Testing User Stories - Home Page
 
 * As a user I can view and read what the website is all about and a carousel of images of the wildlife species
+* As a user, I can view the Home Page so that I can understand what the website is about, create an account or log in. 
 
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Home page  | Navigate to the Friends WildLife site in your internet browser. View the landing page.  | User to view the landing page and be able to understand what the website is about  | Works as expected |
 <br>
 
 ![front1](https://github.com/email2ify/Projecttest-API/assets/110549305/26d3a22a-859e-4232-9861-ebeb73311f0b)
 
+<hr>
 <br>
 
 ## Species Page
@@ -322,25 +332,47 @@ When a user is logged out the following navigation items are shown:
 <br>
 
 ![found](https://github.com/email2ify/Projecttest-API/assets/110549305/8671a2a0-b5e7-475e-a5ca-4593d7723d81)
-
+<hr>
 <br>
 
-## Contact Page
+
+### Testing User Stories - Contact Page
 
 * As a user I can contact the organization and submit my reason of complaint as regards 'general enquiery','login issues','report a post' or 'delete account'.
-  
+* As a user, I can receive site feedback on enquiries so that I can confirm whether the contact form submission was successful or not.
+* As a user, I can contact form enquiries so that I can submit my query
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Report a post | Perform an operation of reason of complaint | User to be reach out regarding reason of complaint | Works as expected |
+| Contact | Click on the Contact icon from the nav bar which is available to annonymous and authenticated users. Enter the relevant information to the form fields and click on submit| Users and non-users to the site to have the access to the site for any query |  Works as expected|
+
+![report](https://github.com/email2ify/friends/assets/110549305/c6a17ee4-dfff-4061-87cb-c066d4016476)
+
+![lo](https://github.com/email2ify/friends/assets/110549305/91777065-85bd-46c2-a045-154851352479)
+
 ![contactus](https://github.com/email2ify/Projecttest-API/assets/110549305/defb8a4c-1e08-4602-83fc-2b0b831cef4a)
 
+
+<hr>
 <br>
 
-## Feed Page
+### Testing User Stories - Feed Page
 
-* As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content<br>
+* As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content
+* As a user, I can scroll through all animal post on the app so that I can find my post that interest me to comment or like.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Feed list  | Log in and navigate to the Feed list page by clicking on the feed list icon in the nav bar. Scroll the animal list of images .  | Users to be able to scroll through all feed posted by other users | Works as expected |
 
 ![feed3](https://github.com/email2ify/Projecttest-API/assets/110549305/05c4a386-a043-4dff-8e1d-aad319be3bc5)
 
+
+<hr>
 <br>
 
+### Testing User Stories - An Account
 * As a new user, I can register an account so that I can have access to feeds and like post 
 
 | Feature       | Action        | Expected Result  | Actual Result |
@@ -359,14 +391,24 @@ When a user is logged out the following navigation items are shown:
  
 ![signi](https://github.com/email2ify/Projecttest-API/assets/110549305/e3443ae7-dd13-4eca-9b36-9e60f97d83ed)
 
+<hr>
 <br>
 
-## Sign Up
+### Testing User Stories - Sign Up
 
-* As a user I can register an account with the organization in order to comment, post and follow up with recent posts on the feed and activities on the platform<br>
+* As the site owner, I would want to validate users' data entries on sign up so that users can create a LogIn to meets the requirements.
+* As a user I can register an account with the organization in order to comment, post and follow up with recent posts on the feed and activities on the platform
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+| Input validation   | Navigate the site. Click on the log in icon in the nav bar. Enter username and password to the relevant fields.   | User input to be validated again and signed in if invalid password it will be presented with error messages | Works as expected |
 
 ![signup](https://github.com/email2ify/Projecttest-API/assets/110549305/bf785a4d-5d36-4db6-a477-7beea7214fa4)
 
+![image](https://github.com/email2ify/friends/assets/110549305/7ad0407d-074f-49e5-ab1c-3ee48676c782)
+
+
+<hr>
 <br>
 
 ## Sign Out
@@ -404,9 +446,10 @@ User Story:
 
 ![feedss](https://github.com/email2ify/friends/assets/110549305/b3c4a195-8214-4850-b6d2-2b19342c4b3f)
 
+<hr>
 <br>
 
-User Story:
+### Testing User Stories - Edit or Delete comment on a post
 
 * As a post owner, I can edit or delete my comment on a post, so that I can make corrections or update the post, moreover, Only the user who created the post will be able to edit comments or delete post. This will ensure that users have full control of their own posts and unauthorized users are unaccepted.
 
@@ -444,29 +487,36 @@ User Story:
 
 ![commm](https://github.com/email2ify/friends/assets/110549305/b97ce1f5-e6ca-46c4-b77b-76e8ef5ce894)
 
-
+<hr>
 <br>
 
 
-**Search Bar**
+### Testing User Stories - Search Bar
 
-* Search Bar is a feature giving users the ability to search for a users post by users name or based on key word input.
+ Search Bar is a feature giving users the ability to search for a users post by users name or based on key word input.
+* As a user, I can search for post via feed list so that I can find specific post about animal.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+| Feed list   | When logged in, navigate to the feed lists page from the nav bar. Scroll down the page to view all posts that are on the feed  | User can see all post with list of all animal that are posted in the feed users  | Works as expected |
+| Post search   | When logged in, navigate to the feed page from the nav bar. Use the search bar at the top of the page to search for post based on words or alphabet  | User to be able to comments,like or unlike  | Works as expected |
  
 ![seac](https://github.com/email2ify/Projecttest-API/assets/110549305/0fa6d027-8f0d-44be-851b-8d7f93e47bdb)
 
-
+<hr>
 <br>
 
-**Search WildLife**
+### Testing User Stories - Search WildLife
 
-User Story:
+* As a user I can search for wild life specie or animal without the need to create an account(very friendly in this features here)
 
-* As a user I can search for wild life specie or animal
-
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Search  | Log in and navigate to the search blank from the home page without a log in. Search for favorite animal.  | Users to be able to see all seacrch species from the database  | Works as expected |
 
 ![image](https://github.com/email2ify/friends/assets/110549305/03c62b20-9681-4e04-ae62-1a5bd33a63dd)
 
-
+<hr>
 <br>
 
 
@@ -493,7 +543,7 @@ User Story:
 **Footer**
 
 * Footer image from the landing page
-* 
+
 ![footer](https://github.com/email2ify/friends/assets/110549305/57a50061-efdc-473f-990c-71f1eed6da08)
 
 
