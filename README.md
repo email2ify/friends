@@ -290,11 +290,13 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 ![seac](https://github.com/email2ify/friends/assets/110549305/e1ca6273-f9fb-4422-89da-17f3e296e60a)
 
+![elep](https://github.com/email2ify/friends/assets/110549305/543e5075-9ee0-41c5-8c08-6d65d3757038)
+
 ![species3](https://github.com/email2ify/Projecttest-API/assets/110549305/efbfc82a-4181-4e79-a4b2-a07259f13b9b)
 
  **About Species**
 
-![aboutspec](https://github.com/email2ify/friends/assets/110549305/19781b68-aba2-4dfb-998e-0a024b60374f)
+![abo](https://github.com/email2ify/friends/assets/110549305/b9fc7c88-edd7-4e48-97f2-22e0e515553e)
 
 
 
