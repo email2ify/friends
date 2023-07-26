@@ -281,14 +281,22 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Species  | Navigate to the countries page from countries list. show Animals that can be found from in a country. Click countries list and click on a country to view About the specie.  | Users to be able to get the species details in a particular country| Works as expected |
+|  Species  | Navigate to the species page. show Animals that can be found from in a country. Click on a country to view About the specie.  | Users to be able to get the species details in a particular country| Works as expected |
+|  Search Species | Log in and navigate to the Species page from the home page without a log in. Search for favorite animal alphabetically.  | Users to be able to view search wildelife content from the database  | Works as expected |
+
 <br>
+
+**Search wildlife**
+
+![seac](https://github.com/email2ify/friends/assets/110549305/e1ca6273-f9fb-4422-89da-17f3e296e60a)
 
 ![species3](https://github.com/email2ify/Projecttest-API/assets/110549305/efbfc82a-4181-4e79-a4b2-a07259f13b9b)
 
  **About Species**
 
 ![aboutspec](https://github.com/email2ify/friends/assets/110549305/19781b68-aba2-4dfb-998e-0a024b60374f)
+
+
 
 <hr>
 <br>
