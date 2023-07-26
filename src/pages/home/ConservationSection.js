@@ -16,11 +16,11 @@ const ConservationSection = () => {
       params: { q: searchTerm }
     })
       .then(response => {
-        const animals = response.data.results;
+        const animals = response.data;
         setSearchResults(animals);
       })
       .catch(error => {
-        // Handle the error
+        console.error(error);
       });
   };
 
@@ -39,7 +39,6 @@ const ConservationSection = () => {
           <Col md={6} >
             <div style={{maxHeight:'360px'}} className="d-flex">
               <img  className="w-100" src={ele} alt="About" />
-
             </div>
           </Col>
         </Row>
@@ -69,7 +68,7 @@ const ConservationSection = () => {
         {/* Display search results */}
         {searchResults.length > 0 && (
           <div>
-            <h4>Search Results for '{searchTerm}':</h4>
+            <h4 className='search-header font-weight-bold my-3'>Search Results for '{searchTerm}':</h4>
             <Row>
               {searchResults.map(animal => (
                 <Col key={animal.id} sm={6} md={4} lg={4} className="mb-4">

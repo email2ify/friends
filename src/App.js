@@ -10,8 +10,6 @@ import PostPage from "./pages/posts/PostPage";
 import PostsPage from "./pages/posts/PostsPage";
 import { useCurrentUser } from "./contexts/CurrentUserContext";
 import PostEditForm from "./pages/posts/PostEditForm";
-
-//import MainPage from "./components/MainPage";
 import { LandingPage } from "./pages/home/LandingPage";
 import Footer from "./components/Footer";
 import CountriesList from "./pages/country/CountriesList"; 

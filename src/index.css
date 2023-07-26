@@ -221,3 +221,15 @@ code {
     object-fit: contain;
   }
 
+
+  .search-header {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+
+  .error-box {
+    height: 70vh;
+  }

@@ -23,7 +23,7 @@ const AnimalListByCountry = () => {
 
   return (
     <>
-      <h1>Animals that can be found in {country}</h1>
+      <h1 className="my-4 px-3 font-weight-bold">Animals that can be found in {country}</h1>
       <Row>
         {animals.map((animal) => (
           <Col key={animal.id} sm={6} md={4} lg={4} className="mb-4">

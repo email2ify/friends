@@ -5,8 +5,6 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 
-const handleDragStart = (e) => e.preventDefault();
-
 /**
  * Breakpoint for Alice carousel: i.e number of items to display at a time based on device width
  */

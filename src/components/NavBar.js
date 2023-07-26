@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import logo from "../assets/logo.png";
 import styles from "../styles/NavBar.module.css";
-import { NavLink, useHistory } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   useCurrentUser,
   useSetCurrentUser,
@@ -20,9 +20,6 @@ import { removeTokenTimestamp } from "../utils/utils";
 const NavBar = () => {
   const currentUser = useCurrentUser();
   const setCurrentUser = useSetCurrentUser();
-  const [showModal, setShowModal] = useState(false);
-  const history = useHistory();
-
 
   // applying toggle on NavBar dropdown menu
   const { expanded, setExpanded, ref } = useClickOutsideToggle();
@@ -44,11 +41,6 @@ const NavBar = () => {
     } catch (err) {
       
     }
-  };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
-    history.push("/");
   };
 
   const addPostIcon = (

@@ -2,7 +2,6 @@ import axios from "axios";
 
 //using axios to connect with the api
 axios.defaults.baseURL = "https://friends12.herokuapp.com";
-//axios.defaults.baseURL = "https://8000-email2ify-drffriends-piiegiryrr7.ws-eu101.gitpod.io";
 
 // data format by API
 axios.defaults.headers.post["Content-Type"] = "multipart/form-data";

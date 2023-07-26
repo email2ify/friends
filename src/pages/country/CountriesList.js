@@ -23,13 +23,13 @@ const CountriesList = () => {
   return (
     <>
       <Row>
-        <h1 className="mb-4">List of countries with animals</h1>
+        <h1 className="my-4 px-3 font-weight-bold">List of countries with animals</h1>
         {countries.map((country) => (
-          <Col key={country.id} sm={12} md={12} lg={12}>
+          <Col key={country.id} sm={12} md={12} lg={12} className="">
             <div>
               <Link to={`/countries/${country}`}>
                 <div>
-                  <h3 className="bg-secondary text-white p-3">{country}</h3>
+                  <h3 className="btn-link bg-secondary text-white p-3">{country}</h3>
                 </div>
               </Link>
             </div>

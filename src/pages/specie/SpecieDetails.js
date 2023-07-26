@@ -36,11 +36,12 @@ const SpecieDetails = () => {
         </Col>
       </Row>
       <Row>
-        <Col md={6}>
-          <h2>{specieData?.name}</h2>
-          <h3>About the specie</h3>
+
+        <Col md={12} className="my-3">
+          <h1 className="font-weight-bolder">{specieData?.name}</h1>
+          <h5 className="mb-2"><u>About the specie</u></h5>
           <div className="text-container">
-            {/* Displaying the countries the specie can be found in */}
+            {/* Displaying the countries the species can be found in */}
             <p className="mb-2">
               Mostly found in:{" "}
               {Array.isArray(specieData?.countries) ? (
@@ -48,18 +49,20 @@ const SpecieDetails = () => {
                 specieData.countries.map((country, index) => (
                   <React.Fragment key={country}>
                     {index > 0 && ", "}
-                    <Link to={`/countries/${country}`}>{country}</Link>
+                    <Link to={`/countries/${country}`} className="btn btn-link">
+                      {country}
+                    </Link>
                   </React.Fragment>
                 ))
               ) : (
                 // If the countries return a single country, render it as a link
-                <Link to={`/countries/${specieData?.countries}`}>
+                <Link to={`/countries/${specieData?.countries}`} className="btn btn-link">
                   {specieData?.countries}
                 </Link>
               )}
             </p>
 
-            <p style={{ whiteSpace: 'pre-wrap' }}>{specieData?.description}</p>
+            <p style={{ whiteSpace: 'pre-wrap', fontSize: '18px' }}>{specieData?.description}</p>
           </div>
         </Col>
       </Row>
