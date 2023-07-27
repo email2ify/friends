@@ -276,8 +276,8 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 ## Species
 ### Testing User Stories - Species Page
 
-* As a user I can view and scroll down to any species image of your choice and click on the animal to get more details about the animal and countries most often located
-* As a user I can view detail of a chosen country from the countries list on the page, so I can know what what animal or species that are likely to be found in that specific African country
+* As a user I can view and scroll down to any species image of your choice and click on the animal to get more details about the animal and countries most often found
+* As a user I can search for wild life of my choice, so that I can know more about the animal and the countries they are likely to be found in.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
@@ -433,12 +433,13 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 ## Sign Out
 ### Testing User Stories - Sign Out
 
-* As a user I can sign out from my account when done with all recent posts on the feed and activities on the platform
+* As a user I can sign out from my account when done with all recent posts on the feed on the platform
 * As a user, I can sign out so that other users using the same device cannot access my account. 
+* As a user, I can sign out with an indicating message when logged out so that I can be sure that I have logged out of my account properly.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Log out  | From the nav bar click on the log out icon  | User to be successfully logged out and return to the home page  | Works as expected |
+|  Log out  | From the nav bar click on the log out icon  | User to be successfully logged out with a message "GoodBye!Thank you for visiting.See you soon!" and return to the home page  | Works as expected |
 
 ![signout](https://github.com/email2ify/Projecttest-API/assets/110549305/c2ec0ee9-ccad-4c39-98de-33c3cc1e4ccb)
 
@@ -473,14 +474,14 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 <br>
 
 ### Testing User Stories - Feed
-* As a logged in user I can like a post so that I can show my likes and commemt that interest me
+* As a logged in user I can like a post so that I can see my likes and comments that interest me
 * Logged in users have full access to post, comment, like or unlike. This will help ensure that unregistered users are not allow on the website
-* As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content
-* As a user, I can scroll through all animal post on the app so that I can find my post that interest me to comment or like.
+* As a user I can view all the most recent posts by other users, orderly, and by most recently posted so that I am up to date with the newest content
+* As a user, I can scroll through all wild life animals post on the application so that I can find a post that interest me to comment or like.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Feed   | Log in and navigate to the Feed page by click on any feed post.| Users to be able to scroll through all feed posted by other users | Works as expected |
+|  Feed   | Log in and navigate to the Feed page, click on any wild life post.| Users to be able to scroll through all wild life feed posted by other users | Works as expected |
 
 ![feedss](https://github.com/email2ify/friends/assets/110549305/b3c4a195-8214-4850-b6d2-2b19342c4b3f)
 
@@ -494,7 +495,7 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
 |  Edit post comment  | Navigate to a post. Click on a post to view the post. Scroll to bottom and the comment section. Find the comment you wish to edit and click on the three dots icon. Enter updated comment and click save  | User to be able to edit and update their owned comments  | Works as expected |
-|  Delete post comment  |  Navigate to a post . Scroll to bottom and the comment section of the post displayed . Find the comment you wish to delete and click on the three dots icon. Click on the delete button to delete the comment | User to be able to edit and update their owned comments  | Works as expected |
+|  Delete post comment  |  Navigate to a post . Scroll to bottom and the comment section of the post displayed(wildlife images) . Find the comment you wish to delete and click on the three dots icon. Click on the delete button to delete the comment | User to be able to edit and update their owned comments  | Works as expected |
 
 ![editt](https://github.com/email2ify/friends/assets/110549305/1ebe4568-338a-4bd2-8ba0-39726f556a70)
 
