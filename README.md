@@ -73,19 +73,26 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 ### Site Goal
 
-* Friends WildLife is aimed to lovers of the wildlife. The site encourages user to share their thought, know more about animals and the countries where they are found. 
+* Friends WildLife is aimed to lovers of the wildlife. The site encourages user to share their thoughts, know more about animals and the countries where they are found. 
+* Friends WildLife is aimed in capturing and sharing the beauty and importance of African wildlife through photography and by showcasing the natural wonders of Africa. 
+* Friends WildLife can raise awareness and inspire others to care for its wildlife.
 
 ### Users Goal
 
-* User can also contribute in their own way by sharing photos and comment about their experince in the wild life of Africa.
+* User can also contribute in their own way by sharing photos of African wildlife and comment about their experince in the wild life in any of the African country
+* User can raise awareness and inspire others about their experience in the wildlife 
 
 ### Agile Planning
 
 * This project was developed using agile methodologies by delivering small features in incrementally with a three phase loop.
 
-* Stories were assigned to epics, prioritized under the Todo, In progress, and Done. They were assigned to track and monitor the progress of the project and stories allocated accordingly to the complexity. "Todo" stories is where I have listed the 'to do' stories lines, and "In progress" is where I have on-going work work in the tast mangement listed, likewise 'Done list', where I have the task completed.
+* Stories were assigned to epics, prioritized under the Todo, In progress, and Done. They were assigned to track and monitor the progress of the project and stories 
+  allocated accordingly to the complexity. "Todo" stories is where I have listed the 'to do' stories lines, and "In progress" is where I have on-going work work in the 
+  tast mangement listed, likewise 'Done list', where I have the task completed.
 
-* The Kanban board was created using github projects and can be located [here](https://github.com/users/email2ify/projects/12) and can be viewed to see more information on the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as complete.
+* The Kanban board was created using github projects and can be located [here](https://github.com/users/email2ify/projects/12) and can be viewed to see more information on 
+  the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as 
+  complete.
 
 ![sn](https://github.com/email2ify/Projecttest-API/assets/110549305/d44838ef-b7bb-44d4-ace1-4a956cba833d)
 
