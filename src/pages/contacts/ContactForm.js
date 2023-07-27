@@ -158,7 +158,7 @@ const ContactForm = () => {
               <Modal.Body>
                 Thank you for contacting us, we will get back to you shortly!
               </Modal.Body>
-              <Modal.Footer>''
+              <Modal.Footer>
                 <Button variant="secondary" onClick={handleCloseModal}>
                   Close
                 </Button>
