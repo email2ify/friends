@@ -94,7 +94,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
   the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as 
   complete.
 
-![sn](https://github.com/email2ify/Projecttest-API/assets/110549305/d44838ef-b7bb-44d4-ace1-4a956cba833d)
+![agilework](https://github.com/email2ify/friends/assets/110549305/9a17de76-2158-4dd8-a710-95772cf0cfa6)
 
 <hr>
 
@@ -176,7 +176,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 
 **User Story in General:**
-
+* As a Site User I can view a clear indication of mouse hovering in the Navbar
 * As a logged out user I can view sign in and sign up options so that I can either sign in or sign up
 * As a Site User I can view a list of posts and also add posts so that I can select which animal post that interest me to read about,comment and to add my own post
 * As a Site User I can click on a post so that I can view the image
