@@ -98,6 +98,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 <hr>
 
+
 ### Epics:
 
 **Set Up**
@@ -173,23 +174,27 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 * As a user, I would like to be able to follow  the site organization on every social media platform in order to show my solidarity.
 
+
 **User Story in General:**
 
-* As a logged out user I can see sign in and sign up options so that I can ether sign in nor sign up
-* As a Site User I can view a list of posts and also add posts so that I can select which that interest me to read about and to add my own post
+* As a logged out user I can view sign in and sign up options so that I can either sign in or sign up
+* As a Site User I can view a list of posts and also add posts so that I can select which animal post that interest me to read about,comment and to add my own post
 * As a Site User I can click on a post so that I can view the image
-* As a Site User I can view comments on a post image so that I can read the written compliments
+* As a Site User I can view comments on a post image so that I can read the written compliments or story
 * As a Site User I can view the number of likes on each post so that I can see which is the most popular with likes
 * As a Site User I can register an account so that I can post, comment and like
 * As a Site User/Owner I can create, read, update and delete posts so that I can manage my post content
-* As a Site User, I can navigate to the search blank space so that I can easily search for a content.
-* As a user I can view the details of a single post so that I can learn more about it
-* As a user can view "/feed" route when logged in
+* As a Site User, I can navigate to the search blank space so that I can easily search for wild life images.
+* As a user I can view the details of a single post so that I can learn or read more about it
+* As a user I can view "/feed" route when logged in only
 * As a user I can search for wild life specie or animal without the need to create an account
+* As a user I can search for wild life alphabetically on species page without the need of going back to the home page
+  
 
 ## Logo
 
 * The site logo is displayed on the left side of the navigation bar at all times
+  
   
 ![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
 
@@ -202,6 +207,16 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 <br>
 
 ## Users: 
+
+
+**Hovering the Navbar**
+
+The Users effect of hovering the Navbar is Color BLUE, giving a clear indication of which Narbar page the mouse is hovering and when the user click on the navigation page.
+
+![cc](https://github.com/email2ify/friends/assets/110549305/fd7d0a66-c221-46f6-84bd-a9b9ff958588)
+
+* Countries
+<br>
 
 ## Logged in users
 
