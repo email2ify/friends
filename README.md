@@ -21,7 +21,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
   
 - [Testing User Stories](<#manual-testing>)
 - [Logo](<#logo>)
-- [DropDown Menu Burgar](#dropdown-menu-burgar)
+- [DropDown Burger Menu ](#dropdown-burger-menu)
 
 - [Users](<#users>) 
     * [Logged in Users](<#logged-in-users>)
@@ -186,7 +186,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 * As a Site User/Owner I can create, read, update and delete posts so that I can manage my post content
 * As a Site User, I can navigate to the search blank space so that I can easily search for wild life images.
 * As a user I can view the details of a single post so that I can learn or read more about it
-* As a user I can view "/feed" route when logged in only
+* As a user I can view "/feed" route but only when logged in
 * As a user I can search for wild life specie or animal without the need to create an account
 * As a user I can search for wild life alphabetically on species page without the need of going back to the home page
   
@@ -198,11 +198,11 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
   
 ![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
 
-## DropDown Menu Burgar
+## DropDown Burger Menu
 
-* As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burgar menu option displayed on the device 
+* As a user , I can navigate from any device, like a mobile device and the user will still have a good user experience with the burger menu option displayed on the device 
 
-![image](https://github.com/email2ify/friends/assets/110549305/6283b063-aef5-4ef3-a7a2-ebb4466297fc)
+![IMG_8252 (1)](https://github.com/email2ify/friends/assets/110549305/3c42c61f-c185-49cd-af24-88c23553926c)
 
 <br>
 
@@ -249,7 +249,7 @@ When a user is logged out the following navigation items are shown:
 
 ### Testing User Stories - Responsiveness
 
-Responsiveness is a feature which can be seen through the Freinds wildlife. It gives users the ability to view the site on various display sizes while still having an enjoyable user experience.
+Responsiveness is a feature which can be seen through the Freinds wildlife. It gives users the ability to view the site on various displayed sizes while still having an enjoyable user experience.
 * As the site owner, I would want the site to be fully responsive so that users can use it across multiple devices and create a good user experience.
 
 | Feature       | Action        | Expected Result  | Actual Result |
@@ -271,7 +271,7 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Nav Bar  | Nav bar located at the top of each page and select the relevant icon link, and on a smaller devices click on the burger dropdown button to access the same icons links  | User can hover on the nav bar located at the top of each page to navigate all pages of the app  | Works as expected |
+|  Nav Bar  | Nav bar located at the top of each page and select the relevant icon link, and on a smaller devices like mobile device, click on the burger dropdown button to access the same icons links  | User can hover on the nav bar located at the top of each page to navigate all pages of the app  | Works as expected |
 
 ![Nav11](https://github.com/email2ify/friends/assets/110549305/a84f1ae2-9256-4809-a415-754b8bbb8b38)
 
@@ -304,7 +304,7 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
 |  Species  | Navigate to the species page. show Animals that can be found from in a country. Click on a country to view About the specie.  | Users to be able to get the species details in a particular country| Works as expected |
-|  Search Species | Log in and navigate to the Species page from the home page without a log in. Search for favorite animal alphabetically.  | Users to be able to view search wildelife content from the database  | Works as expected |
+|  Search Species | Navigate to the Species page from the home page without a log in. Search for favorite animal alphabetically displayed.  | Users to be able to view search wildelife content from the database  | Works as expected |
 
 <br>
 
@@ -332,7 +332,7 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Countries  | Navigate to the countries list page by clicking on Countries icon in the nav bar. Scroll the countries list.  | Users to be able to scroll through all african country's list | Works as expected |
+|  Countries  | Navigate to the countries list page and clicking on Countries icon in the nav bar. Scroll the countries list.  | Users to be able to scroll through all african country's list | Works as expected |
   
 ![listcountries](https://github.com/email2ify/Projecttest-API/assets/110549305/1990fa0a-70ed-409a-b847-fba6df690eeb)
 
@@ -389,7 +389,7 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Feed Page  | Log in and navigate to the Feed page by clicking on the feed icon in the nav bar. Scroll the animal list of images .  | Users to be able to scroll through all feed posted by other users | Works as expected |
+|  Feed Page  | Log in Users only can navigate to the Feed page by clicking on the feed icon in the nav bar. Scroll the animal list of images .  | Users to be able to scroll through all feed posted by other users | Works as expected |
 
 ![feed3](https://github.com/email2ify/Projecttest-API/assets/110549305/05c4a386-a043-4dff-8e1d-aad319be3bc5)
 
@@ -577,7 +577,6 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-| Feed list   | When logged in, navigate to the feed lists page from the nav bar. Scroll down the page to view all posts that are on the feed  | User can see all post with list of all animal that are posted in the feed users  | Works as expected |
 | Post search   | When logged in, navigate to the feed page from the nav bar. Use the search bar at the top of the page to search for post based on words or alphabet  | User to be able to comments,like or unlike  | Works as expected |
  
 ![seac](https://github.com/email2ify/Projecttest-API/assets/110549305/0fa6d027-8f0d-44be-851b-8d7f93e47bdb)
