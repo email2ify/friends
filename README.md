@@ -256,8 +256,11 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 | ------------- | ------------- | -------------    | ------------- |
 |  Responsiveness  | Use the site on a range of devices and screen sizes  | Users will have a pleasant and enjoyable experience on the website regardless of their screen or device size  | Works as expected |
 
+**Mobile Device**
+
 ![resp](https://github.com/email2ify/Projecttest-API/assets/110549305/bf35467e-cafd-4204-a7b0-e22146ce020d)
 
+**Laptop or DeskTop device**
 
 ![rep2](https://github.com/email2ify/Projecttest-API/assets/110549305/3e47fee8-69e4-4e4b-bf6c-8f79724d455d)
 
