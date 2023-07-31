@@ -814,7 +814,7 @@ Balsamiq was used to create wireframes of the sites pages
 
 ### Imagery
 
-* The images on this website are user uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) and Pixel [click](https://www.pexels.com) 
+* The images on this website are uploaded from a free download website on Unplash.com- [click](https://unsplash.com/s/photos/wild-animal) and Pixel [click](https://www.pexels.com) 
 
 while the logo was on Logomaker [click](https://www.logomaker.com) and the Logo was modify and compress using Favicon [click](https://favicon.io/favicon-converter)
 
@@ -864,19 +864,19 @@ Other bugs that were found, and with the error codes given, I was able to search
 ## Frameworks and Tools
 
 - [React-Bootstrap 1.6.3](https://react-bootstrap-v4.netlify.app/) - I used Bootstrap React library for User Interface for components, styling and responsiveness.
-- [Axios](https://axios-http.com/docs/intro) - Axios is a Promise API. Justification: I used axios to send API requests from the React project to the API and avoid any CORS errors when sending cookies.
+- [Axios](https://axios-http.com/docs/intro) - Axios is a Promise API.I used axios to send API requests from the React project to the API and avoid any CORS errors when sending cookies.
 - [React Router](https://v5.reactrouter.com/web/guides/quick-start) - For routing. I used this library to enable navigation between views of components and on the URL they have accessed in the browser. 
-- [JWT](https://jwt.io/) - I used JWT to securely transmit data and to have the ability to verify that the content has not been tampered.
+- [JWT](https://jwt.io/) - I used JWT to securely transmit data and to have the ability to verify that the content has not been tampered with.
 - [React 17](https://17.reactjs.org/) - JavaScript library for building User Interfaces. 
-- [React Infinite Scroll](https://www.npmjs.com/package/react-infinite-scroll-component) - React library. Is used, as this component load content e.g feed page and users don't need to scrolls towards the bottom of the page without having to jump to the next page.
+- [React Infinite Scroll](https://www.npmjs.com/package/react-infinite-scroll-component) - React library. Is used, as this component load content e.g feed page and users don't need to scrolls towards the bottom of the page without having to hover to the next page.
 
 - [Cloudinary](https://cloudinary.com/) - I used this to store static files
-- [Google Fonts](https://fonts.google.com/) - I used this to import fonts
+- [Google Fonts](https://fonts.google.com/) - I used this for fonts
 - [Responsive](https://www.responsivedesignchecker.com/) - I used this to create the multi-device mock-up 
 - [Gitpod](https://gitpod.io) - I used this to host a virtual workspace
 - [Balsamiq](https://balsamiq.com/)  Used to create the wireframes
 - [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/) - Developer tool. I used this for debugging of the code and checking site for responsiveness
-- [Font Awesome](https://fontawesome.com/) -I used this to style the site with icons.
+- [Font Awesome](https://fontawesome.com/) -I used this to style the site.
 - [Git](https://git-scm.com/) - I used this for version control and to push the code to GitHub
 - [GitHub](https://github.com/) - I used this as a remote repository to store project code
 
@@ -989,7 +989,7 @@ Navigate to the GitHub Repository you want to clone to use locally:
 * Open Git Bash
 * Update the current working direction to the location in which you would like the clone directory to be created(Folder).
 * Type `git clone` and paste the previously copied URL 
-* `$ clone https://github.com/email2ify/moments.git`
+* clone https://github.com/email2ify/moments.git`
 * Press enter and the local clone will be created at the desired local location
 
 **Install Dependencies:**
@@ -1030,6 +1030,6 @@ Run Application:
 * Code Institute- [click](https://learn.codeinstitute.net)
 ## Acknowledgements
 
-My Mentor Daisy, my family, and most especially my wife  
+My Mentor Daisy, my family, and most especially my wife.  
 
 [Back to top](<#table-of-contents>)
