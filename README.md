@@ -559,7 +559,9 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 |  Create a post  | Click on the Create add button which is located at the top left page, click or tap to upload an image and fill in the form and then click on create save.  | User to be able to successfully create a post which will be added to the database and content  | Works as expected |
 |  Delete Post  | Navigate to the post detail page by clicking on the relevant post on the feed. Click on the 3 dots icon in the top right corner of the post. Click on the delete button  | User to click the delete button and the post to be deleted from the database  | Works as expected |
 |  Edit post  | Navigate to the feed, post content, click on the 3 dots icon located in top right corner and click on the edit button to be taken to the edit post.change the content and click on save or cancel to cancel the current edit  | User to click the edit button and the post edit content to be displayed in which the user can update the post content  | Works as expected |
+
 **AddPost**
+
 ![addpost](https://github.com/email2ify/friends/assets/110549305/39cb5c1d-df2d-4e48-ab2a-89490743a52a)
 
 **Edit or Delete Post**
@@ -644,6 +646,7 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
 |  profile   | Navigate to the users profile by clicking on the profile icon on the nav bar to the right. Click profile icon. | The User only have own profiles posts display | Works as expected |
+
 ![profipost](https://github.com/email2ify/Projecttest-API/assets/110549305/d6cb92ff-7b0b-4150-8bce-b819d92057f7)
 
 <hr>
@@ -786,8 +789,7 @@ Balsamiq was used to create wireframes of the sites pages
 <img src="docs/wireframes/Countries.png">
 <img src="docs/wireframes/Home-page.png">
 <img src="docs/wireframes/Contact-Us.png">
-<img src="docs/wireframes/Species.png">
-
+<img src="docs/wireframes/species.png">
 
 </details>
 
@@ -796,6 +798,7 @@ Balsamiq was used to create wireframes of the sites pages
 ## Technical Design
 
 ## Colour-Scheme
+
 * The background colour for individual componets is Hex White (#FFFFFF) and for the Logo is Green (#52c5a8)
 * The main page background colour is an off shade of white (#f8f8f8).
      * Logo: red (#dc3545)
