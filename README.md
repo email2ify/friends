@@ -193,7 +193,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 ## Logo
 
-* The site logo is displayed on the left side of the navigation bar at all times
+* The site logo is displayed on the left side of the navigation bar at all times and clicking of the Logo will also navigate the user back to the home page
   
   
 ![logo](https://github.com/email2ify/friends/assets/110549305/dc653021-7d60-4dcb-96fe-aca800b3937b)
