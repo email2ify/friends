@@ -537,7 +537,11 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 |  Edit post comment  | Navigate to a post. Click on a post to view the post. Scroll to bottom and the comment section. Find the comment you wish to edit and click on the three dots icon. Enter updated comment and click save  | User to be able to edit and update their owned comments  | Works as expected |
 |  Delete post comment  |  Navigate to a post . Scroll to bottom and the comment section of the post displayed(wildlife images) . Find the comment you wish to delete and click on the three dots icon. Click on the delete button to delete the comment | User to be able to edit and update their owned comments  | Works as expected |
 
+**Edit post comment**
+
 ![editt](https://github.com/email2ify/friends/assets/110549305/1ebe4568-338a-4bd2-8ba0-39726f556a70)
+
+**Deleted post comment**
 
 ![edit1](https://github.com/email2ify/Projecttest-API/assets/110549305/fd5f5aed-7610-400f-9fdd-ef6f95d5362d)
 
@@ -555,9 +559,10 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 |  Create a post  | Click on the Create add button which is located at the top left page, click or tap to upload an image and fill in the form and then click on create save.  | User to be able to successfully create a post which will be added to the database and content  | Works as expected |
 |  Delete Post  | Navigate to the post detail page by clicking on the relevant post on the feed. Click on the 3 dots icon in the top right corner of the post. Click on the delete button  | User to click the delete button and the post to be deleted from the database  | Works as expected |
 |  Edit post  | Navigate to the feed, post content, click on the 3 dots icon located in top right corner and click on the edit button to be taken to the edit post.change the content and click on save or cancel to cancel the current edit  | User to click the edit button and the post edit content to be displayed in which the user can update the post content  | Works as expected |
-
+**AddPost**
 ![addpost](https://github.com/email2ify/friends/assets/110549305/39cb5c1d-df2d-4e48-ab2a-89490743a52a)
 
+**Edit or Delete Post**
 ![edit1](https://github.com/email2ify/friends/assets/110549305/3eac0e05-9c79-4b00-b88d-a7bb9a55f07a)
 
 <hr>
