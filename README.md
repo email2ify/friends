@@ -213,7 +213,7 @@ Diploma in Full Stack Software Development, at the [Code Institute](https://code
 
 The Users effect of hovering the Navbar is Color BLUE, giving a clear indication of which Narbar page the mouse is hovering and when the user click on the navigation page.
 
-![cc](https://github.com/email2ify/friends/assets/110549305/fd7d0a66-c221-46f6-84bd-a9b9ff958588)
+![hv](https://github.com/email2ify/friends/assets/110549305/9a1322fc-cd2a-4072-ad2d-f5cf01d0f3a1)
 
 * Countries
 <br>
@@ -227,9 +227,12 @@ When a user is logged in the following navigation items are shown:
 * logo
 * Add Post
 * Home
+* Species
+* Countries
+* Contact
 * Feed
 * Sign Out
-* Users Icon
+* Users Icon(profile)
 
 ## Logged out users
 
@@ -238,6 +241,9 @@ When a user is logged in the following navigation items are shown:
 When a user is logged out the following navigation items are shown:
 * logo
 * Home
+* Species
+* Countries
+* Contact
 * Sign In
 * Sign Up
 
@@ -315,9 +321,13 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 
 ![seac](https://github.com/email2ify/friends/assets/110549305/e1ca6273-f9fb-4422-89da-17f3e296e60a)
 
+**Elephant Searched**
+
 ![elep](https://github.com/email2ify/friends/assets/110549305/543e5075-9ee0-41c5-8c08-6d65d3757038)
 
-![species3](https://github.com/email2ify/Projecttest-API/assets/110549305/efbfc82a-4181-4e79-a4b2-a07259f13b9b)
+**Species**
+
+![spe](https://github.com/email2ify/friends/assets/110549305/7c878c1f-70bc-422f-9b3a-a1154a44768e)
 
  **About Species**
 
@@ -370,13 +380,18 @@ Responsiveness is a feature which can be seen through the Freinds wildlife. It g
 | ------------- | ------------- | -------------    | ------------- |
 |  Report a post | Perform an operation of reason of complaint | User to be reach out regarding reason of complaint | Works as expected |
 | Contact | Click on the Contact icon from the nav bar which is available to annonymous and authenticated users. Enter the relevant information to the form fields and click on submit| Users and non-users to the site to have the access to the site for any query |  Works as expected|
+|  Success | Complaint form submitted | Toast message Pop-up | Works as expected |
+
+**Report a post**
 
 ![report](https://github.com/email2ify/friends/assets/110549305/c6a17ee4-dfff-4061-87cb-c066d4016476)
 
 ![lo](https://github.com/email2ify/friends/assets/110549305/91777065-85bd-46c2-a045-154851352479)
 
+**Contact**
 ![contactus](https://github.com/email2ify/Projecttest-API/assets/110549305/defb8a4c-1e08-4602-83fc-2b0b831cef4a)
 
+**Success**
 ![conmax](https://github.com/email2ify/friends/assets/110549305/94dc3104-6cfb-4a4c-aa34-b528b84e47e6)
 
 
