@@ -955,7 +955,7 @@ The site was deployed to Heroku with the following steps:
 **Connecting the react workspace to your API, in order to send data to the API**
 
 * In the Heroku dashboard, go into the API application settings
-* In 'Settings' add a new Config Var called 'CLIENT_ORIGIN' and set that to the URL for your deployed React application, like this https://moments.herokuapp.com.
+* In 'Settings' add a new Config Var called 'CLIENT_ORIGIN' and set that to the URL for your deployed React application, like this [Moments](https://moments.herokuapp.com)
 * Then add another Config Var called 'CLIENT_ORIGIN_DEV' and enter the URL of your Gitpod preview link, without the slash at the end. Gitpod occasionally changes this URL 
  as when working is on progress with your project.
 * On the frontend Gitpod workspace, install the Axios library using the command 'npm install axios'.
@@ -970,7 +970,7 @@ The site was deployed to Heroku with the following steps:
 
 Make a copy of the original repository on the GitHub account. The copy can then be viewed and it is also possible to make changes in the copy without affecting the original repository. To fork the repository, follow these steps:
 
-* Navigate to www.github.com and log in.
+* Navigate to  [GitHub](www.github.com) and log in.
 * Once logged in navigate to the desired [GitHub Repository](https://github.com/email2ify/moments.git) that you would like to fork.
 * At the top right corner of the page click on the fork icon.
 * There should now be a copy of your original repository in the GitHub account.
@@ -979,7 +979,7 @@ Make a copy of the original repository on the GitHub account. The copy can then 
 
 Navigate to the GitHub Repository you want to clone to use locally:
 
-* Navigate to www.github.com and log in.
+* Navigate to [GitHub](https://github.com/) and log in.
 * Once logged in navigate to the desired [GitHub Repository](https://github.com/email2ify/moments.git) that you would like to clone.
 * Locate the code button at the top, above the repository file structure.
 * Select the preferred clone method from HTTPS. SSH or GitHub CLI then click the copy button to copy the URL to your clipboard.
